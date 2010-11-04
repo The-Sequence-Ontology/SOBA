@@ -1,0 +1,1000 @@
+2L	FlyBase	chromosome_band	-204333	1326937	.	+	.	ID=band-21_chromosome_band;Name=band-21
+2L	FlyBase	chromosome_band	-204333	22221	.	+	.	ID=band-21A_chromosome_band;Name=band-21A
+2L	FlyBase	chromosome_band	-204333	-153714	.	+	.	ID=band-21A1_chromosome_band;Name=band-21A1
+2L	FlyBase	breakpoint	-204333	-204333	.	.	.	ID=Df(2L)ED50001:bk1_breakpoint;Name=Df(2L)ED50001:bk1;reported_genomic_loc=2L_r5:-204333..-204333
+2L	FlyBase	chromosome_band	-153713	-101818	.	+	.	ID=band-21A2_chromosome_band;Name=band-21A2
+2L	FlyBase	chromosome_band	-101817	-66427	.	+	.	ID=band-21A3_chromosome_band;Name=band-21A3
+2L	FlyBase	chromosome_band	-66426	-22869	.	+	.	ID=band-21A4_chromosome_band;Name=band-21A4
+2L	FlyBase	chromosome_band	-22868	22221	.	+	.	ID=band-21A5_chromosome_band;Name=band-21A5
+2L	FlyBase	transposable_element_insertion_site	0	0	.	.	.	ID=FBti0103539;Name=P{GSV6}GS10428;Alias=10428;derived_cyto_location=25F3;derived_comput_cyto_location=21A5;flanking_sequence=AB312477
+2L	FlyBase	chromosome_arm	1	23011544	.	.	.	ID=2L;Name=2L;Dbxref=REFSEQ:NT_033779,GB:AE014134
+2L	sim4tandem_na_gb.dmel	match	1	457	.	+	.	ID=:3804126_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 2 461 +
+2L	sim4tandem_na_gb.dmel	match_part	1	457	98	+	.	Name=:9692572;Parent=:3804126_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 2 461 +
+2L	splign_na_dbEST_ncbi	match	187	672	.	+	.	ID=Splign:1821144_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	splign_na_dbEST_ncbi	match_part	187	672	97.94	+	.	Name=:ncbi_7575124;Parent=Splign:1821144_na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	sim4tandem_na_gb.dmel	match	458	919	.	+	.	ID=:3804128_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	458	919	99	+	.	Name=:9692574;Parent=:3804128_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	916	1373	.	+	.	ID=:3804129_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	916	1373	98	+	.	Name=:9692577;Parent=:3804129_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	splign_na_dbEST_ncbi	match	1103	1588	.	+	.	ID=Splign:1821143_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	splign_na_dbEST_ncbi	match_part	1103	1588	97.94	+	.	Name=:ncbi_7575123;Parent=Splign:1821143_na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	sim4tandem_na_gb.dmel	match	1374	1835	.	+	.	ID=:3804130_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	1374	1835	99	+	.	Name=:9692579;Parent=:3804130_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	1832	2289	.	+	.	ID=:3804131_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	1832	2289	98	+	.	Name=:9692581;Parent=:3804131_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	splign_na_dbEST_ncbi	match	2019	2504	.	+	.	ID=Splign:1821142_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	splign_na_dbEST_ncbi	match_part	2019	2504	97.94	+	.	Name=:ncbi_7575122;Parent=Splign:1821142_na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	sim4tandem_na_gb.dmel	match	2290	2751	.	+	.	ID=:3804132_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	2290	2751	99	+	.	Name=:9692584;Parent=:3804132_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	2748	3205	.	+	.	ID=:3804133_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	2748	3205	98	+	.	Name=:9692586;Parent=:3804133_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	splign_na_dbEST_ncbi	match	2935	3420	.	+	.	ID=Splign:1821146_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	splign_na_dbEST_ncbi	match_part	2935	3420	97.94	+	.	Name=:ncbi_7575126;Parent=Splign:1821146_na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	sim4tandem_na_gb.dmel	match	3206	3667	.	+	.	ID=:3804134_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	3206	3667	99	+	.	Name=:9692588;Parent=:3804134_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	3664	4121	.	+	.	ID=:3804135_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	3664	4121	98	+	.	Name=:9692590;Parent=:3804135_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	splign_na_dbEST_ncbi	match	3851	4336	.	+	.	ID=Splign:1821145_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	splign_na_dbEST_ncbi	match_part	3851	4336	97.94	+	.	Name=:ncbi_7575125;Parent=Splign:1821145_na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -
+2L	sim4tandem_na_gb.dmel	match	4122	4583	.	+	.	ID=:3804136_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	4122	4583	99	+	.	Name=:9692592;Parent=:3804136_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	4580	5041	.	+	.	ID=:3804138_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match_part	4580	5041	98	+	.	Name=:9692595;Parent=:3804138_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 1 461 +
+2L	sim4tandem_na_gb.dmel	match	5547	6345	.	-	.	ID=:3804242_sim4tandem_na_gb.dmel;Name=AJ564668-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=AJ564668 1 799 +
+2L	sim4tandem_na_gb.dmel	match_part	5547	6345	99	-	.	Name=:9692975;Parent=:3804242_sim4tandem_na_gb.dmel;target_type=so;Target=AJ564668 1 799 +
+2L	sim4tandem_na_gb.dmel	match	5849	9364	.	+	.	ID=:3804139_sim4tandem_na_gb.dmel;Name=U35403-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35403 1 3515 +
+2L	sim4tandem_na_gb.dmel	match_part	5849	9364	99	+	.	Name=:9692596;Parent=:3804139_sim4tandem_na_gb.dmel;target_type=so;Target=U35403 1 3515 +
+2L	promoter	match	6365	6366	.	+	.	ID=:1263492_promoter_dummy;Name=6365-6366-AE003590.4-dummy-promoter;program=promoter;programversion=1.0;sourcename=dummy
+2L	promoter	match_part	6365	6366	0.87484	+	.	Name=:4647099;Parent=:1263492_promoter_dummy
+2L	BATZ_Contrast_NA	match	6774	9273	.	+	.	ID=BATZ_Contrast_NA:CG_BATZ_CNA_44047758_caf1;Name=CG_BATZ_CNA_44047758;program=BATZ_Contrast_NA;programversion=1.0;sourcename=caf1
+2L	DGIL_snap_homology	match	6774	8120	.	+	.	ID=DGIL_snap_homology:CG_DGIL_SNO_28350001_caf1;Name=CG_DGIL_SNO_28350001;program=DGIL_snap_homology;programversion=1.0;sourcename=caf1
+2L	DGIL_snap	match	6774	8120	.	+	.	ID=DGIL_snap:CG_DGIL_SNP_28300001_caf1;Name=CG_DGIL_SNP_28300001;program=DGIL_snap;programversion=1.0;sourcename=caf1
+2L	BATZ_Contrast_NA	match_part	6774	6808	.	+	.	Name=CG_BATZ_CNA_44047758:1;Parent=BATZ_Contrast_NA:CG_BATZ_CNA_44047758_caf1
+2L	DGIL_snap_homology	match_part	6774	6808	10.247	+	.	Name=CG_DGIL_SNO_28350001:1;Parent=DGIL_snap_homology:CG_DGIL_SNO_28350001_caf1
+2L	DGIL_snap	match_part	6774	6808	9.329	+	.	Name=CG_DGIL_SNP_28300001:1;Parent=DGIL_snap:CG_DGIL_SNP_28300001_caf1
+2L	promoter	match	6869	6870	.	-	.	ID=:1263542_promoter_dummy;Name=6869-6870-AE003590.4-dummy-promoter;program=promoter;programversion=1.0;sourcename=dummy
+2L	promoter	match_part	6869	6870	0.939648	-	.	Name=:4647149;Parent=:1263542_promoter_dummy
+2L	FlyBase	transposable_element_insertion_site	6989	6989	.	+	.	ID=FBti0050793;Name=PBac{WH}f02732;Alias=PBac{WH}f02732;derived_cyto_location=21A2;derived_comput_cyto_location=21A5;flanking_sequence=CZ485279
+2L	promoter	match	7182	7183	.	+	.	ID=:1263493_promoter_dummy;Name=7182-7183-AE003590.4-dummy-promoter;program=promoter;programversion=1.0;sourcename=dummy
+2L	promoter	match_part	7182	7183	0.953125	+	.	Name=:4647100;Parent=:1263493_promoter_dummy
+2L	RGUI_geneid_v1.2	match	7405	9276	.	+	.	ID=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000001_caf1;Name=CG_RGUI_GID_mRNA_40000001;program=RGUI_geneid_v1.2;programversion=1.0;sourcename=caf1
+2L	RGUI_geneid_v1.2_u12	match	7405	9276	.	+	.	ID=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000001_caf1;Name=CG_RGUI_GUT_mRNA_40000001;program=RGUI_geneid_v1.2_u12;programversion=1.0;sourcename=caf1
+2L	RGUI_geneid_v1.2	match_part	7405	7451	-3.86	+	.	Name=CG_RGUI_GID_mRNA_40000001:1;Parent=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000001_caf1
+2L	RGUI_geneid_v1.2_u12	match_part	7405	7451	-2.53	+	.	Name=CG_RGUI_GUT_mRNA_40000001:1;Parent=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000001_caf1
+2L	NCBI_gnomon	match	7517	9276	.	+	.	ID=NCBI_gnomon:CG_NCBI_GNO_32053845_caf1;Name=hmm53845;program=NCBI_gnomon;programversion=1.0;sourcename=caf1;description=Model_evidence:supported%3BNote:Derived by automated computational analysis using gene prediction method: GNOMON. Supporting evidence includes similarity to: 2 mRNAs%2C58 ESTs%2C3 Proteins
+2L	NCBI_gnomon	match_part	7517	8116	.	+	.	Name=CG_NCBI_GNO_32053845:1;Parent=NCBI_gnomon:CG_NCBI_GNO_32053845_caf1
+2L	splign_na_cDNA_ncbi_2010	match	7528	9489	.	+	.	ID=Splign:10011538_na_cDNA_ncbi_2010;Name=MIP04423-BT082087-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=BT082087 12 1897 +
+2L	splign_na_cDNA_ncbi	match	7528	9489	.	+	.	ID=Splign:0785915_na_cDNA_ncbi;Name=MIP04423-BT082087-na_cDNA_ncbi_20090515-splign;program=splign;programversion=1.0;sourcename=na_cDNA_ncbi;target_type=cDNA;Target=BT082087 12 1897 +
+2L	splign_na_cDNA_ncbi_2010	match_part	7528	8116	100	+	.	Name=:ncbi_10050436;Parent=Splign:10011538_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT082087 12 600 +
+2L	splign_na_cDNA_ncbi	match_part	7528	8116	100	+	.	Name=:ncbi_2769304;Parent=Splign:0785915_na_cDNA_ncbi;target_type=cDNA;Target=BT082087 12 600 +
+2L	flybase	match	7529	9491	.	+	.	ID=flybase-annotation5.14:FBtr0089256_dmel_transcript.RELEASE5.14;Name=Release5.14-FBgn0031208:FBtr0089256:CG11023-RA;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE5.14
+2L	flybase	match	7529	9491	.	+	.	ID=flybase-annotation51:FBtr0089256_dmel_transcript.RELEASE51;Name=Release51-FBgn0031208:CG11023:FBtr0089256:CG11023-RA;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	sim4_na_gadfly.dros.RELEASE2	match	7529	9491	.	+	.	ID=:477455_sim4_na_gadfly.dros.RELEASE2;Name=CT9573.2-AE003590.4-na_gadfly.dros.RELEASE2-sim4;program=sim4;programversion=1.0;sourcename=na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9573.2 1 1773 +
+2L	sim4_na_transcript.dmel.RELEASE31	match	7529	9491	.	+	.	ID=:861167_sim4_na_transcript.dmel.RELEASE31;Name=CG11023-RA.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG11023-RA.31 1 1773 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	7529	9491	.	+	.	ID=:264100_sim4_na_transcript.dmel.RELEASE32;Name=CG11023-RA.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG11023-RA.32 1 1773 +
+2L	splign_na_cDNA_ncbi_2010	match	7529	9489	.	+	.	ID=Splign:10001564_na_cDNA_ncbi_2010;Name=GH23213-BT023872-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=BT023872 1 1885 +
+2L	splign_na_cDNA_ncbi	match	7529	9489	.	+	.	ID=Splign:0428955_na_cDNA_ncbi;Name=GH23213-BT023872-na_cDNA_ncbi_20090123-splign;program=splign;programversion=1.0;sourcename=na_cDNA_ncbi;target_type=cDNA;Target=BT023872 1 1885 +
+2L	FlyBase	gene	7529	9484	.	+	.	ID=FBgn0031208;Name=CG11023;Ontology_term=SO:0000010,SO:0000087,GO:0008234,GO:0006508;Dbxref=FlyBase:FBan0011023,FlyBase_Annotation_IDs:CG11023,GB_protein:ACZ94128,GB_protein:AAO41164,GB:AI944728,GB:AJ564667,GB_protein:CAD92822,GB:BF495604,UniProt/TrEMBL:Q6KEV3,UniProt/TrEMBL:Q86BM6,INTERPRO:IPR003653,EntrezGene:33155,BIOGRID:59420,FlyAtlas:CG11023-RA,GenomeRNAi_gene:33155;gbunit=AE014134;derived_computed_cyto=21A5-21A5
+2L	FlyBase	mRNA	7529	9484	.	+	.	ID=FBtr0300689;Name=CG11023-RB;Parent=FBgn0031208;Dbxref=REFSEQ:NM_001169365,FlyBase_Annotation_IDs:CG11023-RB;score_text=Weakly Supported;score=3
+2L	FlyBase	mRNA	7529	9484	.	+	.	ID=FBtr0300690;Name=CG11023-RC;Parent=FBgn0031208;Dbxref=REFSEQ:NM_175941,FlyBase_Annotation_IDs:CG11023-RC;score_text=Moderately Supported;score=7
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e331;Name=CG11023;to_id=ISCW003012-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e342;Name=CG11023;to_id=PHUM611490-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e353;Name=CG11023;to_id=FBgn0150305
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e364;Name=CG11023;to_id=ISCW003013-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e376;Name=CG11023;to_id=ACYPI006209-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e387;Name=CG11023;to_id=FBgn0130030
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e398;Name=CG11023;to_id=FBgn0129958
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e409;Name=CG11023;to_id=FBgn0160043
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e420;Name=CG11023;to_id=FBgn0130711
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e431;Name=CG11023;to_id=FBgn0129896
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e442;Name=CG11023;to_id=ACYPI36511-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e453;Name=CG11023;to_id=FBgn0132494
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e464;Name=CG11023;to_id=ISCW016451-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e475;Name=CG11023;to_id=FBgn0132269
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e486;Name=CG11023;to_id=ACYPI22661-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e498;Name=CG11023;to_id=FBgn0187260
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e509;Name=CG11023;to_id=FBgn0132582
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e520;Name=CG11023;to_id=FBgn0093023
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e531;Name=CG11023;to_id=FBgn0247234
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e542;Name=CG11023;to_id=FBgn0177629
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e553;Name=CG11023;to_id=FBgn0177630
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e564;Name=CG11023;to_id=FBgn0133901
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e575;Name=CG11023;to_id=PHUM611500-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e586;Name=CG11023;to_id=FBgn0248956
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e597;Name=CG11023;to_id=ACYPI35568-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e608;Name=CG11023;to_id=FBgn0130992
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e620;Name=CG11023;to_id=FBgn0132560
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e631;Name=CG11023;to_id=FBgn0132280
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e642;Name=CG11023;to_id=FBgn0187261
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e653;Name=CG11023;to_id=FBgn0233044
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e664;Name=CG11023;to_id=FBgn0245720
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e675;Name=CG11023;to_id=FBgn0205850
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e686;Name=CG11023;to_id=FBgn0119126
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e697;Name=CG11023;to_id=JGI_V11_307887
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e708;Name=CG11023;to_id=FBgn0131015
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e719;Name=CG11023;to_id=GB16943-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e730;Name=CG11023;to_id=FBgn0131210
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e742;Name=CG11023;to_id=FBgn0027603
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e753;Name=CG11023;to_id=ISCW012734-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e764;Name=CG11023;to_id=FBgn0132571
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e775;Name=CG11023;to_id=FBgn0129897
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e786;Name=CG11023;to_id=FBgn0088134
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e797;Name=CG11023;to_id=FBgn0119941
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e808;Name=CG11023;to_id=NV19129-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e819;Name=CG11023;to_id=FBgn0150620
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e830;Name=CG11023;to_id=FBgn0220882
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e841;Name=CG11023;to_id=FBgn0130730
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e852;Name=CG11023;to_id=FBgn0120049
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e864;Name=CG11023;to_id=FBgn0131341
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e875;Name=CG11023;to_id=FBgn0132673
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e886;Name=CG11023;to_id=TcGLEAN_14610
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e897;Name=CG11023;to_id=FBgn0131199
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e908;Name=CG11023;to_id=FBgn0150621
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e919;Name=CG11023;to_id=CPIJ012457-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e930;Name=CG11023;to_id=FBgn0110288
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e941;Name=CG11023;to_id=AAEL008952-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e952;Name=CG11023;to_id=FBgn0131211
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e963;Name=CG11023;to_id=BGIBMGA003787-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e974;Name=CG11023;to_id=FBgn0052110
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e986;Name=CG11023;to_id=ACYPI008686-PA
+2L	OrthoDB.Arthropods	orthologous_to	7529	9484	.	+	.	ID=FBgn0031208_d11516e997;Name=CG11023;to_id=FBgn0212170
+2L	splign_na_dbEST_ncbi	match	7529	8411	.	+	.	ID=Splign:1821147_na_dbEST_ncbi;Name=GH23213.5prime-AI403714-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=AI403714 1 807 +
+2L	FlyBase	exon	7529	8116	.	+	.	ID=FBgn0031208:1;Name=CG11023:1;Parent=FBtr0300689,FBtr0300690;parent_type=mRNA
+2L	flybase	match_part	7529	8116	.	+	.	Name=:5.14_CG11023:1;Parent=flybase-annotation5.14:FBtr0089256_dmel_transcript.RELEASE5.14
+2L	flybase	match_part	7529	8116	.	+	.	Name=:tr51_58551;Parent=flybase-annotation51:FBtr0089256_dmel_transcript.RELEASE51
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	7529	8116	100	+	.	Name=:1478592;Parent=:477455_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9573.2 1 588 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	7529	8116	100	+	.	Name=:2946954;Parent=:861167_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG11023-RA.31 1 588 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	7529	8116	100	+	.	Name=:710095;Parent=:264100_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG11023-RA.32 1 588 +
+2L	splign_na_cDNA_ncbi_2010	match_part	7529	8116	100	+	.	Name=:ncbi_10006604;Parent=Splign:10001564_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT023872 1 588 +
+2L	splign_na_cDNA_ncbi	match_part	7529	8116	100	+	.	Name=:ncbi_1962529;Parent=Splign:0428955_na_cDNA_ncbi;target_type=cDNA;Target=BT023872 1 588 +
+2L	splign_na_dbEST_ncbi	match_part	7529	8116	100	+	.	Name=:ncbi_7575127;Parent=Splign:1821147_na_dbEST_ncbi;target_type=EST;Target=AI403714 1 588 +
+2L	FlyBase	five_prime_UTR	7529	7679	.	+	.	ID=five_prime_UTR_FBgn0031208:1_738;Name=CG11023-u5;Parent=FBtr0300689,FBtr0300690;parent_type=mRNA
+2L	prosplign_aa_ncbi_dmel	match	7530	8607	.	+	.	ID=Prosplign:0006954_aa_ncbi_dmel;Name=AAZ86793-aa_ncbi_051222-Prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_dmel;target_type=protein;Target=AAZ86793 1 334 +
+2L	prosplign_aa_ncbi_same	match	7530	8607	.	+	.	ID=Prosplign:0786703_aa_ncbi_same;Name=ACP44289-aa_ncbi_same_20090515-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_same;target_type=protein;Target=ACP44289 5 338 +
+2L	prosplign_aa_ncbi_dmel	match_part	7530	8116	100	+	.	Name=:ncbi_aa_927662;Parent=Prosplign:0006954_aa_ncbi_dmel;target_type=protein;Target=AAZ86793 1 196 +
+2L	prosplign_aa_ncbi_same	match_part	7530	8116	100	+	.	Name=:ncbi_2772518;Parent=Prosplign:0786703_aa_ncbi_same;target_type=protein;Target=ACP44289 5 200 +
+2L	splign_na_dbEST_ncbi	match	7543	8242	.	+	.	ID=Splign:1821148_na_dbEST_ncbi;Name=AT04553.5prime-BF495604-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=BF495604 2 625 +
+2L	splign_na_dbEST_ncbi	match_part	7543	8116	99.82	+	.	Name=:ncbi_7575129;Parent=Splign:1821148_na_dbEST_ncbi;target_type=EST;Target=BF495604 2 575 +
+2L	splign_na_dbEST_ncbi	match	7543	8108	.	+	.	ID=Splign:1821149_na_dbEST_ncbi;Name=AT04953.5prime-BF503757-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=BF503757 2 567 +
+2L	splign_na_dbEST_ncbi	match_part	7543	8108	100	+	.	Name=:ncbi_7575131;Parent=Splign:1821149_na_dbEST_ncbi;target_type=EST;Target=BF503757 2 567 +
+2L	splign_na_cDNA_ncbi_2010	match	7573	35285	.	+	.	ID=Splign:10023034_na_cDNA_ncbi_2010;Name=GH15225-BT030817-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=BT030817 2783 5406 +
+2L	splign_na_cDNA_ncbi_2010	match	7573	9488	.	+	.	ID=Splign:10005708_na_cDNA_ncbi_2010;Name=GH02751-AF145608-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=AF145608 1343 3428 +
+2L	splign_na_ncbi_RefSeq_2010	match	7573	9282	.	+	.	ID=Splign:10064442_na_ncbi_RefSeq_2010;Name=XM_002101673-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002101673 2732 4575 +
+2L	splign_na_ncbi_RefSeq_2010	match	7573	9282	.	+	.	ID=Splign:10150725_na_ncbi_RefSeq_2010;Name=XM_001977714-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001977714 2558 4398 +
+2L	splign_na_ncbi_RefSeq_2010	match	7573	8100	.	+	.	ID=Splign:10102705_na_ncbi_RefSeq_2010;Name=XM_002039345-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002039345 2153 2672 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	7573	8100	87.78	+	.	Name=:ncbi_10339909;Parent=Splign:10102705_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002039345 2153 2672 +
+2L	splign_na_cDNA_ncbi_2010	match_part	7573	8097	87.15	+	.	Name=:ncbi_10022126;Parent=Splign:10005708_na_cDNA_ncbi_2010;target_type=cDNA;Target=AF145608 1343 1852 +
+2L	splign_na_ncbi_RefSeq_2010	match	7573	8070	.	+	.	ID=Splign:10047913_na_ncbi_RefSeq_2010;Name=XM_002107344-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002107344 1646 2131 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	7573	8063	88.18	+	.	Name=:ncbi_10486890;Parent=Splign:10150725_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001977714 2558 3045 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	7573	8058	90.9	+	.	Name=:ncbi_10235926;Parent=Splign:10064442_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002101673 2732 3214 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	7573	7779	87.43	+	.	Name=:ncbi_10186330;Parent=Splign:10047913_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002107344 1646 1852 +
+2L	splign_na_cDNA_ncbi_2010	match_part	7573	7772	88.5	+	.	Name=:ncbi_10095513;Parent=Splign:10023034_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT030817 2783 2982 +
+2L	genscan_masked	match	7574	9276	.	+	.	ID=:262316_genscan_masked_dummy;Name=7573%2C9276-AE003590.4-dummy-GENSCAN_masked;program=genscan_masked;programversion=1.0;sourcename=dummy
+2L	augustus	match	7574	8120	.	+	.	ID=augustus:00000009_dummy;Name=chr2L-AUGUSTUS-predicted-gene00000009;program=augustus;programversion=1.0;sourcename=dummy
+2L	augustus	match_part	7574	8120	.	+	1	Name=augustus:gene00000009:1;Parent=augustus:00000009_dummy
+2L	DGIL_snap_homology	match_part	7574	8120	40.271	+	.	Name=CG_DGIL_SNO_28350001:2;Parent=DGIL_snap_homology:CG_DGIL_SNO_28350001_caf1
+2L	DGIL_snap	match_part	7574	8120	42.531	+	.	Name=CG_DGIL_SNP_28300001:2;Parent=DGIL_snap:CG_DGIL_SNP_28300001_caf1
+2L	BATZ_Contrast_NA	match_part	7574	8116	.	+	.	Name=CG_BATZ_CNA_44047758:2;Parent=BATZ_Contrast_NA:CG_BATZ_CNA_44047758_caf1
+2L	genscan_masked	match_part	7574	8116	56.68	+	.	Name=:702286;Parent=:262316_genscan_masked_dummy
+2L	RGUI_geneid_v1.2	match_part	7574	8096	12.73	+	.	Name=CG_RGUI_GID_mRNA_40000001:2;Parent=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000001_caf1
+2L	RGUI_geneid_v1.2_u12	match_part	7574	7910	11.75	+	.	Name=CG_RGUI_GUT_mRNA_40000001:2;Parent=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000001_caf1
+2L	blastx_masked_aa_SPTR.dmel	match	7575	9279	.	+	.	ID=:1548785_blastx_masked_aa_SPTR.dmel;Name=Q9VWK5-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q9VWK5 897 1513 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	7575	8075	581	+	.	Name=:5355596;Parent=:1548785_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VWK5 897 1057 +
+2L	BATZ_Contrast	match	7680	9273	.	+	.	ID=BATZ_Contrast:CG_BATZ_CON_47000001_caf1;Name=CG_BATZ_CON_47000001;program=BATZ_Contrast;programversion=1.0;sourcename=caf1
+2L	blastx_masked_aa_SPTR.dmel	match	7680	9273	.	+	.	ID=:1548786_blastx_masked_aa_SPTR.dmel;Name=Q86BM6-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q86BM6 1 468 +
+2L	FlyBase	protein	7680	9273	.	+	.	ID=FBpp0289914;Name=CG11023-PC;Derives_from=FBtr0300690;Dbxref=REFSEQ:NP_787955,GB_protein:AAO41164,FlyBase_Annotation_IDs:CG11023-PC;derived_molecular_weight=55247.1;derived_isoelectric_point=7.15
+2L	FlyBase	protein	7680	8607	.	+	.	ID=FBpp0289913;Name=CG11023-PB;Derives_from=FBtr0300689;Dbxref=REFSEQ:NP_001162836,GB_protein:ACZ94128,FlyBase_Annotation_IDs:CG11023-PB;derived_molecular_weight=32613.1;derived_isoelectric_point=6.96
+2L	blastx_masked_aa_SPTR.dmel	match_part	7680	8117	745	+	.	Name=:5355600;Parent=:1548786_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q86BM6 1 146 +
+2L	BATZ_Contrast	match_part	7680	8116	.	+	.	Name=CG_BATZ_CON_47000001:1;Parent=BATZ_Contrast:CG_BATZ_CON_47000001_caf1
+2L	FlyBase	CDS	7680	8116	.	+	0	ID=CDS_FBgn0031208:1_738;Name=CG11023-cds;Parent=FBtr0300689,FBtr0300690;parent_type=mRNA
+2L	prosplign_aa_ncbi_dmel	match	7695	9273	.	+	.	ID=Prosplign:0324517_aa_ncbi_dmel;Name=ABV82199-aa_ncbi_dmel_20080111-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_dmel;target_type=protein;Target=ABV82199 937 1511 +
+2L	prosplign_aa_ncbi_dmel	match_part	7695	8069	72.26	+	.	Name=:ncbi_1673130;Parent=Prosplign:0324517_aa_ncbi_dmel;target_type=protein;Target=ABV82199 937 1055 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	7805	8070	100	+	.	Name=:ncbi_10186331;Parent=Splign:10047913_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002107344 1853 2131 +
+2L	prosplign_aa_ncbi_dmel	match	7848	9258	.	+	.	ID=Prosplign:0402721_aa_ncbi_dmel;Name=ACJ23466-aa_ncbi_dmel_20081223-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_dmel;target_type=protein;Target=ACJ23466 74 420 +
+2L	prosplign_aa_ncbi_dmel	match_part	7848	7871	71.42	+	.	Name=:ncbi_1845720;Parent=Prosplign:0402721_aa_ncbi_dmel;target_type=protein;Target=ACJ23466 74 80 +
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match	7874	8318	.	+	.	ID=Dmel_r3_r4_r5:0084086_drsc_mapped.txt;Name=DRSC28266-25513_20090331-dmel_r3_r4_r5;Alias=FBsf0000025832;program=Dmel_r3_r4_r5;programversion=1;sourcename=drsc_mapped.txt;target_type=RNAi_reagent;Target=FBsf0000025832 1 445 +
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match_part	7874	8318	.	+	.	Name=:DRSC28266_86962;Parent=Dmel_r3_r4_r5:0084086_drsc_mapped.txt;Alias=FBsf0000025832;target_type=RNAi_reagent;Target=FBsf0000025832 1 445 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	7884	8114	41	+	.	Name=:5355597;Parent=:1548785_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VWK5 1089 1174 +
+2L	blastx_masked_aa_SPTR.primate	match	7911	9273	.	+	.	ID=:1579626_blastx_masked_aa_SPTR.primate;Name=Q8IW97-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=Q8IW97 189 588 +
+2L	blastx_masked_aa_SPTR.primate	match_part	7911	8081	46	+	.	Name=:5414826;Parent=:1579626_blastx_masked_aa_SPTR.primate;target_type=protein;Target=Q8IW97 189 238 +
+2L	prosplign_aa_ncbi_dmel	match	7968	9258	.	+	.	ID=Prosplign:0000044_aa_ncbi_dmel;Name=AAS93776-aa_ncbi_050809-Prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_dmel;target_type=protein;Target=AAS93776 1 404 +
+2L	prosplign_aa_ncbi_dmel	match_part	7968	8009	28.57	+	.	Name=:ncbi_aa_900188;Parent=Prosplign:0000044_aa_ncbi_dmel;target_type=protein;Target=AAS93776 1 14 +
+2L	RGUI_geneid_v1.2_u12	match_part	8032	8116	0.86	+	.	Name=CG_RGUI_GUT_mRNA_40000001:3;Parent=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000001_caf1
+2L	splign_na_cDNA_ncbi_2010	match_part	8069	8113	77.77	+	.	Name=:ncbi_10095514;Parent=Splign:10023034_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT030817 3573 3617 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	8070	8116	82.97	+	.	Name=:ncbi_10486891;Parent=Splign:10150725_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001977714 3364 3410 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	8072	8116	82.22	+	.	Name=:ncbi_10235927;Parent=Splign:10064442_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002101673 3540 3584 +
+2L	FlyBase	intron	8117	8192	.	+	.	ID=intron_FBgn0031208:1_FBgn0031208:2;Name=CG11023-in;Parent=FBtr0300690;parent_type=mRNA
+2L	FlyBase	intron	8117	8192	.	+	.	ID=intron_FBgn0031208:1_FBgn0031208:3;Name=CG11023-in;Parent=FBtr0300689;parent_type=mRNA
+2L	prosplign_aa_ncbi_dmel	match_part	8191	8589	52.03	+	.	Name=:ncbi_1673131;Parent=Prosplign:0324517_aa_ncbi_dmel;target_type=protein;Target=ABV82199 1187 1309 +
+2L	splign_na_cDNA_ncbi_2010	match_part	8193	9489	100	+	.	Name=:ncbi_10006605;Parent=Splign:10001564_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT023872 589 1885 +
+2L	splign_na_cDNA_ncbi_2010	match_part	8193	9489	100	+	.	Name=:ncbi_10050437;Parent=Splign:10011538_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT082087 601 1897 +
+2L	splign_na_cDNA_ncbi	match_part	8193	9489	100	+	.	Name=:ncbi_1962530;Parent=Splign:0428955_na_cDNA_ncbi;target_type=cDNA;Target=BT023872 589 1885 +
+2L	splign_na_cDNA_ncbi	match_part	8193	9489	100	+	.	Name=:ncbi_2769305;Parent=Splign:0785915_na_cDNA_ncbi;target_type=cDNA;Target=BT082087 601 1897 +
+2L	FlyBase	exon	8193	9484	.	+	.	ID=FBgn0031208:3;Name=CG11023:3;Parent=FBtr0300689;parent_type=mRNA
+2L	FlyBase	CDS	8193	8610	.	+	2	ID=CDS_FBgn0031208:3_738;Name=CG11023-cds;Parent=FBtr0300689;parent_type=mRNA
+2L	prosplign_aa_ncbi_dmel	match_part	8193	8607	100	+	.	Name=:ncbi_aa_927663;Parent=Prosplign:0006954_aa_ncbi_dmel;target_type=protein;Target=AAZ86793 196 334 +
+2L	prosplign_aa_ncbi_same	match	8193	8607	.	+	.	ID=Prosplign:0786165_aa_ncbi_same;Name=ACP44289-aa_ncbi_same_20090515-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_same;target_type=protein;Target=ACP44289 200 338 +
+2L	prosplign_aa_ncbi_same	match_part	8193	8607	100	+	.	Name=:ncbi_2770568;Parent=Prosplign:0786165_aa_ncbi_same;target_type=protein;Target=ACP44289 200 338 +
+2L	prosplign_aa_ncbi_same	match_part	8193	8607	100	+	.	Name=:ncbi_2772519;Parent=Prosplign:0786703_aa_ncbi_same;target_type=protein;Target=ACP44289 200 338 +
+2L	FlyBase	CDS	8193	8589	.	+	2	ID=CDS_FBgn0031208:2_738;Name=CG11023-cds;Parent=FBtr0300690;parent_type=mRNA
+2L	FlyBase	exon	8193	8589	.	+	.	ID=FBgn0031208:2;Name=CG11023:2;Parent=FBtr0300690;parent_type=mRNA
+2L	NCBI_gnomon	match_part	8193	8589	.	+	.	Name=CG_NCBI_GNO_32053845:2;Parent=NCBI_gnomon:CG_NCBI_GNO_32053845_caf1
+2L	splign_na_ncbi_RefSeq_2010	match_part	8193	8589	84.25	+	.	Name=:ncbi_10235928;Parent=Splign:10064442_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002101673 3585 3960 +
+2L	splign_na_dbEST_ncbi	match_part	8193	8411	100	+	.	Name=:ncbi_7575128;Parent=Splign:1821147_na_dbEST_ncbi;target_type=EST;Target=AI403714 589 807 +
+2L	splign_na_dbEST_ncbi	match_part	8193	8242	100	+	.	Name=:ncbi_7575130;Parent=Splign:1821148_na_dbEST_ncbi;target_type=EST;Target=BF495604 576 625 +
+2L	flybase	match_part	8229	8589	.	+	.	Name=:5.14_CG11023:2;Parent=flybase-annotation5.14:FBtr0089256_dmel_transcript.RELEASE5.14
+2L	flybase	match_part	8229	8589	.	+	.	Name=:tr51_58552;Parent=flybase-annotation51:FBtr0089256_dmel_transcript.RELEASE51
+2L	genscan_masked	match_part	8229	8589	24.4	+	.	Name=:702287;Parent=:262316_genscan_masked_dummy
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	8229	8589	100	+	.	Name=:1478595;Parent=:477455_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9573.2 589 949 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	8229	8589	100	+	.	Name=:2946955;Parent=:861167_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG11023-RA.31 589 949 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	8229	8589	100	+	.	Name=:710096;Parent=:264100_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG11023-RA.32 589 949 +
+2L	parse_gff2_BKN001-BKN153_AMPLICON.gff	match	8238	8534	.	+	.	ID=parse_gff2:0034872_BKN001-BKN153_AMPLICON.gff;Name=BKN27385-11036_20090330-parse_gff2;Alias=FBsf0000047229;program=parse_gff2;programversion=1;sourcename=BKN001-BKN153_AMPLICON.gff;target_type=RNAi_reagent;Target=FBsf0000047229 1 297 +
+2L	parse_gff2_BKN001-BKN153_AMPLICON.gff	match_part	8238	8534	.	+	.	Name=:BKN27385_37748;Parent=parse_gff2:0034872_BKN001-BKN153_AMPLICON.gff;Alias=FBsf0000047229;target_type=RNAi_reagent;Target=FBsf0000047229 1 297 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	8242	8589	602	+	.	Name=:5355601;Parent=:1548786_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q86BM6 151 266 +
+2L	blastx_masked_aa_SPTR.dmel	match	8245	9273	.	+	.	ID=:1548787_blastx_masked_aa_SPTR.dmel;Name=Q8IQH8-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q8IQH8 109 409 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	8245	8574	86	+	.	Name=:5355603;Parent=:1548787_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q8IQH8 109 202 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	8248	8589	255	+	.	Name=:5355598;Parent=:1548785_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VWK5 1203 1309 +
+2L	prosplign_aa_ncbi_other	match	8254	9273	.	+	.	ID=Prosplign:0021035_aa_ncbi_other;Name=NP_498095-aa_ncbi_051222-Prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_other;target_type=protein;Target=NP_498095 89 693 +
+2L	prosplign_aa_ncbi_other	match_part	8254	8328	32	+	.	Name=:ncbi_aa_969775;Parent=Prosplign:0021035_aa_ncbi_other;target_type=protein;Target=NP_498095 89 117 +
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match	8267	8580	.	+	.	ID=Dmel_r3_r4_r5:0058861_drsc_mapped.txt;Name=DRSC00302-288_20090331-dmel_r3_r4_r5;Alias=FBsf0000000288;program=Dmel_r3_r4_r5;programversion=1;sourcename=drsc_mapped.txt;target_type=RNAi_reagent;Target=FBsf0000000288 1 314 +
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match_part	8267	8580	.	+	.	Name=:DRSC00302_61737;Parent=Dmel_r3_r4_r5:0058861_drsc_mapped.txt;Alias=FBsf0000000288;target_type=RNAi_reagent;Target=FBsf0000000288 1 314 +
+2L	parse_gff2_HFA_AMPLICON.gff	match	8267	8580	.	+	.	ID=parse_gff2:0039287_HFA_AMPLICON.gff;Name=HFA00302-1241_20090330-parse_gff2;Alias=FBsf0000063021;program=parse_gff2;programversion=1;sourcename=HFA_AMPLICON.gff;target_type=RNAi_reagent;Target=FBsf0000063021 1 314 +
+2L	parse_gff2_HFA_AMPLICON.gff	match_part	8267	8580	.	+	.	Name=:HFA00302_42163;Parent=parse_gff2:0039287_HFA_AMPLICON.gff;Alias=FBsf0000063021;target_type=RNAi_reagent;Target=FBsf0000063021 1 314 +
+2L	DGRC_1	pcr_product	8272	8589	.	+	.	ID=INC121G01_pcr_product;Name=INC121G01;Dbxref=DGRC-1:INC121G01
+2L	prosplign_aa_ncbi_dmel	match	8278	9377	.	+	.	ID=Prosplign:0029161_aa_ncbi_dmel;Name=ABC86353-aa_ncbi_dmel_20060412-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_dmel;target_type=protein;Target=ABC86353 61 604 +
+2L	prosplign_aa_ncbi_dmel	match_part	8278	8298	42.85	+	.	Name=:ncbi_1001516;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 61 67 +
+2L	BATZ_Contrast	match_part	8388	8589	.	+	.	Name=CG_BATZ_CON_47000001:2;Parent=BATZ_Contrast:CG_BATZ_CON_47000001_caf1
+2L	BATZ_Contrast_NA	match_part	8388	8589	.	+	.	Name=CG_BATZ_CNA_44047758:3;Parent=BATZ_Contrast_NA:CG_BATZ_CNA_44047758_caf1
+2L	blastx_masked_aa_SPTR.othinv	match	8398	9261	.	+	.	ID=:1549186_blastx_masked_aa_SPTR.othinv;Name=Q7RM00-AE003590.4-aa_SPTR.othinv-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othinv;target_type=protein;Target=Q7RM00 751 1047 +
+2L	blastx_masked_aa_SPTR.othinv	match_part	8398	9261	319	+	.	Name=:5356613;Parent=:1549186_blastx_masked_aa_SPTR.othinv;target_type=protein;Target=Q7RM00 751 1047 +
+2L	blastx_masked_aa_SPTR.othvert	match	8485	9273	.	+	.	ID=:1548728_blastx_masked_aa_SPTR.othvert;Name=Q8WP32-AE003590.4-aa_SPTR.othvert-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othvert;target_type=protein;Target=Q8WP32 505 753 +
+2L	blastx_masked_aa_SPTR.othvert	match_part	8485	9273	319	+	.	Name=:5355479;Parent=:1548728_blastx_masked_aa_SPTR.othvert;target_type=protein;Target=Q8WP32 505 753 +
+2L	prosplign_aa_ncbi_dmel	match_part	8503	8589	37.93	+	.	Name=:ncbi_1845721;Parent=Prosplign:0402721_aa_ncbi_dmel;target_type=protein;Target=ACJ23466 195 223 +
+2L	prosplign_aa_ncbi_dmel	match_part	8503	8589	37.93	+	.	Name=:ncbi_aa_900189;Parent=Prosplign:0000044_aa_ncbi_dmel;target_type=protein;Target=AAS93776 179 207 +
+2L	blastx_masked_aa_SPTR.othinv	match	8509	9246	.	+	.	ID=:1549198_blastx_masked_aa_SPTR.othinv;Name=Q8I583-AE003590.4-aa_SPTR.othinv-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othinv;target_type=protein;Target=Q8I583 750 1015 +
+2L	blastx_masked_aa_SPTR.othinv	match_part	8509	9246	348	+	.	Name=:5356650;Parent=:1549198_blastx_masked_aa_SPTR.othinv;target_type=protein;Target=Q8I583 750 1015 +
+2L	prosplign_aa_ncbi_other	match_part	8512	8568	26.31	+	.	Name=:ncbi_aa_969776;Parent=Prosplign:0021035_aa_ncbi_other;target_type=protein;Target=NP_498095 425 448 +
+2L	FlyBase	intron	8590	8667	.	+	.	ID=intron_FBgn0031208:2_FBgn0031208:4;Name=CG11023-in;Parent=FBtr0300690;parent_type=mRNA
+2L	FlyBase	three_prime_UTR	8611	9484	.	+	.	ID=three_prime_UTR_FBgn0031208:3_738;Name=CG11023-u3;Parent=FBtr0300689;parent_type=mRNA
+2L	splign_na_cDNA_ncbi_2010	match_part	8668	9645	86.01	+	.	Name=:ncbi_10095515;Parent=Splign:10023034_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT030817 4024 5011 +
+2L	flybase	match_part	8668	9491	.	+	.	Name=:5.14_CG11023:3;Parent=flybase-annotation5.14:FBtr0089256_dmel_transcript.RELEASE5.14
+2L	flybase	match_part	8668	9491	.	+	.	Name=:tr51_58553;Parent=flybase-annotation51:FBtr0089256_dmel_transcript.RELEASE51
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	8668	9491	100	+	.	Name=:1478598;Parent=:477455_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9573.2 950 1773 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	8668	9491	100	+	.	Name=:2946956;Parent=:861167_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG11023-RA.31 950 1773 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	8668	9491	100	+	.	Name=:710097;Parent=:264100_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG11023-RA.32 950 1773 +
+2L	splign_na_cDNA_ncbi_2010	match_part	8668	9488	86.01	+	.	Name=:ncbi_10022127;Parent=Splign:10005708_na_cDNA_ncbi_2010;target_type=cDNA;Target=AF145608 2584 3428 +
+2L	FlyBase	exon	8668	9484	.	+	.	ID=FBgn0031208:4;Name=CG11023:4;Parent=FBtr0300690;parent_type=mRNA
+2L	splign_na_ncbi_RefSeq_2010	match_part	8668	9282	86.82	+	.	Name=:ncbi_10486892;Parent=Splign:10150725_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001977714 3784 4398 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	8668	9282	88.61	+	.	Name=:ncbi_10235929;Parent=Splign:10064442_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002101673 3961 4575 +
+2L	FlyBase	CDS	8668	9276	.	+	0	ID=CDS_FBgn0031208:4_738;Name=CG11023-cds;Parent=FBtr0300690;parent_type=mRNA
+2L	genscan_masked	match_part	8668	9276	44.41	+	.	Name=:702288;Parent=:262316_genscan_masked_dummy
+2L	NCBI_gnomon	match_part	8668	9276	.	+	.	Name=CG_NCBI_GNO_32053845:3;Parent=NCBI_gnomon:CG_NCBI_GNO_32053845_caf1
+2L	RGUI_geneid_v1.2	match_part	8668	9276	2.62	+	.	Name=CG_RGUI_GID_mRNA_40000001:3;Parent=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000001_caf1
+2L	BATZ_Contrast	match_part	8668	9273	.	+	.	Name=CG_BATZ_CON_47000001:3;Parent=BATZ_Contrast:CG_BATZ_CON_47000001_caf1
+2L	BATZ_Contrast_NA	match_part	8668	9273	.	+	.	Name=CG_BATZ_CNA_44047758:4;Parent=BATZ_Contrast_NA:CG_BATZ_CNA_44047758_caf1
+2L	blastx_masked_aa_SPTR.dmel	match_part	8668	9273	1076	+	.	Name=:5355602;Parent=:1548786_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q86BM6 267 468 +
+2L	blastx_masked_aa_SPTR.worm	match	8668	9273	.	+	.	ID=:1583939_blastx_masked_aa_SPTR.worm;Name=Q09353-AE003590.4-aa_SPTR.worm-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.worm;target_type=protein;Target=Q09353 494 693 +
+2L	blastx_masked_aa_SPTR.worm	match_part	8668	9273	470	+	.	Name=:5425026;Parent=:1583939_blastx_masked_aa_SPTR.worm;target_type=protein;Target=Q09353 494 693 +
+2L	prosplign_aa_ncbi_dmel	match_part	8668	9273	75.74	+	.	Name=:ncbi_1673132;Parent=Prosplign:0324517_aa_ncbi_dmel;target_type=protein;Target=ABV82199 1310 1511 +
+2L	prosplign_aa_ncbi_other	match_part	8668	9273	46	+	.	Name=:ncbi_aa_969777;Parent=Prosplign:0021035_aa_ncbi_other;target_type=protein;Target=NP_498095 494 693 +
+2L	prosplign_aa_ncbi_dmel	match_part	8668	9258	57.36	+	.	Name=:ncbi_1845722;Parent=Prosplign:0402721_aa_ncbi_dmel;target_type=protein;Target=ACJ23466 224 420 +
+2L	prosplign_aa_ncbi_dmel	match_part	8668	9258	57.36	+	.	Name=:ncbi_aa_900190;Parent=Prosplign:0000044_aa_ncbi_dmel;target_type=protein;Target=AAS93776 208 404 +
+2L	blastx_masked_aa_SPTR.yeast	match	8668	9249	.	+	.	ID=:1465769_blastx_masked_aa_SPTR.yeast;Name=Q02724-AE003590.4-aa_SPTR.yeast-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.yeast;target_type=protein;Target=Q02724 426 612 +
+2L	blastx_masked_aa_SPTR.yeast	match_part	8668	9249	273	+	.	Name=:5263716;Parent=:1465769_blastx_masked_aa_SPTR.yeast;target_type=protein;Target=Q02724 426 612 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	8671	9279	845	+	.	Name=:5355599;Parent=:1548785_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VWK5 1311 1513 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	8671	9273	591	+	.	Name=:5355604;Parent=:1548787_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q8IQH8 209 409 +
+2L	blastx_masked_aa_SPTR.othinv	match	8671	9273	.	+	.	ID=:1549199_blastx_masked_aa_SPTR.othinv;Name=O42957-AE003590.4-aa_SPTR.othinv-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othinv;target_type=protein;Target=O42957 371 567 +
+2L	blastx_masked_aa_SPTR.othinv	match_part	8671	9273	418	+	.	Name=:5356651;Parent=:1549199_blastx_masked_aa_SPTR.othinv;target_type=protein;Target=O42957 371 567 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8671	9273	.	+	.	ID=:1489413_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig1854_Contig7122-2-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1854_Contig7122-2 195943 196545 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8671	9273	572	+	.	Name=:5288841;Parent=:1489413_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1854_Contig7122-2 195943 196545 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8671	9009	.	+	.	ID=:1489417_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig3869_Contig5604-2-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-2 211569 211907 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8671	9009	.	+	.	ID=:1489418_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig3869_Contig5604-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-3 11569 11907 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8671	9009	428	+	.	Name=:5288845;Parent=:1489417_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-2 211569 211907 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8671	9009	428	+	.	Name=:5288846;Parent=:1489418_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-3 11569 11907 -
+2L	blastx_masked_aa_SPTR.othvert	match	8683	9273	.	+	.	ID=:1548729_blastx_masked_aa_SPTR.othvert;Name=Q804S7-AE003590.4-aa_SPTR.othvert-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othvert;target_type=protein;Target=Q804S7 422 617 +
+2L	blastx_masked_aa_SPTR.othvert	match_part	8683	9273	508	+	.	Name=:5355480;Parent=:1548729_blastx_masked_aa_SPTR.othvert;target_type=protein;Target=Q804S7 422 617 +
+2L	blastx_masked_aa_SPTR.primate	match	8683	9273	.	+	.	ID=:1579598_blastx_masked_aa_SPTR.primate;Name=Q86XC8-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=Q86XC8 448 643 +
+2L	blastx_masked_aa_SPTR.primate	match	8683	9273	.	+	.	ID=:1579625_blastx_masked_aa_SPTR.primate;Name=Q9P0U3-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=Q9P0U3 448 642 +
+2L	blastx_masked_aa_SPTR.primate	match_part	8683	9273	463	+	.	Name=:5414827;Parent=:1579626_blastx_masked_aa_SPTR.primate;target_type=protein;Target=Q8IW97 393 588 +
+2L	blastx_masked_aa_SPTR.primate	match_part	8683	9273	517	+	.	Name=:5414825;Parent=:1579625_blastx_masked_aa_SPTR.primate;target_type=protein;Target=Q9P0U3 448 642 +
+2L	blastx_masked_aa_SPTR.primate	match_part	8683	9273	518	+	.	Name=:5414763;Parent=:1579598_blastx_masked_aa_SPTR.primate;target_type=protein;Target=Q86XC8 448 643 +
+2L	blastx_masked_aa_SPTR.rodent	match	8683	9273	.	+	.	ID=:1579541_blastx_masked_aa_SPTR.rodent;Name=Q8BTV5-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=Q8BTV5 444 639 +
+2L	blastx_masked_aa_SPTR.rodent	match	8683	9273	.	+	.	ID=:1579543_blastx_masked_aa_SPTR.rodent;Name=BAC26011-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=BAC26011 444 639 +
+2L	blastx_masked_aa_SPTR.rodent	match	8683	9273	.	+	.	ID=:1579544_blastx_masked_aa_SPTR.rodent;Name=Q8C187-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=Q8C187 123 318 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	8683	9273	514	+	.	Name=:5414629;Parent=:1579541_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=Q8BTV5 444 639 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	8683	9273	514	+	.	Name=:5414633;Parent=:1579543_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=BAC26011 444 639 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	8683	9273	514	+	.	Name=:5414634;Parent=:1579544_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=Q8C187 123 318 +
+2L	prosplign_aa_ncbi_other	match	8683	9273	.	+	.	ID=Prosplign:0348623_aa_ncbi_other;Name=NP_055369-aa_ncbi_other_20080111-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_other;target_type=protein;Target=NP_055369 448 642 +
+2L	prosplign_aa_ncbi_other	match_part	8683	9273	51.28	+	.	Name=:ncbi_1743275;Parent=Prosplign:0348623_aa_ncbi_other;target_type=protein;Target=NP_055369 448 642 +
+2L	blastx_masked_aa_SPTR.plant	match	8686	9264	.	+	.	ID=:1518155_blastx_masked_aa_SPTR.plant;Name=Q9FP66-AE003590.4-aa_SPTR.plant-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.plant;target_type=protein;Target=Q9FP66 296 493 +
+2L	blastx_masked_aa_SPTR.plant	match_part	8686	9264	335	+	.	Name=:5317924;Parent=:1518155_blastx_masked_aa_SPTR.plant;target_type=protein;Target=Q9FP66 296 493 +
+2L	blastx_masked_aa_SPTR.plant	match	8686	9261	.	+	.	ID=:1518004_blastx_masked_aa_SPTR.plant;Name=AAR06297-AE003590.4-aa_SPTR.plant-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.plant;target_type=protein;Target=AAR06297 194 392 +
+2L	blastx_masked_aa_SPTR.plant	match	8686	9261	.	+	.	ID=:1518227_blastx_masked_aa_SPTR.plant;Name=Q9M908-AE003590.4-aa_SPTR.plant-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.plant;target_type=protein;Target=Q9M908 275 473 +
+2L	blastx_masked_aa_SPTR.plant	match_part	8686	9261	317	+	.	Name=:5318000;Parent=:1518227_blastx_masked_aa_SPTR.plant;target_type=protein;Target=Q9M908 275 473 +
+2L	blastx_masked_aa_SPTR.plant	match_part	8686	9261	327	+	.	Name=:5317756;Parent=:1518004_blastx_masked_aa_SPTR.plant;target_type=protein;Target=AAR06297 194 392 +
+2L	splign_na_dbEST_ncbi	match	8720	9484	.	+	.	ID=Splign:1821150_na_dbEST_ncbi;Name=GH23213.3prime-BG633257-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=BG633257 1 765 -
+2L	splign_na_dbEST_ncbi	match_part	8720	9484	99.08	+	.	Name=:ncbi_7575132;Parent=Splign:1821150_na_dbEST_ncbi;target_type=EST;Target=BG633257 1 765 -
+2L	sim4tandem_na_gb.dmel	match	8732	9411	.	-	.	ID=:3804241_sim4tandem_na_gb.dmel;Name=AJ564667-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=AJ564667 1 680 +
+2L	sim4tandem_na_gb.dmel	match_part	8732	9411	100	-	.	Name=:9692974;Parent=:3804241_sim4tandem_na_gb.dmel;target_type=so;Target=AJ564667 1 680 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8734	9273	.	+	.	ID=:1489414_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig1193_Contig1472-7-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1193_Contig1472-7 68149 68688 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8734	9273	475	+	.	Name=:5288842;Parent=:1489414_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1193_Contig1472-7 68149 68688 +
+2L	prosplign_aa_ncbi_other	match	8734	9258	.	+	.	ID=Prosplign:1592640_aa_ncbi_other;Name=BAH71903-aa_ncbi_other_20090717-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_other;target_type=protein;Target=BAH71903 28 195 +
+2L	prosplign_aa_ncbi_other	match_part	8734	9258	44.04	+	.	Name=:ncbi_7131430;Parent=Prosplign:1592640_aa_ncbi_other;target_type=protein;Target=BAH71903 28 195 +
+2L	prosplign_aa_ncbi_dmel	match_part	8734	8766	54.54	+	.	Name=:ncbi_1001517;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 353 363 +
+2L	splign_na_ncbi_RefSeq_2010	match	8764	9282	.	+	.	ID=Splign:10102707_na_ncbi_RefSeq_2010;Name=XM_002039344-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002039344 1 519 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	8764	9282	89.59	+	.	Name=:ncbi_10339917;Parent=Splign:10102707_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002039344 1 519 +
+2L	augustus	match	8764	9276	.	+	.	ID=augustus:00000010_dummy;Name=chr2L-AUGUSTUS-predicted-gene00000010;program=augustus;programversion=1.0;sourcename=dummy
+2L	augustus	match_part	8764	9276	.	+	0	Name=augustus:gene00000010:1;Parent=augustus:00000010_dummy
+2L	DGIL_snap_homology	match	8764	9276	.	+	.	ID=DGIL_snap_homology:CG_DGIL_SNO_28350002_caf1;Name=CG_DGIL_SNO_28350002;program=DGIL_snap_homology;programversion=1.0;sourcename=caf1
+2L	DGIL_snap_homology	match_part	8764	9276	19.079	+	.	Name=CG_DGIL_SNO_28350002:1;Parent=DGIL_snap_homology:CG_DGIL_SNO_28350002_caf1
+2L	DGIL_snap	match	8764	9276	.	+	.	ID=DGIL_snap:CG_DGIL_SNP_28300002_caf1;Name=CG_DGIL_SNP_28300002;program=DGIL_snap;programversion=1.0;sourcename=caf1
+2L	DGIL_snap	match_part	8764	9276	14.035	+	.	Name=CG_DGIL_SNP_28300002:1;Parent=DGIL_snap:CG_DGIL_SNP_28300002_caf1
+2L	splign_na_ncbi_RefSeq_2010	match	8770	9282	.	+	.	ID=Splign:10047915_na_ncbi_RefSeq_2010;Name=XM_002107343-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002107343 1 513 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	8770	9282	89.22	+	.	Name=:ncbi_10186338;Parent=Splign:10047915_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002107343 1 513 +
+2L	RGUI_geneid_v1.2_u12	match_part	8780	9276	7.21	+	.	Name=CG_RGUI_GUT_mRNA_40000001:4;Parent=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000001_caf1
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match	8788	9273	.	+	.	ID=:1467441_tblastxwrap_masked_na_scf_chunk_agambiae.fa;Name=AAAB01008986.1p83-AE003590.4_0_76490-na_scf_chunk_agambiae.fa-tb;program=tblastxwrap_masked;programversion=1.0;sourcename=na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17551 18036 +
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match_part	8788	9273	519	+	.	Name=:5266602;Parent=:1467441_tblastxwrap_masked_na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17551 18036 +
+2L	splign_na_dbEST_ncbi	match	8792	9387	.	+	.	ID=Splign:1821159_na_dbEST_ncbi;Name=bs04f12.5prime-AI944728-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=AI944728 6 602 +
+2L	splign_na_dbEST_ncbi	match_part	8792	9387	100	+	.	Name=:ncbi_7575141;Parent=Splign:1821159_na_dbEST_ncbi;target_type=EST;Target=AI944728 6 602 +
+2L	blastx_masked_aa_SPTR.insect	match	8809	9279	.	+	.	ID=:1549137_blastx_masked_aa_SPTR.insect;Name=O01650-AE003590.4-aa_SPTR.insect-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.insect;target_type=protein;Target=O01650 1 157 +
+2L	blastx_masked_aa_SPTR.insect	match_part	8809	9279	414	+	.	Name=:5356487;Parent=:1549137_blastx_masked_aa_SPTR.insect;target_type=protein;Target=O01650 1 157 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8823	8990	.	-	.	ID=:1489519_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig1854_Contig7122-2-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1854_Contig7122-2 196226 196393 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8823	8990	142	-	.	Name=:5288947;Parent=:1489519_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1854_Contig7122-2 196226 196393 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8823	8987	.	-	.	ID=:1489520_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig3869_Contig5604-2-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-2 211591 211755 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8823	8987	.	-	.	ID=:1489521_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig3869_Contig5604-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-3 11591 11755 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8823	8987	200	-	.	Name=:5288948;Parent=:1489520_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-2 211591 211755 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8823	8987	200	-	.	Name=:5288949;Parent=:1489521_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig3869_Contig5604-3 11591 11755 +
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match	8865	8987	.	-	.	ID=:1467386_tblastxwrap_masked_na_scf_chunk_agambiae.fa;Name=AAAB01008986.1p83-AE003590.4_0_76490-na_scf_chunk_agambiae.fa-tb;program=tblastxwrap_masked;programversion=1.0;sourcename=na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17628 17750 -
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match_part	8865	8987	126	-	.	Name=:5266547;Parent=:1467386_tblastxwrap_masked_na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17628 17750 -
+2L	prosplign_aa_ncbi_dmel	match_part	8872	8928	47.36	+	.	Name=:ncbi_1001518;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 411 429 +
+2L	tblastx_masked_na_dbEST.insect	match	8877	9281	.	-	.	ID=:1405834_tblastx_masked_na_dbEST.insect;Name=AJ285126-AE003590.4-na_dbEST.insect-tblastx_masked;program=tblastx_masked;programversion=1.0;sourcename=na_dbEST.insect;target_type=EST;Target=AJ285126 61 465 +
+2L	tblastx_masked_na_dbEST.insect	match_part	8877	9281	312	-	.	Name=:5159965;Parent=:1405834_tblastx_masked_na_dbEST.insect;target_type=EST;Target=AJ285126 61 465 +
+2L	tblastx_masked_na_dbEST.insect	match	8878	9273	.	+	.	ID=:1405702_tblastx_masked_na_dbEST.insect;Name=AJ285126-AE003590.4-na_dbEST.insect-tblastx_masked;program=tblastx_masked;programversion=1.0;sourcename=na_dbEST.insect;target_type=EST;Target=AJ285126 69 464 -
+2L	tblastx_masked_na_dbEST.insect	match_part	8878	9273	434	+	.	Name=:5159759;Parent=:1405702_tblastx_masked_na_dbEST.insect;target_type=EST;Target=AJ285126 69 464 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8893	9273	.	+	.	ID=:1489415_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig1314_Contig4117-1-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1314_Contig4117-1 220588 220968 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	8893	9273	.	+	.	ID=:1489419_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig1314_Contig4117-2-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1314_Contig4117-2 20588 20968 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8893	9273	409	+	.	Name=:5288843;Parent=:1489415_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1314_Contig4117-1 220588 220968 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	8893	9273	409	+	.	Name=:5288847;Parent=:1489419_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig1314_Contig4117-2 20588 20968 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	8914	8938	.	+	.	ID=1633327_at_1208_oligonucleotide;Name=1633327_at_1208;Dbxref=Affymetrix:1633327_at_1208
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	8924	8948	.	+	.	ID=145501_at_1218-hit:33872_dmel_r3_affy_oligos;Name=145501_at_1218-hit:33872;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1218 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	8924	8948	.	+	.	Name=145501_at_1218-hsp:33872;Parent=145501_at_1218-hit:33872_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1218 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	8933	8957	.	+	.	ID=1633327_at_1227_oligonucleotide;Name=1633327_at_1227;Dbxref=Affymetrix:1633327_at_1227
+2L	prosplign_aa_ncbi_dmel	match_part	8947	8979	63.63	+	.	Name=:ncbi_1001519;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 435 448 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	8974	8998	.	+	.	ID=145501_at_1268-hit:33873_dmel_r3_affy_oligos;Name=145501_at_1268-hit:33873;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1268 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	8974	8998	.	+	.	Name=145501_at_1268-hsp:33873;Parent=145501_at_1268-hit:33873_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1268 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	8982	9006	.	+	.	ID=1633327_at_1276_oligonucleotide;Name=1633327_at_1276;Dbxref=Affymetrix:1633327_at_1276
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match	8997	9281	.	-	.	ID=:1467390_tblastxwrap_masked_na_scf_chunk_agambiae.fa;Name=AAAB01008986.1p83-AE003590.4_0_76490-na_scf_chunk_agambiae.fa-tb;program=tblastxwrap_masked;programversion=1.0;sourcename=na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17760 18044 -
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match_part	8997	9281	197	-	.	Name=:5266551;Parent=:1467390_tblastxwrap_masked_na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008986.1p83 17760 18044 -
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9005	9029	.	+	.	ID=145501_at_1299-hit:33874_dmel_r3_affy_oligos;Name=145501_at_1299-hit:33874;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1299 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9005	9029	.	+	.	Name=145501_at_1299-hsp:33874;Parent=145501_at_1299-hit:33874_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1299 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9008	9032	.	+	.	ID=1633327_at_1302_oligonucleotide;Name=1633327_at_1302;Dbxref=Affymetrix:1633327_at_1302
+2L	DGRC_2	oligonucleotide	9017	9085	.	+	.	ID=DAC010G15_oligonucleotide;Name=DAC010G15;Dbxref=DGRC-2:DAC010G15
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9044	9068	.	+	.	ID=145501_at_1338-hit:33875_dmel_r3_affy_oligos;Name=145501_at_1338-hit:33875;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1338 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9044	9068	.	+	.	Name=145501_at_1338-hsp:33875;Parent=145501_at_1338-hit:33875_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1338 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9053	9077	.	+	.	ID=1633327_at_1347_oligonucleotide;Name=1633327_at_1347;Dbxref=Affymetrix:1633327_at_1347
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9081	9105	.	+	.	ID=1633327_at_1375_oligonucleotide;Name=1633327_at_1375;Dbxref=Affymetrix:1633327_at_1375
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9092	9116	.	+	.	ID=145501_at_1386-hit:33876_dmel_r3_affy_oligos;Name=145501_at_1386-hit:33876;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1386 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9092	9116	.	+	.	Name=145501_at_1386-hsp:33876;Parent=145501_at_1386-hit:33876_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1386 1 25 +
+2L	prosplign_aa_ncbi_dmel	match_part	9112	9162	43.75	+	.	Name=:ncbi_1001520;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 518 533 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9116	9140	.	+	.	ID=145501_at_1410-hit:33877_dmel_r3_affy_oligos;Name=145501_at_1410-hit:33877;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1410 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9116	9140	.	+	.	Name=145501_at_1410-hsp:33877;Parent=145501_at_1410-hit:33877_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1410 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9124	9148	.	+	.	ID=1633327_at_1418_oligonucleotide;Name=1633327_at_1418;Dbxref=Affymetrix:1633327_at_1418
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9133	9157	.	+	.	ID=145501_at_1427-hit:33878_dmel_r3_affy_oligos;Name=145501_at_1427-hit:33878;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1427 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9133	9157	.	+	.	Name=145501_at_1427-hsp:33878;Parent=145501_at_1427-hit:33878_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1427 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9139	9163	.	+	.	ID=1633327_at_1433_oligonucleotide;Name=1633327_at_1433;Dbxref=Affymetrix:1633327_at_1433
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9189	9213	.	+	.	ID=1633327_at_1483_oligonucleotide;Name=1633327_at_1483;Dbxref=Affymetrix:1633327_at_1483
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9190	9214	.	+	.	ID=145501_at_1484-hit:33879_dmel_r3_affy_oligos;Name=145501_at_1484-hit:33879;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1484 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9190	9214	.	+	.	Name=145501_at_1484-hsp:33879;Parent=145501_at_1484-hit:33879_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1484 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9197	9221	.	+	.	ID=145501_at_1491-hit:33880_dmel_r3_affy_oligos;Name=145501_at_1491-hit:33880;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1491 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9197	9221	.	+	.	Name=145501_at_1491-hsp:33880;Parent=145501_at_1491-hit:33880_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1491 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9204	9228	.	+	.	ID=1633327_at_1498_oligonucleotide;Name=1633327_at_1498;Dbxref=Affymetrix:1633327_at_1498
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9228	9252	.	+	.	ID=1633327_at_1522_oligonucleotide;Name=1633327_at_1522;Dbxref=Affymetrix:1633327_at_1522
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9243	9267	.	+	.	ID=1633327_at_1537_oligonucleotide;Name=1633327_at_1537;Dbxref=Affymetrix:1633327_at_1537
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9275	9299	.	+	.	ID=145501_at_1569-hit:33881_dmel_r3_affy_oligos;Name=145501_at_1569-hit:33881;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1569 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9275	9299	.	+	.	Name=145501_at_1569-hsp:33881;Parent=145501_at_1569-hit:33881_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1569 1 25 +
+2L	FlyBase	three_prime_UTR	9277	9484	.	+	.	ID=three_prime_UTR_FBgn0031208:4_738;Name=CG11023-u3;Parent=FBtr0300690;parent_type=mRNA
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9282	9306	.	+	.	ID=1633327_at_1576_oligonucleotide;Name=1633327_at_1576;Dbxref=Affymetrix:1633327_at_1576
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9292	9316	.	+	.	ID=145501_at_1586-hit:33882_dmel_r3_affy_oligos;Name=145501_at_1586-hit:33882;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1586 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9292	9316	.	+	.	Name=145501_at_1586-hsp:33882;Parent=145501_at_1586-hit:33882_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1586 1 25 +
+2L	prosplign_aa_ncbi_dmel	match_part	9351	9377	44.44	+	.	Name=:ncbi_1001521;Parent=Prosplign:0029161_aa_ncbi_dmel;target_type=protein;Target=ABC86353 596 604 +
+2L	FlyBase	BAC_cloned_genomic_insert	9359	175984	.	+	.	ID=AC008318_BAC_cloned_genomic_insert;Name=BACR09J20;Dbxref=GB:AC008318;status=tiling path;description=gi|13549312|gb|AC008318 Drosophila melanogaster%2C chromosome 2L%2C region 21A-21A%2C BAC clone BACR09J20%2C complete sequence.organism: Drosophila melanogaster (05-APR-2001)
+2L	FlyBase	rescue_fragment	9359	22471	.	-	.	ID=l(2)gl[+t13.1]_rescue_fragment;Name=l(2)gl[+t13.1];related_allele=FBal0046045;comment=13.1kb EcoRI fragment carrying the @l(2)gl@ transcription unit. Construct rescues @l(2)gl@ mutant phenotype. Position of restriction fragment on reference sequence inferred by FlyBase curator.;evidence=experimental;linked_to=EcoRI-EcoRI_rfrag
+2L	sim4tandem_na_gb.dmel	match	9359	22471	.	+	.	ID=:3804140_sim4tandem_na_gb.dmel;Name=M17022-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=M17022 1 13123 +
+2L	FlyBase	rescue_fragment	9359	20634	.	-	.	ID=l(2)gl[+tMa]_rescue_fragment;Name=l(2)gl[+tMa];related_allele=FBal0051418;evidence=experimental;linked_to=NheI-EcoRI_rfrag;comment=Deletion of an internal NheI fragment from the 5' end of @l(2)gl<up>+t13.1</up>@%2C leaving the transcription unit intact. Position of restriction fragment on reference sequence inferred by FlyBase curator.
+2L	sim4tandem_na_gb.dmel	match_part	9359	11065	99	+	.	Name=:9692598;Parent=:3804140_sim4tandem_na_gb.dmel;target_type=so;Target=M17022 1 1708 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9361	9385	.	+	.	ID=145501_at_1655-hit:33883_dmel_r3_affy_oligos;Name=145501_at_1655-hit:33883;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1655 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9361	9385	.	+	.	ID=145501_at_1655-hit:33884_dmel_r3_affy_oligos;Name=145501_at_1655-hit:33884;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1655 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9361	9385	.	+	.	Name=145501_at_1655-hsp:33883;Parent=145501_at_1655-hit:33883_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1655 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9361	9385	.	+	.	Name=145501_at_1655-hsp:33884;Parent=145501_at_1655-hit:33884_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1655 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9364	9388	.	+	.	ID=145501_at_1658-hit:33885_dmel_r3_affy_oligos;Name=145501_at_1658-hit:33885;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1658 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9364	9388	.	+	.	ID=145501_at_1658-hit:33886_dmel_r3_affy_oligos;Name=145501_at_1658-hit:33886;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1658 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9364	9388	.	+	.	Name=145501_at_1658-hsp:33885;Parent=145501_at_1658-hit:33885_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1658 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9364	9388	.	+	.	Name=145501_at_1658-hsp:33886;Parent=145501_at_1658-hit:33886_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1658 1 25 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9383	9407	.	+	.	ID=1633327_at_1677_oligonucleotide;Name=1633327_at_1677;Dbxref=Affymetrix:1633327_at_1677
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9401	9425	.	+	.	ID=145501_at_1695-hit:33887_dmel_r3_affy_oligos;Name=145501_at_1695-hit:33887;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1695 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	9401	9425	.	+	.	ID=145501_at_1695-hit:33888_dmel_r3_affy_oligos;Name=145501_at_1695-hit:33888;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1695 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9401	9425	.	+	.	Name=145501_at_1695-hsp:33887;Parent=145501_at_1695-hit:33887_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1695 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	9401	9425	.	+	.	Name=145501_at_1695-hsp:33888;Parent=145501_at_1695-hit:33888_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=145501_at_1695 1 25 +
+2L	FlyBase	rescue_fragment	9699	22471	.	-	.	ID=l(2)gl[+t23]_rescue_fragment;Name=l(2)gl[+t23];related_allele=FBal0046046;evidence=experimental;linked_to=EcoRI-XbaI_rfrag;comment=Deletion of XbaI-EcoRI fragment of 3' end of @l(2)gl<up>+t13.1</up>@%2C leaving the transcription unit intact. Construct rescues @l(2)gl@ mutant phenotype. Position of restriction fragment on reference sequence inferred by FlyBase curator.
+2L	FlyBase	transposable_element	9726	9859	.	+	.	ID=FBti0060580;Name=Idefix{}2519;Alias=Idefix#20,TE60580;derived_cyto_location=21A5-21A5;derived_comput_cyto_location=21A5
+2L	repeatmasker_dummy	match	9726	9859	.	+	.	ID=:232078_repeatmasker_dummy;Name=9725%2C9859-AE003590.4-dummy-RepeatMasker;program=repeatmasker;programversion=1.0;sourcename=dummy;target_type=RepeatMasker:dummy;Target=AJ009736 425 565 +
+2L	repeatmasker_dummy	match_part	9726	9859	285	+	.	Name=:613705;Parent=:232078_repeatmasker_dummy;target_type=RepeatMasker:dummy;Target=AJ009736 425 565 +
+2L	FlyBase	gene	9836	21372	.	-	.	ID=FBgn0002121;Name=l(2)gl;fullname=lethal (2) giant larvae;Alias=Lgl,lgl,lethal giant larvae,lethal giant larve,lethal giant larva,lethal(2)giant larvae,Complementation group 2.1,Lethal Giant Larvae,dlgl,p127l(2)gl,LGL,l(2) giant larva,CG2671,L(2)GL,p127,l(2)giant larvae,D-LGL,l(2),gl,l[[2]]gl,l-gl,lethal-giant-larvae,Lethal giant larvae,Lethal (2) giant larvae,L(2)gl,Lethal (2) giant larva,Lethal-giant-larvae,MENE (2L)-B,lethal-2-giant larvae,l(2) giant larvae;Ontology_term=SO:0000010,SO:0000087,GO:0005578,GO:0005886,GO:0007269,GO:0016082,GO:0008021,GO:0008283,GO:0016334,GO:0016336,GO:0016333,GO:0016335,GO:0016327,GO:0005829,GO:0045175,GO:0016332,GO:0045184,GO:0007399,GO:0045159,GO:0005938,GO:0005737,GO:0017022,GO:0007179,GO:0045197,GO:0045196,GO:0002009,GO:0005918,GO:0008105,GO:0045167,GO:0008104,GO:0045746,GO:0007423,GO:0008285,GO:0045186,GO:0005515,GO:0001738,GO:0016323,GO:0007391,GO:0005856,GO:0030154,GO:0042127,GO:0005614,GO:0035072,GO:0007559,GO:0045200,GO:0008360,GO:0019991,GO:0007406,GO:0051726,GO:0051668,GO:0007314,GO:0016325,GO:0030036,GO:0030863,GO:0035070,GO:0055059;Dbxref=FlyBase:FBan0002671,FlyBase_Annotation_IDs:CG2671,INTERPRO:IPR015943,GB_protein:AAN10503,GB_protein:AAG22256,GB_protein:AAN10502,GB_protein:AAN10501,GB_protein:AAF51570,GB_protein:AAG22255,GB:AA246243,GB:AW942062,GB:AY051654,GB_protein:AAK93078,GB:BH809482,GB:CZ471313,GB:CZ482024,GB:CZ484691,GB:M17022,GB_protein:AAA28671,GB_protein:AAA28672,GB:X05426,GB_protein:CAA29007,UniProt/Swiss-Prot:P08111,INTERPRO:IPR000664,INTERPRO:IPR001680,INTERPRO:IPR011046,INTERPRO:IPR013577,EntrezGene:33156,INTERPRO:IPR013905,BIOGRID:59421,FlyAtlas:CG2671-RB,GenomeRNAi_gene:33156,INTERACTIVEFLY:/cytoskel/lethl2g1.htm;gbunit=AE014134;derived_computed_cyto=21A5-21A5
+2L	flybase	match	9836	21372	.	-	.	ID=flybase-annotation51:FBtr0078166_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078166:CG2671-RB;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	flybase	match	9836	21372	.	-	.	ID=flybase-annotation51:FBtr0078167_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078167:CG2671-RD;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	flybase	match	9836	21372	.	-	.	ID=flybase-annotation51:FBtr0078168_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078168:CG2671-RE;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	flybase	match	9836	21372	.	-	.	ID=flybase-annotation51:FBtr0078169_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078169:CG2671-RF;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	FlyBase	mRNA	9836	21372	.	-	.	ID=FBtr0078166;Name=l(2)gl-RB;Parent=FBgn0002121;Alias=CG2671-RB;Dbxref=FlyBase_Annotation_IDs:CG2671-RB,REFSEQ:NM_164348;score_text=Strongly Supported;score=11
+2L	FlyBase	mRNA	9836	21372	.	-	.	ID=FBtr0078167;Name=l(2)gl-RD;Parent=FBgn0002121;Alias=CG2671-RD;Dbxref=FlyBase_Annotation_IDs:CG2671-RD,REFSEQ:NM_164350;score_text=Weakly Supported;score=3
+2L	FlyBase	mRNA	9836	21372	.	-	.	ID=FBtr0078168;Name=l(2)gl-RE;Parent=FBgn0002121;Alias=CG2671-RE;Dbxref=FlyBase_Annotation_IDs:CG2671-RE,REFSEQ:NM_164351;score_text=Weakly Supported;score=3
+2L	FlyBase	mRNA	9836	21372	.	-	.	ID=FBtr0078169;Name=l(2)gl-RF;Parent=FBgn0002121;Alias=CG2671-RF;Dbxref=FlyBase_Annotation_IDs:CG2671-RF,REFSEQ:NM_164352;score_text=Weakly Supported;score=3
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e18752;Name=l(2)gl;to_species=Dpse;to_id=FBgn0012725;to_name=Dpse\l(2)gl;Target=4_group2 127328 133707 +
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e18830;Name=l(2)gl;to_species=Dana;to_id=FBgn0091899;to_name=Dana\GF14872;Target=scaffold_12916 1772566 1778814 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e18908;Name=l(2)gl;to_species=Dere;to_id=FBgn0116821;to_name=Dere\GG24690;Target=scaffold_4929 39861 46249 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e18987;Name=l(2)gl;to_species=Dgri;to_id=FBgn0119206;to_name=Dgri\GH11726;Target=scaffold_15252 17154062 17160375 +
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19065;Name=l(2)gl;to_species=Dmoj;to_id=FBgn0139017;to_name=Dmoj\GI16268;Target=scaffold_6500 129814 135843 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19143;Name=l(2)gl;to_species=Dper;to_id=FBgn0151538;to_name=Dper\GL13933;Target=scaffold_8 3757631 3767377 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19221;Name=l(2)gl;to_species=Dsec;to_id=FBgn0171620;to_name=Dsec\GM16707;Target=scaffold_14 19278 25107 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19299;Name=l(2)gl;to_species=Dsim;to_id=FBgn0194388;to_name=Dsim\GD22996;Target=2L 17665 23625 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19377;Name=l(2)gl;to_species=Dvir;to_id=FBgn0203397;to_name=Dvir\GJ16212;Target=scaffold_13246 72851 79707 -
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19455;Name=l(2)gl;to_species=Dwil;to_id=FBgn0226562;to_name=Dwil\GK24602;Target=scf2_1100000004585 1800218 1808192 +
+2L	FlyBase	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e19533;Name=l(2)gl;to_species=Dyak;to_id=FBgn0234042;to_name=Dyak\GE16527;Target=2L 8644 14684 -
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2878;Name=l(2)gl;to_id=AAEL009932-PA
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2890;Name=l(2)gl;to_id=AGAP004483-PA
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2901;Name=l(2)gl;to_id=XP_392864.3
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2912;Name=l(2)gl;to_id=XP_001948718.1
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2923;Name=l(2)gl;to_id=119030
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2934;Name=l(2)gl;to_id=XP_001893368.1
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2945;Name=l(2)gl;to_id=ENSBTAP00000006080
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2956;Name=l(2)gl;to_id=ENSCAFP00000027044
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2967;Name=l(2)gl;to_id=CAGL0K05291g
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2978;Name=l(2)gl;to_id=ENSCINP00000018323
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2989;Name=l(2)gl;to_id=CPIJ002781
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3000;Name=l(2)gl;to_id=ENSCPOP00000003303
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3012;Name=l(2)gl;to_id=RP39129
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3023;Name=l(2)gl;to_id=ENSCSAVP00000018809
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3034;Name=l(2)gl;to_id=166358
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3045;Name=l(2)gl;to_id=323689
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3056;Name=l(2)gl;to_id=ENSDARP00000024810
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3067;Name=l(2)gl;to_id=ENSECAP00000015853
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3078;Name=l(2)gl;to_id=ENSGACP00000018796
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3089;Name=l(2)gl;to_id=ENSGALP00000013059
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3100;Name=l(2)gl;to_id=112342
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3111;Name=l(2)gl;to_id=ENSP00000321537
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3122;Name=l(2)gl;to_id=111948
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3134;Name=l(2)gl;to_id=ENSMODP00000017162
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3145;Name=l(2)gl;to_id=ENSMUSP00000060749
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3156;Name=l(2)gl;to_id=85009
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3167;Name=l(2)gl;to_id=XP_001604186.1
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3178;Name=l(2)gl;to_id=ENSOANP00000015654
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3189;Name=l(2)gl;to_id=ENSORLP00000016576
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3200;Name=l(2)gl;to_id=LOC_Os07g49300.1
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3211;Name=l(2)gl;to_id=PHUM002510-PA
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3222;Name=l(2)gl;to_id=PP20591
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3233;Name=l(2)gl;to_id=ENSPPYP00000009049
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3244;Name=l(2)gl;to_id=227015
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3256;Name=l(2)gl;to_id=765583
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3267;Name=l(2)gl;to_id=ENSPTRP00000039378
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3278;Name=l(2)gl;to_id=ENSRNOP00000005366
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3289;Name=l(2)gl;to_id=Smp_135950
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3300;Name=l(2)gl;to_id=XP_783870.2
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3311;Name=l(2)gl;to_id=31093
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3322;Name=l(2)gl;to_id=XP_966843.1
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3333;Name=l(2)gl;to_id=ENSTNIP00000014454
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3344;Name=l(2)gl;to_id=ENSTRUP00000045537
+2L	InParanoid	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e3355;Name=l(2)gl;to_id=ENSXETP00000012700
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2278;Name=l(2)gl;to_id=PHUM212560-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2289;Name=l(2)gl;to_id=BGIBMGA011339-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2300;Name=l(2)gl;to_id=FBgn0234508
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2311;Name=l(2)gl;to_id=FBgn0151538
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2322;Name=l(2)gl;to_id=FBgn0109955
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2333;Name=l(2)gl;to_id=FBgn0150745
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2344;Name=l(2)gl;to_id=BGIBMGA005570-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2355;Name=l(2)gl;to_id=CPIJ002781-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2366;Name=l(2)gl;to_id=JGI_V11_41708
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2377;Name=l(2)gl;to_id=FBgn0203102
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2388;Name=l(2)gl;to_id=NV14403-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2400;Name=l(2)gl;to_id=FBgn0139017
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2411;Name=l(2)gl;to_id=ACYPI000767-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2422;Name=l(2)gl;to_id=AAEL006948-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2433;Name=l(2)gl;to_id=FBgn0227475
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2444;Name=l(2)gl;to_id=JGI_V11_323689
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2455;Name=l(2)gl;to_id=AGAP004483-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2466;Name=l(2)gl;to_id=FBgn0116821
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2477;Name=l(2)gl;to_id=FBgn0138972
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2488;Name=l(2)gl;to_id=NV15207-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2499;Name=l(2)gl;to_id=AGAP000009-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2510;Name=l(2)gl;to_id=FBgn0166520
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2522;Name=l(2)gl;to_id=FBgn0203397
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2533;Name=l(2)gl;to_id=FBgn0120073
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2544;Name=l(2)gl;to_id=GB11085-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2555;Name=l(2)gl;to_id=FBgn0030412
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2566;Name=l(2)gl;to_id=AAEL009932-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2577;Name=l(2)gl;to_id=ISCW010700-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2588;Name=l(2)gl;to_id=FBgn0234042
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2599;Name=l(2)gl;to_id=FBgn0091899
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2610;Name=l(2)gl;to_id=ACYPI009025-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2621;Name=l(2)gl;to_id=TcGLEAN_01102
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2632;Name=l(2)gl;to_id=TcGLEAN_15986
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2644;Name=l(2)gl;to_id=FBgn0098384
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2655;Name=l(2)gl;to_id=FBgn0171620
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2666;Name=l(2)gl;to_id=FBgn0226562
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2677;Name=l(2)gl;to_id=GB20098-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2688;Name=l(2)gl;to_id=FBgn0119206
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2699;Name=l(2)gl;to_id=ACYPI005048-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2710;Name=l(2)gl;to_id=FBgn0244365
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2721;Name=l(2)gl;to_id=FBgn0012725
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2732;Name=l(2)gl;to_id=FBgn0194388
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2743;Name=l(2)gl;to_id=BGIBMGA011340-PA
+2L	OrthoDB.Arthropods	orthologous_to	9836	21372	.	-	.	ID=FBgn0002121_d1488e2754;Name=l(2)gl;to_id=PHUM383750-PA
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	21372	.	-	.	ID=:861234_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RB.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RB.31 1 5154 +
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	21372	.	-	.	ID=:861235_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RD.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RD.31 1 5229 +
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	21372	.	-	.	ID=:861236_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RE.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RE.31 1 5224 +
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	21372	.	-	.	ID=:861237_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RF.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RF.31 1 5081 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	21372	.	-	.	ID=:264491_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RB.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RB.32 1 5154 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	21372	.	-	.	ID=:264526_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RD.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RD.32 1 5229 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	21372	.	-	.	ID=:264527_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RE.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RE.32 1 5224 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	21372	.	-	.	ID=:264564_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RF.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RF.32 1 5081 +
+2L	splign_na_cDNA_ncbi_2010	match	9836	21285	.	-	.	ID=Splign:10009433_na_cDNA_ncbi_2010;Name=RE74125-BT100228-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100228 1 5302 +
+2L	flybase	match	9836	18583	.	-	.	ID=flybase-annotation51:FBtr0078170_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078170:CG2671-RC;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	flybase	match	9836	18583	.	-	.	ID=flybase-annotation51:FBtr0078171_dmel_transcript.RELEASE51;Name=Release51-FBgn0002121:l(2)gl:FBtr0078171:CG2671-RA;program=flybase;programversion=1.0;sourcename=dmel_transcript.RELEASE51
+2L	FlyBase	mRNA	9836	18583	.	-	.	ID=FBtr0078170;Name=l(2)gl-RC;Parent=FBgn0002121;Alias=CG2671-RC;Dbxref=FlyBase_Annotation_IDs:CG2671-RC,REFSEQ:NM_078715;score_text=Strongly Supported;score=11
+2L	FlyBase	mRNA	9836	18583	.	-	.	ID=FBtr0078171;Name=l(2)gl-RA;Parent=FBgn0002121;Alias=CG2671-RA;Dbxref=FlyBase_Annotation_IDs:CG2671-RA,REFSEQ:NM_164349;score_text=Weakly Supported;score=3
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	18583	.	-	.	ID=:861238_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RC.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RC.31 1 5264 +
+2L	sim4_na_transcript.dmel.RELEASE31	match	9836	18583	.	-	.	ID=:861239_sim4_na_transcript.dmel.RELEASE31;Name=CG2671-RA.31-AE003590.4-na_transcript.dmel.RELEASE31-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RA.31 1 5407 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	18583	.	-	.	ID=:264492_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RA.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RA.32 1 5407 +
+2L	sim4_na_transcript.dmel.RELEASE32	match	9836	18583	.	-	.	ID=:264493_sim4_na_transcript.dmel.RELEASE32;Name=CG2671-RC.32-AE003590.4-na_transcript.dmel.RELEASE32-sim4;program=sim4;programversion=1.0;sourcename=na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RC.32 1 5264 +
+2L	sim4_na_gadfly.dros.RELEASE2	match	9836	18569	.	-	.	ID=:477792_sim4_na_gadfly.dros.RELEASE2;Name=CT43225.2-AE003590.4-na_gadfly.dros.RELEASE2-sim4;program=sim4;programversion=1.0;sourcename=na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43225.2 1 5250 +
+2L	sim4_na_gadfly.dros.RELEASE2	match	9836	18550	.	-	.	ID=:477795_sim4_na_gadfly.dros.RELEASE2;Name=CT43227.2-AE003590.4-na_gadfly.dros.RELEASE2-sim4;program=sim4;programversion=1.0;sourcename=na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43227.2 1 5374 +
+2L	FlyBase	exon	9836	11344	.	-	.	ID=CG2671:9;Name=l(2)gl:9;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_10595;Parent=flybase-annotation51:FBtr0078167_dmel_transcript.RELEASE51
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_48748;Parent=flybase-annotation51:FBtr0078166_dmel_transcript.RELEASE51
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_55117;Parent=flybase-annotation51:FBtr0078170_dmel_transcript.RELEASE51
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_65616;Parent=flybase-annotation51:FBtr0078171_dmel_transcript.RELEASE51
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_76612;Parent=flybase-annotation51:FBtr0078168_dmel_transcript.RELEASE51
+2L	flybase	match_part	9836	11344	.	-	.	Name=:tr51_86594;Parent=flybase-annotation51:FBtr0078169_dmel_transcript.RELEASE51
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	9836	11344	100	-	.	Name=:1479686;Parent=:477792_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43225.2 3742 5250 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	9836	11344	100	-	.	Name=:1479733;Parent=:477795_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43227.2 3866 5374 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947297;Parent=:861234_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RB.31 3646 5154 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947306;Parent=:861235_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RD.31 3721 5229 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947315;Parent=:861236_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RE.31 3716 5224 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947325;Parent=:861237_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RF.31 3573 5081 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947334;Parent=:861238_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RC.31 3756 5264 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	9836	11344	100	-	.	Name=:2947344;Parent=:861239_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RA.31 3899 5407 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:711706;Parent=:264491_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RB.32 3646 5154 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:711716;Parent=:264492_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RA.32 3899 5407 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:711893;Parent=:264493_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RC.32 3756 5264 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:711902;Parent=:264526_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RD.32 3721 5229 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:712076;Parent=:264527_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RE.32 3716 5224 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	9836	11344	100	-	.	Name=:712086;Parent=:264564_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RF.32 3573 5081 +
+2L	splign_na_cDNA_ncbi_2010	match_part	9836	11344	99.93	-	.	Name=:ncbi_10040970;Parent=Splign:10009433_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100228 3794 5302 +
+2L	FlyBase	three_prime_UTR	9836	11214	.	-	.	ID=three_prime_UTR_CG2671:9_682;Name=l(2)gl-u3;Parent=FBtr0078168,FBtr0078169;parent_type=mRNA
+2L	FlyBase	three_prime_UTR	9836	11214	.	-	.	ID=three_prime_UTR_CG2671:9_683;Name=l(2)gl-u3;Parent=FBtr0078170;parent_type=mRNA
+2L	FlyBase	three_prime_UTR	9836	11214	.	-	.	ID=three_prime_UTR_CG2671:9_684;Name=l(2)gl-u3;Parent=FBtr0078167;parent_type=mRNA
+2L	FlyBase	three_prime_UTR	9836	11214	.	-	.	ID=three_prime_UTR_CG2671:9_685;Name=l(2)gl-u3;Parent=FBtr0078166,FBtr0078171;parent_type=mRNA
+2L	splign_na_cDNA_ncbi_2010	match	9840	18562	.	-	.	ID=Splign:10001008_na_cDNA_ncbi_2010;Name=X05426-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=mRNA;Target=X05426 18 5251 +
+2L	splign_na_cDNA_ncbi_2010	match_part	9840	11344	99.11	-	.	Name=:ncbi_10004248;Parent=Splign:10001008_na_cDNA_ncbi_2010;target_type=mRNA;Target=X05426 3749 5251 +
+2L	sim4_na_gadfly.dros.RELEASE2	match	9842	18562	.	-	.	ID=:477793_sim4_na_gadfly.dros.RELEASE2;Name=CT9059.2-AE003590.4-na_gadfly.dros.RELEASE2-sim4;program=sim4;programversion=1.0;sourcename=na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9059.2 1 5237 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	9842	11344	100	-	.	Name=:1479708;Parent=:477793_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9059.2 3735 5237 +
+2L	splign_na_dbEST_ncbi	match	9845	10361	.	-	.	ID=Splign:1821151_na_dbEST_ncbi;Name=LD01253.5prime-AA816352-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=AA816352 1 517 -
+2L	splign_na_dbEST_ncbi	match_part	9845	10361	99.41	-	.	Name=:ncbi_7575133;Parent=Splign:1821151_na_dbEST_ncbi;target_type=EST;Target=AA816352 1 517 -
+2L	FlyBase	transposable_element	9888	9949	.	-	.	ID=FBti0059810;Name=INE-1{}1749;Alias=INE-1#4,TE59810;derived_cyto_location=21A5-21A5;derived_comput_cyto_location=21A5
+2L	repeatmasker_dummy	match	9888	9949	.	-	.	ID=:232094_repeatmasker_dummy;Name=9949%2C9887-AE003590.4-dummy-RepeatMasker;program=repeatmasker;programversion=1.0;sourcename=dummy;target_type=RepeatMasker:dummy;Target=U66884 13 74 +
+2L	repeatmasker_dummy	match_part	9888	9949	336	-	.	Name=:613721;Parent=:232094_repeatmasker_dummy;target_type=RepeatMasker:dummy;Target=U66884 13 74 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9978	10002	.	-	.	ID=1637410_s_at_5000_oligonucleotide;Name=1637410_s_at_5000;Dbxref=Affymetrix:1637410_s_at_5000
+2L	Affymetrix_GeneChip_v2	oligonucleotide	9993	10017	.	-	.	ID=1637410_s_at_4985_oligonucleotide;Name=1637410_s_at_4985;Dbxref=Affymetrix:1637410_s_at_4985
+2L	splign_na_dbEST_ncbi	match	10001	10436	.	-	.	ID=Splign:1821153_na_dbEST_ncbi;Name=188233-EC244543-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC244543 1 436 -
+2L	splign_na_dbEST_ncbi	match_part	10001	10436	100	-	.	Name=:ncbi_7575135;Parent=Splign:1821153_na_dbEST_ncbi;target_type=EST;Target=EC244543 1 436 -
+2L	splign_na_dbEST_ncbi	match	10001	10434	.	-	.	ID=Splign:1821157_na_dbEST_ncbi;Name=EK133340.5prime-CO279043-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO279043 1 434 -
+2L	splign_na_dbEST_ncbi	match_part	10001	10434	100	-	.	Name=:ncbi_7575139;Parent=Splign:1821157_na_dbEST_ncbi;target_type=EST;Target=CO279043 1 434 -
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10002	10026	.	-	.	ID=1637410_s_at_4976_oligonucleotide;Name=1637410_s_at_4976;Dbxref=Affymetrix:1637410_s_at_4976
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10016	10040	.	-	.	ID=1637410_s_at_4962_oligonucleotide;Name=1637410_s_at_4962;Dbxref=Affymetrix:1637410_s_at_4962
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10030	10054	.	-	.	ID=1637410_s_at_4948_oligonucleotide;Name=1637410_s_at_4948;Dbxref=Affymetrix:1637410_s_at_4948
+2L	splign_na_dbEST_ncbi	match	10045	10313	.	-	.	ID=Splign:1821158_na_dbEST_ncbi;Name=228716-EC062412-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC062412 1 269 +
+2L	splign_na_dbEST_ncbi	match_part	10045	10313	98.51	-	.	Name=:ncbi_7575140;Parent=Splign:1821158_na_dbEST_ncbi;target_type=EST;Target=EC062412 1 269 +
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10071	10095	.	-	.	ID=1637410_s_at_4907_oligonucleotide;Name=1637410_s_at_4907;Dbxref=Affymetrix:1637410_s_at_4907
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10114	10138	.	-	.	ID=1637410_s_at_4864_oligonucleotide;Name=1637410_s_at_4864;Dbxref=Affymetrix:1637410_s_at_4864
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10122	10146	.	-	.	ID=1637410_s_at_4856_oligonucleotide;Name=1637410_s_at_4856;Dbxref=Affymetrix:1637410_s_at_4856
+2L	splign_na_dbEST_ncbi	match	10169	10550	.	-	.	ID=Splign:1821156_na_dbEST_ncbi;Name=EK200563.5prime-CO292610-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO292610 3 385 -
+2L	splign_na_dbEST_ncbi	match_part	10169	10550	98.95	-	.	Name=:ncbi_7575138;Parent=Splign:1821156_na_dbEST_ncbi;target_type=EST;Target=CO292610 3 385 -
+2L	splign_na_dbEST_ncbi	match	10169	10542	.	-	.	ID=Splign:1821154_na_dbEST_ncbi;Name=321306-EC212457-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC212457 3 377 -
+2L	splign_na_dbEST_ncbi	match_part	10169	10542	98.93	-	.	Name=:ncbi_7575136;Parent=Splign:1821154_na_dbEST_ncbi;target_type=EST;Target=EC212457 3 377 -
+2L	splign_na_dbEST_ncbi	match	10170	10724	.	-	.	ID=Splign:1821155_na_dbEST_ncbi;Name=EP12042.3prime-CO341211-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO341211 2 556 -
+2L	splign_na_dbEST_ncbi	match_part	10170	10724	99.45	-	.	Name=:ncbi_7575137;Parent=Splign:1821155_na_dbEST_ncbi;target_type=EST;Target=CO341211 2 556 -
+2L	splign_na_dbEST_ncbi	match	10173	10719	.	-	.	ID=Splign:1821152_na_dbEST_ncbi;Name=488203-EC254712-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC254712 1 547 -
+2L	splign_na_dbEST_ncbi	match_part	10173	10719	99.63	-	.	Name=:ncbi_7575134;Parent=Splign:1821152_na_dbEST_ncbi;target_type=EST;Target=EC254712 1 547 -
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10207	10231	.	-	.	ID=1637410_s_at_4771_oligonucleotide;Name=1637410_s_at_4771;Dbxref=Affymetrix:1637410_s_at_4771
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10234	10258	.	-	.	ID=1637410_s_at_4744_oligonucleotide;Name=1637410_s_at_4744;Dbxref=Affymetrix:1637410_s_at_4744
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10264	10288	.	-	.	ID=1637410_s_at_4714_oligonucleotide;Name=1637410_s_at_4714;Dbxref=Affymetrix:1637410_s_at_4714
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10300	10324	.	-	.	ID=1637410_s_at_4678_oligonucleotide;Name=1637410_s_at_4678;Dbxref=Affymetrix:1637410_s_at_4678
+2L	splign_na_dbEST_ncbi	match	10303	10838	.	-	.	ID=Splign:1821172_na_dbEST_ncbi;Name=499840-EC067759-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC067759 2 537 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10838	100	-	.	Name=:ncbi_7575154;Parent=Splign:1821172_na_dbEST_ncbi;target_type=EST;Target=EC067759 2 537 -
+2L	splign_na_dbEST_ncbi	match	10303	10808	.	-	.	ID=Splign:1821174_na_dbEST_ncbi;Name=EK302054.5prime-CO331943-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO331943 2 507 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10808	100	-	.	Name=:ncbi_7575158;Parent=Splign:1821174_na_dbEST_ncbi;target_type=EST;Target=CO331943 2 507 -
+2L	splign_na_dbEST_ncbi	match	10303	10749	.	-	.	ID=Splign:1821180_na_dbEST_ncbi;Name=EK073412.5prime-CO290231-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO290231 2 448 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10749	100	-	.	Name=:ncbi_7575165;Parent=Splign:1821180_na_dbEST_ncbi;target_type=EST;Target=CO290231 2 448 -
+2L	splign_na_dbEST_ncbi	match	10303	10736	.	-	.	ID=Splign:1821164_na_dbEST_ncbi;Name=88006-EC219192-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC219192 1 434 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10736	100	-	.	Name=:ncbi_7575146;Parent=Splign:1821164_na_dbEST_ncbi;target_type=EST;Target=EC219192 1 434 -
+2L	splign_na_dbEST_ncbi	match	10303	10655	.	-	.	ID=Splign:1821170_na_dbEST_ncbi;Name=375519-EC077585-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC077585 2 354 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10655	100	-	.	Name=:ncbi_7575152;Parent=Splign:1821170_na_dbEST_ncbi;target_type=EST;Target=EC077585 2 354 -
+2L	splign_na_dbEST_ncbi	match	10303	10654	.	-	.	ID=Splign:1821178_na_dbEST_ncbi;Name=EK255459.5prime-CO307753-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO307753 2 353 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10654	100	-	.	Name=:ncbi_7575163;Parent=Splign:1821178_na_dbEST_ncbi;target_type=EST;Target=CO307753 2 353 -
+2L	splign_na_dbEST_ncbi	match	10303	10552	.	-	.	ID=Splign:1821168_na_dbEST_ncbi;Name=100459-EC207980-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC207980 1 250 -
+2L	splign_na_dbEST_ncbi	match_part	10303	10552	96	-	.	Name=:ncbi_7575150;Parent=Splign:1821168_na_dbEST_ncbi;target_type=EST;Target=EC207980 1 250 -
+2L	splign_na_dbEST_ncbi	match	10324	10700	.	-	.	ID=Splign:1821210_na_dbEST_ncbi;Name=17979-EC194682-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC194682 1 377 +
+2L	splign_na_dbEST_ncbi	match_part	10324	10700	97.08	-	.	Name=:ncbi_7575203;Parent=Splign:1821210_na_dbEST_ncbi;target_type=EST;Target=EC194682 1 377 +
+2L	splign_na_dbEST_ncbi	match	10365	10800	.	-	.	ID=Splign:1821165_na_dbEST_ncbi;Name=314352-EC212113-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC212113 15 450 -
+2L	splign_na_dbEST_ncbi	match_part	10365	10800	99.77	-	.	Name=:ncbi_7575147;Parent=Splign:1821165_na_dbEST_ncbi;target_type=EST;Target=EC212113 15 450 -
+2L	splign_na_dbEST_ncbi	match	10365	10793	.	-	.	ID=Splign:1821169_na_dbEST_ncbi;Name=340159-EC201857-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC201857 15 443 -
+2L	splign_na_dbEST_ncbi	match_part	10365	10793	100	-	.	Name=:ncbi_7575151;Parent=Splign:1821169_na_dbEST_ncbi;target_type=EST;Target=EC201857 15 443 -
+2L	splign_na_dbEST_ncbi	match	10369	10793	.	-	.	ID=Splign:1821179_na_dbEST_ncbi;Name=EK215844.3prime-CO297073-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO297073 1 425 -
+2L	splign_na_dbEST_ncbi	match_part	10369	10793	100	-	.	Name=:ncbi_7575164;Parent=Splign:1821179_na_dbEST_ncbi;target_type=EST;Target=CO297073 1 425 -
+2L	Affymetrix_GeneChip_v2	oligonucleotide	10384	10408	.	-	.	ID=1637410_s_at_4594_oligonucleotide;Name=1637410_s_at_4594;Dbxref=Affymetrix:1637410_s_at_4594
+2L	splign_na_dbEST_ncbi	match	10451	10704	.	-	.	ID=Splign:1821184_na_dbEST_ncbi;Name=EK013946.5prime-CO185876-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO185876 1 254 +
+2L	splign_na_dbEST_ncbi	match_part	10451	10704	98.42	-	.	Name=:ncbi_7575169;Parent=Splign:1821184_na_dbEST_ncbi;target_type=EST;Target=CO185876 1 254 +
+2L	splign_na_dbEST_ncbi	match	10473	11021	.	-	.	ID=Splign:1821198_na_dbEST_ncbi;Name=EP07850.3prime-CO327683-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO327683 1 549 +
+2L	splign_na_dbEST_ncbi	match_part	10473	11021	99.81	-	.	Name=:ncbi_7575188;Parent=Splign:1821198_na_dbEST_ncbi;target_type=EST;Target=CO327683 1 549 +
+2L	splign_na_dbEST_ncbi	match	10494	11020	.	-	.	ID=Splign:1821228_na_dbEST_ncbi;Name=485105-EC256982-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC256982 1 527 +
+2L	splign_na_dbEST_ncbi	match_part	10494	11020	99.81	-	.	Name=:ncbi_7575228;Parent=Splign:1821228_na_dbEST_ncbi;target_type=EST;Target=EC256982 1 527 +
+2L	splign_na_dbEST_ncbi	match	10520	11025	.	-	.	ID=Splign:1821219_na_dbEST_ncbi;Name=18907-EC229242-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC229242 1 506 +
+2L	splign_na_dbEST_ncbi	match_part	10520	11025	99.8	-	.	Name=:ncbi_7575217;Parent=Splign:1821219_na_dbEST_ncbi;target_type=EST;Target=EC229242 1 506 +
+2L	splign_na_dbEST_ncbi	match	10521	11026	.	-	.	ID=Splign:1821185_na_dbEST_ncbi;Name=EK020321.5prime-CO186497-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO186497 1 506 +
+2L	splign_na_dbEST_ncbi	match_part	10521	11026	99.8	-	.	Name=:ncbi_7575170;Parent=Splign:1821185_na_dbEST_ncbi;target_type=EST;Target=CO186497 1 506 +
+2L	splign_na_dbEST_ncbi	match	10556	11071	.	-	.	ID=Splign:1821192_na_dbEST_ncbi;Name=EK227714.5prime-CO312021-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO312021 2 517 +
+2L	splign_na_dbEST_ncbi	match_part	10556	11071	100	-	.	Name=:ncbi_7575179;Parent=Splign:1821192_na_dbEST_ncbi;target_type=EST;Target=CO312021 2 517 +
+2L	splign_na_dbEST_ncbi	match	10563	11025	.	-	.	ID=Splign:1821204_na_dbEST_ncbi;Name=38772-EC068820-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC068820 1 463 +
+2L	splign_na_dbEST_ncbi	match_part	10563	11025	99.35	-	.	Name=:ncbi_7575197;Parent=Splign:1821204_na_dbEST_ncbi;target_type=EST;Target=EC068820 1 463 +
+2L	splign_na_cDNA_ncbi_2010	match	10575	21372	.	-	.	ID=Splign:10009537_na_cDNA_ncbi_2010;Name=RE31203-BT100129-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100129 1 4415 +
+2L	splign_na_cDNA_ncbi_2010	match_part	10575	11344	100	-	.	Name=:ncbi_10041436;Parent=Splign:10009537_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100129 3646 4415 +
+2L	splign_na_dbEST_ncbi	match	10577	11041	.	-	.	ID=Splign:1821183_na_dbEST_ncbi;Name=EK109126.5prime-CO272993-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO272993 1 465 -
+2L	splign_na_dbEST_ncbi	match_part	10577	11041	100	-	.	Name=:ncbi_7575168;Parent=Splign:1821183_na_dbEST_ncbi;target_type=EST;Target=CO272993 1 465 -
+2L	splign_na_dbEST_ncbi	match	10577	11031	.	-	.	ID=Splign:1821176_na_dbEST_ncbi;Name=EP07736.3prime-CO327626-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO327626 1 454 -
+2L	splign_na_dbEST_ncbi	match_part	10577	11031	99.77	-	.	Name=:ncbi_7575160;Parent=Splign:1821176_na_dbEST_ncbi;target_type=EST;Target=CO327626 1 454 -
+2L	splign_na_dbEST_ncbi	match	10577	11029	.	-	.	ID=Splign:1821167_na_dbEST_ncbi;Name=148615-EC209286-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC209286 1 453 -
+2L	splign_na_dbEST_ncbi	match_part	10577	11029	100	-	.	Name=:ncbi_7575149;Parent=Splign:1821167_na_dbEST_ncbi;target_type=EST;Target=EC209286 1 453 -
+2L	splign_na_dbEST_ncbi	match	10578	11071	.	-	.	ID=Splign:1821221_na_dbEST_ncbi;Name=357446-EC237330-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC237330 1 493 +
+2L	splign_na_dbEST_ncbi	match_part	10578	11071	97.97	-	.	Name=:ncbi_7575219;Parent=Splign:1821221_na_dbEST_ncbi;target_type=EST;Target=EC237330 1 493 +
+2L	splign_na_dbEST_ncbi	match	10578	11058	.	-	.	ID=Splign:1821175_na_dbEST_ncbi;Name=EP08322.3prime-CO327952-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO327952 1 481 -
+2L	splign_na_dbEST_ncbi	match_part	10578	11058	99.79	-	.	Name=:ncbi_7575159;Parent=Splign:1821175_na_dbEST_ncbi;target_type=EST;Target=CO327952 1 481 -
+2L	splign_na_dbEST_ncbi	match	10578	11031	.	-	.	ID=Splign:1821162_na_dbEST_ncbi;Name=485057-EC258087-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC258087 1 453 -
+2L	splign_na_dbEST_ncbi	match_part	10578	11031	99.77	-	.	Name=:ncbi_7575144;Parent=Splign:1821162_na_dbEST_ncbi;target_type=EST;Target=EC258087 1 453 -
+2L	splign_na_dbEST_ncbi	match	10579	11023	.	-	.	ID=Splign:1821163_na_dbEST_ncbi;Name=480481-EC252866-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC252866 1 445 -
+2L	splign_na_dbEST_ncbi	match_part	10579	11023	100	-	.	Name=:ncbi_7575145;Parent=Splign:1821163_na_dbEST_ncbi;target_type=EST;Target=EC252866 1 445 -
+2L	splign_na_dbEST_ncbi	match	10583	11071	.	-	.	ID=Splign:1821225_na_dbEST_ncbi;Name=329460-EC247355-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC247355 2 491 +
+2L	splign_na_dbEST_ncbi	match_part	10583	11071	99.79	-	.	Name=:ncbi_7575225;Parent=Splign:1821225_na_dbEST_ncbi;target_type=EST;Target=EC247355 2 491 +
+2L	splign_na_dbEST_ncbi	match	10586	11026	.	-	.	ID=Splign:1821220_na_dbEST_ncbi;Name=187449-EC233218-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC233218 1 441 +
+2L	splign_na_dbEST_ncbi	match_part	10586	11026	100	-	.	Name=:ncbi_7575218;Parent=Splign:1821220_na_dbEST_ncbi;target_type=EST;Target=EC233218 1 441 +
+2L	splign_na_dbEST_ncbi	match	10589	11090	.	-	.	ID=Splign:1821200_na_dbEST_ncbi;Name=EP11028.3prime-CO340629-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO340629 1 501 +
+2L	splign_na_dbEST_ncbi	match_part	10589	11090	100	-	.	Name=:ncbi_7575190;Parent=Splign:1821200_na_dbEST_ncbi;target_type=EST;Target=CO340629 1 501 +
+2L	splign_na_dbEST_ncbi	match	10599	11071	.	-	.	ID=Splign:1821190_na_dbEST_ncbi;Name=EK133322.5prime-CO279036-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO279036 1 473 +
+2L	splign_na_dbEST_ncbi	match	10599	11071	.	-	.	ID=Splign:1821212_na_dbEST_ncbi;Name=188321-EC198773-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC198773 1 473 +
+2L	splign_na_dbEST_ncbi	match_part	10599	11071	99.78	-	.	Name=:ncbi_7575177;Parent=Splign:1821190_na_dbEST_ncbi;target_type=EST;Target=CO279036 1 473 +
+2L	splign_na_dbEST_ncbi	match_part	10599	11071	99.78	-	.	Name=:ncbi_7575206;Parent=Splign:1821212_na_dbEST_ncbi;target_type=EST;Target=EC198773 1 473 +
+2L	splign_na_dbEST_ncbi	match	10610	11089	.	-	.	ID=Splign:1821229_na_dbEST_ncbi;Name=487618-EC260350-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC260350 1 479 +
+2L	splign_na_dbEST_ncbi	match_part	10610	11089	100	-	.	Name=:ncbi_7575229;Parent=Splign:1821229_na_dbEST_ncbi;target_type=EST;Target=EC260350 1 479 +
+2L	splign_na_dbEST_ncbi	match	10626	11071	.	-	.	ID=Splign:1821209_na_dbEST_ncbi;Name=349015-EC087878-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC087878 2 447 +
+2L	splign_na_dbEST_ncbi	match_part	10626	11071	100	-	.	Name=:ncbi_7575202;Parent=Splign:1821209_na_dbEST_ncbi;target_type=EST;Target=EC087878 2 447 +
+2L	splign_na_dbEST_ncbi	match	10647	11071	.	-	.	ID=Splign:1821191_na_dbEST_ncbi;Name=EK214432.5prime-CO296616-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO296616 2 426 +
+2L	splign_na_dbEST_ncbi	match	10647	11071	.	-	.	ID=Splign:1821208_na_dbEST_ncbi;Name=338792-EC087224-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC087224 2 426 +
+2L	splign_na_dbEST_ncbi	match_part	10647	11071	100	-	.	Name=:ncbi_7575178;Parent=Splign:1821191_na_dbEST_ncbi;target_type=EST;Target=CO296616 2 426 +
+2L	splign_na_dbEST_ncbi	match_part	10647	11071	100	-	.	Name=:ncbi_7575201;Parent=Splign:1821208_na_dbEST_ncbi;target_type=EST;Target=EC087224 2 426 +
+2L	splign_na_dbEST_ncbi	match	10666	11020	.	-	.	ID=Splign:1821227_na_dbEST_ncbi;Name=484635-EC256934-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC256934 1 355 +
+2L	splign_na_dbEST_ncbi	match_part	10666	11020	100	-	.	Name=:ncbi_7575227;Parent=Splign:1821227_na_dbEST_ncbi;target_type=EST;Target=EC256934 1 355 +
+2L	splign_na_dbEST_ncbi	match	10667	11021	.	-	.	ID=Splign:1821197_na_dbEST_ncbi;Name=EP06550.3prime-CO327261-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO327261 1 355 +
+2L	splign_na_dbEST_ncbi	match_part	10667	11021	100	-	.	Name=:ncbi_7575187;Parent=Splign:1821197_na_dbEST_ncbi;target_type=EST;Target=CO327261 1 355 +
+2L	splign_na_dbEST_ncbi	match	10672	11026	.	-	.	ID=Splign:1821224_na_dbEST_ncbi;Name=186219-EC244496-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC244496 1 355 +
+2L	splign_na_dbEST_ncbi	match_part	10672	11026	100	-	.	Name=:ncbi_7575224;Parent=Splign:1821224_na_dbEST_ncbi;target_type=EST;Target=EC244496 1 355 +
+2L	splign_na_dbEST_ncbi	match	10673	11026	.	-	.	ID=Splign:1821189_na_dbEST_ncbi;Name=EK130156.5prime-CO278485-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO278485 1 354 +
+2L	splign_na_dbEST_ncbi	match_part	10673	11026	100	-	.	Name=:ncbi_7575176;Parent=Splign:1821189_na_dbEST_ncbi;target_type=EST;Target=CO278485 1 354 +
+2L	splign_na_cDNA_ncbi_2010	match	10703	18560	.	-	.	ID=Splign:10023814_na_cDNA_ncbi_2010;Name=LD06034-AY051654-na_cDNA_ncbi_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_cDNA_ncbi_2010;target_type=cDNA;Target=AY051654 1 4374 +
+2L	splign_na_cDNA_ncbi_2010	match_part	10703	11344	100	-	.	Name=:ncbi_10099224;Parent=Splign:10023814_na_cDNA_ncbi_2010;target_type=cDNA;Target=AY051654 3733 4374 +
+2L	splign_na_dbEST_ncbi	match	10703	11210	.	-	.	ID=Splign:1821160_na_dbEST_ncbi;Name=LD06034.3prime-AW942062-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=AW942062 1 508 -
+2L	splign_na_dbEST_ncbi	match_part	10703	11210	99.6	-	.	Name=:ncbi_7575142;Parent=Splign:1821160_na_dbEST_ncbi;target_type=EST;Target=AW942062 1 508 -
+2L	splign_na_dbEST_ncbi	match	10705	11083	.	-	.	ID=Splign:1821222_na_dbEST_ncbi;Name=165807-EC243632-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC243632 3 382 +
+2L	splign_na_dbEST_ncbi	match_part	10705	11083	98.41	-	.	Name=:ncbi_7575220;Parent=Splign:1821222_na_dbEST_ncbi;target_type=EST;Target=EC243632 3 382 +
+2L	DGRC_2	oligonucleotide	10731	10799	.	-	.	ID=DAC021E11_oligonucleotide;Name=DAC021E11;Dbxref=DGRC-2:DAC021E11
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10736	10760	.	-	.	ID=153565_at_4038-hit:34221_dmel_r3_affy_oligos;Name=153565_at_4038-hit:34221;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_4038 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10736	10760	.	-	.	Name=153565_at_4038-hsp:34221;Parent=153565_at_4038-hit:34221_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_4038 1 25 +
+2L	splign_na_dbEST_ncbi	match	10740	11071	.	-	.	ID=Splign:1821193_na_dbEST_ncbi;Name=EK235163.5prime-CO314140-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO314140 1 332 +
+2L	splign_na_dbEST_ncbi	match_part	10740	11071	99.09	-	.	Name=:ncbi_7575180;Parent=Splign:1821193_na_dbEST_ncbi;target_type=EST;Target=CO314140 1 332 +
+2L	splign_na_dbEST_ncbi	match	10756	11185	.	-	.	ID=Splign:1821217_na_dbEST_ncbi;Name=520872-EC228338-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228338 1 430 +
+2L	splign_na_dbEST_ncbi	match_part	10756	11185	100	-	.	Name=:ncbi_7575214;Parent=Splign:1821217_na_dbEST_ncbi;target_type=EST;Target=EC228338 1 430 +
+2L	splign_na_dbEST_ncbi	match	10758	11185	.	-	.	ID=Splign:1821199_na_dbEST_ncbi;Name=EK307416.5prime-CO333598-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO333598 1 428 +
+2L	splign_na_dbEST_ncbi	match_part	10758	11185	100	-	.	Name=:ncbi_7575189;Parent=Splign:1821199_na_dbEST_ncbi;target_type=EST;Target=CO333598 1 428 +
+2L	DGRC_1	pcr_product	10759	11182	.	+	.	ID=INC002E03_pcr_product;Name=INC002E03;Dbxref=DGRC-1:INC002E03
+2L	splign_na_dbEST_ncbi	match	10777	11185	.	-	.	ID=Splign:1821226_na_dbEST_ncbi;Name=425361-EC250126-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC250126 1 410 +
+2L	splign_na_dbEST_ncbi	match_part	10777	11185	100	-	.	Name=:ncbi_7575226;Parent=Splign:1821226_na_dbEST_ncbi;target_type=EST;Target=EC250126 1 410 +
+2L	splign_na_dbEST_ncbi	match	10778	11194	.	-	.	ID=Splign:1821206_na_dbEST_ncbi;Name=313991-EC074801-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC074801 1 417 +
+2L	splign_na_dbEST_ncbi	match_part	10778	11194	99.28	-	.	Name=:ncbi_7575199;Parent=Splign:1821206_na_dbEST_ncbi;target_type=EST;Target=EC074801 1 417 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10791	10815	.	-	.	ID=153565_at_3983-hit:34222_dmel_r3_affy_oligos;Name=153565_at_3983-hit:34222;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3983 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10791	10815	.	-	.	Name=153565_at_3983-hsp:34222;Parent=153565_at_3983-hit:34222_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3983 1 25 +
+2L	splign_na_dbEST_ncbi	match	10795	11203	.	-	.	ID=Splign:1821161_na_dbEST_ncbi;Name=LD18427.5prime-AA538811-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=AA538811 4 412 -
+2L	splign_na_dbEST_ncbi	match_part	10795	11203	100	-	.	Name=:ncbi_7575143;Parent=Splign:1821161_na_dbEST_ncbi;target_type=EST;Target=AA538811 4 412 -
+2L	splign_na_dbEST_ncbi	match	10810	11232	.	-	.	ID=Splign:1821166_na_dbEST_ncbi;Name=163566-EC209565-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC209565 1 423 -
+2L	splign_na_dbEST_ncbi	match	10810	11232	.	-	.	ID=Splign:1821171_na_dbEST_ncbi;Name=227432-EC073827-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC073827 1 423 -
+2L	splign_na_dbEST_ncbi	match_part	10810	11232	100	-	.	Name=:ncbi_7575148;Parent=Splign:1821166_na_dbEST_ncbi;target_type=EST;Target=EC209565 1 423 -
+2L	splign_na_dbEST_ncbi	match_part	10810	11232	100	-	.	Name=:ncbi_7575153;Parent=Splign:1821171_na_dbEST_ncbi;target_type=EST;Target=EC073827 1 423 -
+2L	splign_na_dbEST_ncbi	match	10810	11230	.	-	.	ID=Splign:1821181_na_dbEST_ncbi;Name=EK168554.5prime-CO285238-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO285238 1 421 -
+2L	splign_na_dbEST_ncbi	match	10810	11230	.	-	.	ID=Splign:1821182_na_dbEST_ncbi;Name=EK118146.5prime-CO275648-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO275648 1 421 -
+2L	splign_na_dbEST_ncbi	match_part	10810	11230	100	-	.	Name=:ncbi_7575166;Parent=Splign:1821181_na_dbEST_ncbi;target_type=EST;Target=CO285238 1 421 -
+2L	splign_na_dbEST_ncbi	match_part	10810	11230	100	-	.	Name=:ncbi_7575167;Parent=Splign:1821182_na_dbEST_ncbi;target_type=EST;Target=CO275648 1 421 -
+2L	splign_na_dbEST_ncbi	match	10827	11185	.	-	.	ID=Splign:1821195_na_dbEST_ncbi;Name=EK272210.5prime-CO318458-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO318458 1 359 +
+2L	splign_na_dbEST_ncbi	match	10827	11185	.	-	.	ID=Splign:1821207_na_dbEST_ncbi;Name=423323-EC078285-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC078285 1 359 +
+2L	splign_na_dbEST_ncbi	match_part	10827	11185	99.72	-	.	Name=:ncbi_7575184;Parent=Splign:1821195_na_dbEST_ncbi;target_type=EST;Target=CO318458 1 359 +
+2L	splign_na_dbEST_ncbi	match_part	10827	11185	99.72	-	.	Name=:ncbi_7575200;Parent=Splign:1821207_na_dbEST_ncbi;target_type=EST;Target=EC078285 1 359 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10872	10896	.	-	.	ID=153565_at_3902-hit:34223_dmel_r3_affy_oligos;Name=153565_at_3902-hit:34223;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3902 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10872	10896	.	-	.	Name=153565_at_3902-hsp:34223;Parent=153565_at_3902-hit:34223_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3902 1 25 +
+2L	splign_na_dbEST_ncbi	match	10884	11071	.	-	.	ID=Splign:1821201_na_dbEST_ncbi;Name=EK196250.5prime-DN154199-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=DN154199 1 188 +
+2L	splign_na_dbEST_ncbi	match_part	10884	11071	99.46	-	.	Name=:ncbi_7575191;Parent=Splign:1821201_na_dbEST_ncbi;target_type=EST;Target=DN154199 1 188 +
+2L	splign_na_dbEST_ncbi	match	10893	11233	.	-	.	ID=Splign:1821205_na_dbEST_ncbi;Name=166595-EC072512-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC072512 1 342 +
+2L	splign_na_dbEST_ncbi	match_part	10893	11233	99.7	-	.	Name=:ncbi_7575198;Parent=Splign:1821205_na_dbEST_ncbi;target_type=EST;Target=EC072512 1 342 +
+2L	splign_na_dbEST_ncbi	match	10896	11071	.	-	.	ID=Splign:1821213_na_dbEST_ncbi;Name=314132-EC200959-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC200959 1 176 +
+2L	splign_na_dbEST_ncbi	match_part	10896	11071	99.43	-	.	Name=:ncbi_7575207;Parent=Splign:1821213_na_dbEST_ncbi;target_type=EST;Target=EC200959 1 176 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10908	10932	.	-	.	ID=153565_at_3866-hit:34224_dmel_r3_affy_oligos;Name=153565_at_3866-hit:34224;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3866 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10908	10932	.	-	.	Name=153565_at_3866-hsp:34224;Parent=153565_at_3866-hit:34224_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3866 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10959	10983	.	-	.	ID=153565_at_3815-hit:34225_dmel_r3_affy_oligos;Name=153565_at_3815-hit:34225;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3815 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10959	10983	.	-	.	Name=153565_at_3815-hsp:34225;Parent=153565_at_3815-hit:34225_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3815 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	10967	10991	.	-	.	ID=153565_at_3807-hit:34226_dmel_r3_affy_oligos;Name=153565_at_3807-hit:34226;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3807 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	10967	10991	.	-	.	Name=153565_at_3807-hsp:34226;Parent=153565_at_3807-hit:34226_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3807 1 25 +
+2L	splign_na_dbEST_ncbi	match	10987	11445	.	-	.	ID=Splign:1821187_na_dbEST_ncbi;Name=EK122433.5prime-CO276935-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO276935 1 394 +
+2L	splign_na_dbEST_ncbi	match_part	10987	11344	100	-	.	Name=:ncbi_7575174;Parent=Splign:1821187_na_dbEST_ncbi;target_type=EST;Target=CO276935 37 394 +
+2L	splign_na_dbEST_ncbi	match	10994	11445	.	-	.	ID=Splign:1821211_na_dbEST_ncbi;Name=165614-EC197712-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC197712 1 387 +
+2L	splign_na_dbEST_ncbi	match_part	10994	11344	100	-	.	Name=:ncbi_7575205;Parent=Splign:1821211_na_dbEST_ncbi;target_type=EST;Target=EC197712 37 387 +
+2L	splign_na_dbEST_ncbi	match	11011	11516	.	-	.	ID=Splign:1821218_na_dbEST_ncbi;Name=76134-EC228815-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228815 12 452 +
+2L	splign_na_dbEST_ncbi	match_part	11011	11344	96.7	-	.	Name=:ncbi_7575216;Parent=Splign:1821218_na_dbEST_ncbi;target_type=EST;Target=EC228815 119 452 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11025	11049	.	-	.	ID=153565_at_3749-hit:34227_dmel_r3_affy_oligos;Name=153565_at_3749-hit:34227;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3749 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11025	11049	.	-	.	Name=153565_at_3749-hsp:34227;Parent=153565_at_3749-hit:34227_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3749 1 25 +
+2L	splign_na_dbEST_ncbi	match	11030	11833	.	-	.	ID=Splign:1821194_na_dbEST_ncbi;Name=EK235564.5prime-CO314272-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO314272 2 480 +
+2L	splign_na_dbEST_ncbi	match_part	11030	11344	99.04	-	.	Name=:ncbi_7575183;Parent=Splign:1821194_na_dbEST_ncbi;target_type=EST;Target=CO314272 166 480 +
+2L	splign_na_dbEST_ncbi	match	11031	11831	.	-	.	ID=Splign:1821202_na_dbEST_ncbi;Name=357635-EC061310-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC061310 1 476 +
+2L	splign_na_dbEST_ncbi	match_part	11031	11344	99.04	-	.	Name=:ncbi_7575194;Parent=Splign:1821202_na_dbEST_ncbi;target_type=EST;Target=EC061310 163 476 +
+2L	splign_na_dbEST_ncbi	match	11041	11233	.	-	.	ID=Splign:1821188_na_dbEST_ncbi;Name=EK125831.5prime-CO277692-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO277692 1 193 +
+2L	splign_na_dbEST_ncbi	match_part	11041	11233	100	-	.	Name=:ncbi_7575175;Parent=Splign:1821188_na_dbEST_ncbi;target_type=EST;Target=CO277692 1 193 +
+2L	sim4tandem_na_gb.dmel	match_part	11066	11177	88	+	.	Name=:9692600;Parent=:3804140_sim4tandem_na_gb.dmel;target_type=so;Target=M17022 1884 1994 +
+2L	splign_na_dbEST_ncbi	match	11069	11968	.	-	.	ID=Splign:1821203_na_dbEST_ncbi;Name=434345-EC067236-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC067236 1 465 +
+2L	splign_na_dbEST_ncbi	match_part	11069	11344	99.63	-	.	Name=:ncbi_7575196;Parent=Splign:1821203_na_dbEST_ncbi;target_type=EST;Target=EC067236 191 465 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11077	11101	.	-	.	ID=153565_at_3697-hit:34228_dmel_r3_affy_oligos;Name=153565_at_3697-hit:34228;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3697 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11077	11101	.	-	.	Name=153565_at_3697-hsp:34228;Parent=153565_at_3697-hit:34228_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3697 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11092	11116	.	-	.	ID=153565_at_3682-hit:34229_dmel_r3_affy_oligos;Name=153565_at_3682-hit:34229;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3682 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11092	11116	.	-	.	Name=153565_at_3682-hsp:34229;Parent=153565_at_3682-hit:34229_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3682 1 25 +
+2L	splign_na_dbEST_ncbi	match	11093	11968	.	-	.	ID=Splign:1821214_na_dbEST_ncbi;Name=434369-EC204734-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC204734 1 441 +
+2L	splign_na_dbEST_ncbi	match_part	11093	11344	100	-	.	Name=:ncbi_7575209;Parent=Splign:1821214_na_dbEST_ncbi;target_type=EST;Target=EC204734 191 441 +
+2L	splign_na_dbEST_ncbi	match	11104	11888	.	-	.	ID=Splign:1821223_na_dbEST_ncbi;Name=192628-EC244332-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC244332 1 461 +
+2L	splign_na_dbEST_ncbi	match_part	11104	11344	100	-	.	Name=:ncbi_7575223;Parent=Splign:1821223_na_dbEST_ncbi;target_type=EST;Target=EC244332 221 461 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11131	11155	.	-	.	ID=153565_at_3643-hit:34230_dmel_r3_affy_oligos;Name=153565_at_3643-hit:34230;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3643 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11131	11155	.	-	.	Name=153565_at_3643-hsp:34230;Parent=153565_at_3643-hit:34230_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3643 1 25 +
+2L	RGUI_geneid_v1.2	match	11135	19197	.	-	.	ID=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000002_caf1;Name=CG_RGUI_GID_mRNA_40000002;program=RGUI_geneid_v1.2;programversion=1.0;sourcename=caf1
+2L	RGUI_geneid_v1.2	match_part	11135	11169	0.64	-	.	Name=CG_RGUI_GID_mRNA_40000002:1;Parent=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000002_caf1
+2L	RGUI_geneid_v1.2_u12	match	11146	49321	.	-	.	ID=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000002_caf1;Name=CG_RGUI_GUT_mRNA_40000002;program=RGUI_geneid_v1.2_u12;programversion=1.0;sourcename=caf1
+2L	RGUI_geneid_v1.2_u12	match_part	11146	11169	2.22	-	.	Name=CG_RGUI_GUT_mRNA_40000002:1;Parent=RGUI_geneid_v1.2_u12:CG_RGUI_GUT_mRNA_40000002_caf1
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11154	11178	.	-	.	ID=153565_at_3620-hit:34231_dmel_r3_affy_oligos;Name=153565_at_3620-hit:34231;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3620 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11154	11178	.	-	.	Name=153565_at_3620-hsp:34231;Parent=153565_at_3620-hit:34231_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3620 1 25 +
+2L	splign_na_dbEST_ncbi	match	11159	11830	.	-	.	ID=Splign:1821216_na_dbEST_ncbi;Name=123487-EC220200-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC220200 1 347 +
+2L	splign_na_dbEST_ncbi	match_part	11159	11344	100	-	.	Name=:ncbi_7575213;Parent=Splign:1821216_na_dbEST_ncbi;target_type=EST;Target=EC220200 162 347 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11186	11210	.	-	.	ID=153565_at_3588-hit:34232_dmel_r3_affy_oligos;Name=153565_at_3588-hit:34232;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3588 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11186	11210	.	-	.	Name=153565_at_3588-hsp:34232;Parent=153565_at_3588-hit:34232_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3588 1 25 +
+2L	splign_na_dbEST_ncbi	match	11199	12002	.	-	.	ID=Splign:1821173_na_dbEST_ncbi;Name=347656-EC064751-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC064751 1 480 -
+2L	splign_na_dbEST_ncbi	match	11199	11500	.	-	.	ID=Splign:1821177_na_dbEST_ncbi;Name=EK223354.5prime-CO311096-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO311096 1 237 -
+2L	splign_na_dbEST_ncbi	match_part	11199	11344	100	-	.	Name=:ncbi_7575157;Parent=Splign:1821173_na_dbEST_ncbi;target_type=EST;Target=EC064751 1 146 -
+2L	splign_na_dbEST_ncbi	match_part	11199	11344	100	-	.	Name=:ncbi_7575162;Parent=Splign:1821177_na_dbEST_ncbi;target_type=EST;Target=CO311096 1 146 -
+2L	genscan_masked	match	11215	19944	.	-	.	ID=:262342_genscan_masked_dummy;Name=19944%2C11214-AE003590.4-dummy-GENSCAN_masked;program=genscan_masked;programversion=1.0;sourcename=dummy
+2L	splign_na_ncbi_RefSeq_2010	match	11215	17136	.	-	.	ID=Splign:10043754_na_ncbi_RefSeq_2010;Name=XM_002077539-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002077539 1 3486 +
+2L	splign_na_ncbi_RefSeq_2010	match	11215	17136	.	-	.	ID=Splign:10070098_na_ncbi_RefSeq_2010;Name=XM_002087329-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002087329 1 3486 +
+2L	splign_na_ncbi_RefSeq_2010	match	11215	17136	.	-	.	ID=Splign:10100403_na_ncbi_RefSeq_2010;Name=XM_002041481-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002041481 1 3486 +
+2L	splign_na_ncbi_RefSeq_2010	match	11215	17136	.	-	.	ID=Splign:10161806_na_ncbi_RefSeq_2010;Name=XM_001968073-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001968073 1 3480 +
+2L	splign_na_ncbi_RefSeq_2010	match	11215	15711	.	-	.	ID=Splign:10026599_na_ncbi_RefSeq_2010;Name=XM_001357063-na_ncbi_RefSeq_new_20100706-splign;program=splign;programversion=2.0;sourcename=na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001357063 85 3501 +
+2L	FlyBase	CDS	11215	11344	.	-	2	ID=CDS_CG2671:9_682;Name=l(2)gl-cds;Parent=FBtr0078168,FBtr0078169;parent_type=mRNA
+2L	FlyBase	CDS	11215	11344	.	-	2	ID=CDS_CG2671:9_683;Name=l(2)gl-cds;Parent=FBtr0078170;parent_type=mRNA
+2L	FlyBase	CDS	11215	11344	.	-	2	ID=CDS_CG2671:9_684;Name=l(2)gl-cds;Parent=FBtr0078167;parent_type=mRNA
+2L	FlyBase	CDS	11215	11344	.	-	2	ID=CDS_CG2671:9_685;Name=l(2)gl-cds;Parent=FBtr0078166,FBtr0078171;parent_type=mRNA
+2L	genscan_masked	match_part	11215	11344	1.77	-	.	Name=:702400;Parent=:262342_genscan_masked_dummy
+2L	splign_na_ncbi_RefSeq_2010	match_part	11215	11344	75.23	-	.	Name=:ncbi_10111049;Parent=Splign:10026599_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001357063 3369 3501 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11215	11344	93.07	-	.	Name=:ncbi_10524334;Parent=Splign:10161806_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001968073 3351 3480 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11215	11344	94.61	-	.	Name=:ncbi_10255768;Parent=Splign:10070098_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002087329 3357 3486 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11215	11344	95.38	-	.	Name=:ncbi_10171899;Parent=Splign:10043754_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002077539 3357 3486 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11215	11344	96.15	-	.	Name=:ncbi_10332145;Parent=Splign:10100403_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002041481 3357 3486 +
+2L	FlyBase	syntenic_region	11218	112020	.	.	.	ID=syntenic_block:2027;to_species=dpse;Target=4_group2 12721 133704
+2L	FlyBase	protein	11218	19944	.	-	.	ID=FBpp0077824;Name=l(2)gl-PB;Derives_from=FBtr0078166;Alias=CG2671-PB;Dbxref=FlyBase_Annotation_IDs:CG2671-PB,REFSEQ:NP_722583,GB_protein:AAG22256;derived_molecular_weight=125895.0;derived_isoelectric_point=5.57
+2L	prosplign_aa_ncbi_same	match	11218	19944	.	-	.	ID=Prosplign:2107162_aa_ncbi_same;Name=ACX85650-aa_ncbi_same_20091023-prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_same;target_type=protein;Target=ACX85650 1 1153 +
+2L	BATZ_Contrast	match	11218	17136	.	-	.	ID=BATZ_Contrast:CG_BATZ_CON_47000002_caf1;Name=CG_BATZ_CON_47000002;program=BATZ_Contrast;programversion=1.0;sourcename=caf1
+2L	FlyBase	protein	11218	17136	.	-	.	ID=FBpp0077828;Name=l(2)gl-PC;Derives_from=FBtr0078170;Alias=CG2671-PC;Dbxref=FlyBase_Annotation_IDs:CG2671-PC,REFSEQ:NP_523439,GB_protein:AAF51570;derived_molecular_weight=126891.2;derived_isoelectric_point=5.78
+2L	FlyBase	protein	11218	17136	.	-	.	ID=FBpp0077829;Name=l(2)gl-PA;Derives_from=FBtr0078171;Alias=CG2671-PA;Dbxref=FlyBase_Annotation_IDs:CG2671-PA,REFSEQ:NP_722584,GB_protein:AAG22255;derived_molecular_weight=126891.2;derived_isoelectric_point=5.78
+2L	NCBI_gnomon	match	11218	17136	.	-	.	ID=NCBI_gnomon:CG_NCBI_GNO_32000266_caf1;Name=hmm266;program=NCBI_gnomon;programversion=1.0;sourcename=caf1;description=Model_evidence:supported%3BNote:Derived by automated computational analysis using gene prediction method: GNOMON. Supporting evidence includes similarity to: 2 mRNAs%2C58 ESTs%2C3 Proteins
+2L	NCBI_gnomon	match	11218	17136	.	-	.	ID=NCBI_gnomon:CG_NCBI_GNO_32000528_caf1;Name=hmm528;program=NCBI_gnomon;programversion=1.0;sourcename=caf1;description=Model_evidence:supported%3BNote:Derived by automated computational analysis using gene prediction method: GNOMON. Supporting evidence includes similarity to: 2 mRNAs%2C58 ESTs%2C3 Proteins
+2L	tblastn_Dmel_r3.1	orthologous_region	11218	15711	.	-	.	ID=ortho:5391;Name=Dmel\l(2)gl-PB;Alias=FBpp0077824;to_species=dpse;Target=4_group2 129533 133704 +;program=tblastn;programversion=2.2.5;sourcename=Dmel r3.1
+2L	FlyBase	protein	11218	15648	.	-	.	ID=FBpp0077825;Name=l(2)gl-PD;Derives_from=FBtr0078167;Alias=CG2671-PD;Dbxref=FlyBase_Annotation_IDs:CG2671-PD,REFSEQ:NP_722585,GB_protein:AAN10501;derived_molecular_weight=121247.6;derived_isoelectric_point=5.15
+2L	FlyBase	protein	11218	15648	.	-	.	ID=FBpp0077826;Name=l(2)gl-PE;Derives_from=FBtr0078168;Alias=CG2671-PE;Dbxref=FlyBase_Annotation_IDs:CG2671-PE,REFSEQ:NP_722586,GB_protein:AAN10502;derived_molecular_weight=121247.6;derived_isoelectric_point=5.15
+2L	FlyBase	protein	11218	15648	.	-	.	ID=FBpp0077827;Name=l(2)gl-PF;Derives_from=FBtr0078169;Alias=CG2671-PF;Dbxref=FlyBase_Annotation_IDs:CG2671-PF,REFSEQ:NP_722587,GB_protein:AAN10503;derived_molecular_weight=121247.6;derived_isoelectric_point=5.15
+2L	BATZ_Contrast	match_part	11218	11344	.	-	.	Name=CG_BATZ_CON_47000002:1;Parent=BATZ_Contrast:CG_BATZ_CON_47000002_caf1
+2L	CONGO	match	11218	11344	.	-	.	ID=congochr2L11218_Dmel_r4.3;program=CONGO;programversion=1.0;sourcename=Dmel r4.3
+2L	CONGO	match_part	11218	11344	.	-	1	Name=congochr2L11218-cds;Parent=congochr2L11218_Dmel_r4.3
+2L	NCBI_gnomon	match_part	11218	11344	.	-	.	Name=CG_NCBI_GNO_32000266:8;Parent=NCBI_gnomon:CG_NCBI_GNO_32000266_caf1
+2L	NCBI_gnomon	match_part	11218	11344	.	-	.	Name=CG_NCBI_GNO_32000528:8;Parent=NCBI_gnomon:CG_NCBI_GNO_32000528_caf1
+2L	prosplign_aa_ncbi_same	match_part	11218	11344	100	-	.	Name=:ncbi_8119738;Parent=Prosplign:2107162_aa_ncbi_same;target_type=protein;Target=ACX85650 1111 1153 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	11227	11358	.	-	.	ID=:1489518_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165643 165774 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	11227	11358	150	-	.	Name=:5288946;Parent=:1489518_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165643 165774 -
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11233	11257	.	-	.	ID=153565_at_3541-hit:34233_dmel_r3_affy_oligos;Name=153565_at_3541-hit:34233;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3541 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11233	11257	.	-	.	Name=153565_at_3541-hsp:34233;Parent=153565_at_3541-hit:34233_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3541 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match	11263	11287	.	-	.	ID=153565_at_3511-hit:34234_dmel_r3_affy_oligos;Name=153565_at_3511-hit:34234;program=dmel_r3_to_dmel_r4_migration;programversion=1.0;sourcename=dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3511 1 25 +
+2L	dmel_r3_to_dmel_r4_migration_dmel_r3_affy_oligos	match_part	11263	11287	.	-	.	Name=153565_at_3511-hsp:34234;Parent=153565_at_3511-hit:34234_dmel_r3_affy_oligos;target_type=oligonucleotide;Target=153565_at_3511 1 25 +
+2L	DGIL_snap_homology	match	11321	13011	.	-	.	ID=DGIL_snap_homology:CG_DGIL_SNO_28350003_caf1;Name=CG_DGIL_SNO_28350003;program=DGIL_snap_homology;programversion=1.0;sourcename=caf1
+2L	DGIL_snap_homology	match_part	11321	11344	19.68	-	.	Name=CG_DGIL_SNO_28350003:3;Parent=DGIL_snap_homology:CG_DGIL_SNO_28350003_caf1
+2L	blastp_Dmel_proteomic	match	11344	11483	.	-	.	ID=proteomic_PAp00018945_HIT_Dmel_proteomic;Name=proteomic_PAp00018945_HIT;program=blastp;programversion=1.0;sourcename=Dmel_proteomic;target_type=match;Target=proteomic_PAp00018945_hsp_0 2 74 -
+2L	blastp_Dmel_proteomic	match_part	11344	11344	0.97	-	.	Name=proteomic_PAp00018945_hsp_0;Parent=proteomic_PAp00018945_HIT_Dmel_proteomic;target_type=match;Target=proteomic_PAp00018945_hsp_0 2 1 -
+2L	FlyBase	intron	11345	11409	.	-	.	ID=intron_CG2671:8_CG2671:9;Name=l(2)gl-in;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
+2L	sim4tandem_na_gb.dmel	match_part	11352	22471	99	+	.	Name=:9692603;Parent=:3804140_sim4tandem_na_gb.dmel;target_type=so;Target=M17022 1995 13123 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	11383	11523	.	+	.	ID=:1489416_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165812 165952 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	11383	11523	140	+	.	Name=:5288844;Parent=:1489416_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165812 165952 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	11406	11531	.	-	.	ID=:1489517_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165835 165960 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	11406	11531	157	-	.	Name=:5288945;Parent=:1489517_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 165835 165960 -
+2L	BATZ_Contrast	match_part	11410	11518	.	-	.	Name=CG_BATZ_CON_47000002:2;Parent=BATZ_Contrast:CG_BATZ_CON_47000002_caf1
+2L	FlyBase	CDS	11410	11518	.	-	1	ID=CDS_CG2671:8_682;Name=l(2)gl-cds;Parent=FBtr0078168,FBtr0078169;parent_type=mRNA
+2L	FlyBase	CDS	11410	11518	.	-	1	ID=CDS_CG2671:8_683;Name=l(2)gl-cds;Parent=FBtr0078170;parent_type=mRNA
+2L	FlyBase	CDS	11410	11518	.	-	1	ID=CDS_CG2671:8_684;Name=l(2)gl-cds;Parent=FBtr0078167;parent_type=mRNA
+2L	FlyBase	CDS	11410	11518	.	-	1	ID=CDS_CG2671:8_685;Name=l(2)gl-cds;Parent=FBtr0078166,FBtr0078171;parent_type=mRNA
+2L	FlyBase	exon	11410	11518	.	-	.	ID=CG2671:8;Name=l(2)gl:8;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_10596;Parent=flybase-annotation51:FBtr0078167_dmel_transcript.RELEASE51
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_48749;Parent=flybase-annotation51:FBtr0078166_dmel_transcript.RELEASE51
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_55118;Parent=flybase-annotation51:FBtr0078170_dmel_transcript.RELEASE51
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_65617;Parent=flybase-annotation51:FBtr0078171_dmel_transcript.RELEASE51
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_76613;Parent=flybase-annotation51:FBtr0078168_dmel_transcript.RELEASE51
+2L	flybase	match_part	11410	11518	.	-	.	Name=:tr51_86595;Parent=flybase-annotation51:FBtr0078169_dmel_transcript.RELEASE51
+2L	genscan_masked	match_part	11410	11518	1.02	-	.	Name=:702399;Parent=:262342_genscan_masked_dummy
+2L	NCBI_gnomon	match_part	11410	11518	.	-	.	Name=CG_NCBI_GNO_32000266:7;Parent=NCBI_gnomon:CG_NCBI_GNO_32000266_caf1
+2L	NCBI_gnomon	match_part	11410	11518	.	-	.	Name=CG_NCBI_GNO_32000528:7;Parent=NCBI_gnomon:CG_NCBI_GNO_32000528_caf1
+2L	prosplign_aa_ncbi_same	match_part	11410	11518	100	-	.	Name=:ncbi_8119737;Parent=Prosplign:2107162_aa_ncbi_same;target_type=protein;Target=ACX85650 1075 1111 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11410	11518	100	-	.	Name=:1479684;Parent=:477792_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43225.2 3633 3741 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11410	11518	100	-	.	Name=:1479706;Parent=:477793_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9059.2 3626 3734 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11410	11518	100	-	.	Name=:1479731;Parent=:477795_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43227.2 3757 3865 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947296;Parent=:861234_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RB.31 3537 3645 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947305;Parent=:861235_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RD.31 3612 3720 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947314;Parent=:861236_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RE.31 3607 3715 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947324;Parent=:861237_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RF.31 3464 3572 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947333;Parent=:861238_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RC.31 3647 3755 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11410	11518	100	-	.	Name=:2947343;Parent=:861239_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RA.31 3790 3898 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:711705;Parent=:264491_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RB.32 3537 3645 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:711715;Parent=:264492_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RA.32 3790 3898 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:711892;Parent=:264493_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RC.32 3647 3755 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:711901;Parent=:264526_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RD.32 3612 3720 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:712073;Parent=:264527_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RE.32 3607 3715 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11410	11518	100	-	.	Name=:712085;Parent=:264564_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RF.32 3464 3572 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11410	11518	100	-	.	Name=:ncbi_10040969;Parent=Splign:10009433_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100228 3685 3793 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11410	11518	100	-	.	Name=:ncbi_10041435;Parent=Splign:10009537_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100129 3537 3645 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11410	11518	100	-	.	Name=:ncbi_10099223;Parent=Splign:10023814_na_cDNA_ncbi_2010;target_type=cDNA;Target=AY051654 3624 3732 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11410	11518	99.08	-	.	Name=:ncbi_10004247;Parent=Splign:10001008_na_cDNA_ncbi_2010;target_type=mRNA;Target=X05426 3640 3748 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11518	100	-	.	Name=:ncbi_7575182;Parent=Splign:1821194_na_dbEST_ncbi;target_type=EST;Target=CO314272 57 165 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11518	100	-	.	Name=:ncbi_7575193;Parent=Splign:1821202_na_dbEST_ncbi;target_type=EST;Target=EC061310 54 162 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11518	100	-	.	Name=:ncbi_7575212;Parent=Splign:1821216_na_dbEST_ncbi;target_type=EST;Target=EC220200 53 161 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11518	97.24	-	.	Name=:ncbi_7575156;Parent=Splign:1821173_na_dbEST_ncbi;target_type=EST;Target=EC064751 147 256 -
+2L	splign_na_dbEST_ncbi	match_part	11410	11518	99.08	-	.	Name=:ncbi_7575222;Parent=Splign:1821223_na_dbEST_ncbi;target_type=EST;Target=EC244332 111 220 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11410	11518	80.73	-	.	Name=:ncbi_10111048;Parent=Splign:10026599_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001357063 3260 3368 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11410	11518	90.82	-	.	Name=:ncbi_10255767;Parent=Splign:10070098_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002087329 3248 3356 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11410	11518	91.74	-	.	Name=:ncbi_10524333;Parent=Splign:10161806_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001968073 3242 3350 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11410	11518	94.49	-	.	Name=:ncbi_10332144;Parent=Splign:10100403_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002041481 3248 3356 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11410	11518	95.41	-	.	Name=:ncbi_10171898;Parent=Splign:10043754_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002077539 3248 3356 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11516	92.52	-	.	Name=:ncbi_7575215;Parent=Splign:1821218_na_dbEST_ncbi;target_type=EST;Target=EC228815 12 118 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11500	100	-	.	Name=:ncbi_7575161;Parent=Splign:1821177_na_dbEST_ncbi;target_type=EST;Target=CO311096 147 237 -
+2L	blastp_Dmel_proteomic	match_part	11410	11483	0.97	-	.	Name=proteomic_PAp00018945_hsp_1;Parent=proteomic_PAp00018945_HIT_Dmel_proteomic;target_type=match;Target=proteomic_PAp00018945_hsp_1 2 74 -
+2L	splign_na_dbEST_ncbi	match_part	11410	11445	100	-	.	Name=:ncbi_7575173;Parent=Splign:1821187_na_dbEST_ncbi;target_type=EST;Target=CO276935 1 36 +
+2L	splign_na_dbEST_ncbi	match_part	11410	11445	100	-	.	Name=:ncbi_7575204;Parent=Splign:1821211_na_dbEST_ncbi;target_type=EST;Target=EC197712 1 36 +
+2L	splign_na_dbEST_ncbi	match	11428	11888	.	-	.	ID=Splign:1821186_na_dbEST_ncbi;Name=EK140422.5prime-CO264825-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO264825 1 201 +
+2L	splign_na_dbEST_ncbi	match_part	11428	11518	100	-	.	Name=:ncbi_7575172;Parent=Splign:1821186_na_dbEST_ncbi;target_type=EST;Target=CO264825 111 201 +
+2L	splign_na_dbEST_ncbi	match	11487	12148	.	-	.	ID=Splign:1821196_na_dbEST_ncbi;Name=EK274110.5prime-CO318783-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=CO318783 1 402 +
+2L	splign_na_dbEST_ncbi	match_part	11487	11518	100	-	.	Name=:ncbi_7575186;Parent=Splign:1821196_na_dbEST_ncbi;target_type=EST;Target=CO318783 371 402 +
+2L	FlyBase	intron	11519	11778	.	-	.	ID=intron_CG2671:7_CG2671:8;Name=l(2)gl-in;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
+2L	blastx_masked_aa_SPTR.dmel	match	11762	17136	.	-	.	ID=:1549120_blastx_masked_aa_SPTR.dmel;Name=P08111-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=P08111 1 1088 +
+2L	blastx_masked_aa_SPTR.insect	match	11762	17136	.	-	.	ID=:1549182_blastx_masked_aa_SPTR.insect;Name=Q08470-AE003590.4-aa_SPTR.insect-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.insect;target_type=protein;Target=Q08470 1 1093 +
+2L	blastx_masked_aa_SPTR.dmel	match	11762	15711	.	-	.	ID=:1549122_blastx_masked_aa_SPTR.dmel;Name=Q8IPV5-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q8IPV5 21 1080 +
+2L	blastx_masked_aa_SPTR.dmel	match	11762	15648	.	-	.	ID=:1549124_blastx_masked_aa_SPTR.dmel;Name=Q8IPV4-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q8IPV4 1 1039 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	11762	12223	649	-	.	Name=:5356415;Parent=:1549120_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=P08111 935 1088 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	11762	12223	649	-	.	Name=:5356427;Parent=:1549122_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q8IPV5 927 1080 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	11762	12223	649	-	.	Name=:5356439;Parent=:1549124_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q8IPV4 886 1039 +
+2L	blastx_masked_aa_SPTR.insect	match_part	11762	12223	393	-	.	Name=:5356602;Parent=:1549182_blastx_masked_aa_SPTR.insect;target_type=protein;Target=Q08470 937 1093 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	11772	11891	.	+	.	ID=:1489420_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166365 166484 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	11772	11891	164	+	.	Name=:5288848;Parent=:1489420_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166365 166484 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	11774	12109	.	-	.	ID=:1489516_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166367 166702 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	11774	12109	284	-	.	Name=:5288944;Parent=:1489516_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166367 166702 -
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match	11777	11902	.	-	.	ID=:1467391_tblastxwrap_masked_na_scf_chunk_agambiae.fa;Name=AAAB01008898.1p31-AE003590.4_0_76490-na_scf_chunk_agambiae.fa-tb;program=tblastxwrap_masked;programversion=1.0;sourcename=na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008898.1p31 34524 34649 +
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match_part	11777	11902	180	-	.	Name=:5266552;Parent=:1467391_tblastxwrap_masked_na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008898.1p31 34524 34649 +
+2L	BATZ_Contrast	match_part	11779	12221	.	-	.	Name=CG_BATZ_CON_47000002:3;Parent=BATZ_Contrast:CG_BATZ_CON_47000002_caf1
+2L	CONGO	match	11779	12221	.	-	.	ID=congochr2L11779_Dmel_r4.3;program=CONGO;programversion=1.0;sourcename=Dmel r4.3
+2L	CONGO	match_part	11779	12221	.	-	1	Name=congochr2L11779-cds;Parent=congochr2L11779_Dmel_r4.3
+2L	FlyBase	CDS	11779	12221	.	-	2	ID=CDS_CG2671:7_682;Name=l(2)gl-cds;Parent=FBtr0078168,FBtr0078169;parent_type=mRNA
+2L	FlyBase	CDS	11779	12221	.	-	2	ID=CDS_CG2671:7_683;Name=l(2)gl-cds;Parent=FBtr0078170;parent_type=mRNA
+2L	FlyBase	CDS	11779	12221	.	-	2	ID=CDS_CG2671:7_684;Name=l(2)gl-cds;Parent=FBtr0078167;parent_type=mRNA
+2L	FlyBase	CDS	11779	12221	.	-	2	ID=CDS_CG2671:7_685;Name=l(2)gl-cds;Parent=FBtr0078166,FBtr0078171;parent_type=mRNA
+2L	FlyBase	exon	11779	12221	.	-	.	ID=CG2671:7;Name=l(2)gl:7;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_10597;Parent=flybase-annotation51:FBtr0078167_dmel_transcript.RELEASE51
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_48750;Parent=flybase-annotation51:FBtr0078166_dmel_transcript.RELEASE51
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_55119;Parent=flybase-annotation51:FBtr0078170_dmel_transcript.RELEASE51
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_65618;Parent=flybase-annotation51:FBtr0078171_dmel_transcript.RELEASE51
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_76614;Parent=flybase-annotation51:FBtr0078168_dmel_transcript.RELEASE51
+2L	flybase	match_part	11779	12221	.	-	.	Name=:tr51_86596;Parent=flybase-annotation51:FBtr0078169_dmel_transcript.RELEASE51
+2L	genscan_masked	match_part	11779	12221	29.87	-	.	Name=:702398;Parent=:262342_genscan_masked_dummy
+2L	NCBI_gnomon	match_part	11779	12221	.	-	.	Name=CG_NCBI_GNO_32000266:6;Parent=NCBI_gnomon:CG_NCBI_GNO_32000266_caf1
+2L	NCBI_gnomon	match_part	11779	12221	.	-	.	Name=CG_NCBI_GNO_32000528:6;Parent=NCBI_gnomon:CG_NCBI_GNO_32000528_caf1
+2L	prosplign_aa_ncbi_same	match_part	11779	12221	100	-	.	Name=:ncbi_8119736;Parent=Prosplign:2107162_aa_ncbi_same;target_type=protein;Target=ACX85650 927 1075 +
+2L	RGUI_geneid_v1.2	match_part	11779	12221	0.75	-	.	Name=CG_RGUI_GID_mRNA_40000002:2;Parent=RGUI_geneid_v1.2:CG_RGUI_GID_mRNA_40000002_caf1
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11779	12221	100	-	.	Name=:1479683;Parent=:477792_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43225.2 3190 3632 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11779	12221	100	-	.	Name=:1479704;Parent=:477793_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT9059.2 3183 3625 +
+2L	sim4_na_gadfly.dros.RELEASE2	match_part	11779	12221	100	-	.	Name=:1479729;Parent=:477795_sim4_na_gadfly.dros.RELEASE2;target_type=mRNA;Target=CT43227.2 3314 3756 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947295;Parent=:861234_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RB.31 3094 3536 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947304;Parent=:861235_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RD.31 3169 3611 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947313;Parent=:861236_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RE.31 3164 3606 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947323;Parent=:861237_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RF.31 3021 3463 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947332;Parent=:861238_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RC.31 3204 3646 +
+2L	sim4_na_transcript.dmel.RELEASE31	match_part	11779	12221	100	-	.	Name=:2947342;Parent=:861239_sim4_na_transcript.dmel.RELEASE31;target_type=mRNA;Target=CG2671-RA.31 3347 3789 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:711704;Parent=:264491_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RB.32 3094 3536 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:711714;Parent=:264492_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RA.32 3347 3789 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:711891;Parent=:264493_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RC.32 3204 3646 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:711900;Parent=:264526_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RD.32 3169 3611 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:712069;Parent=:264527_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RE.32 3164 3606 +
+2L	sim4_na_transcript.dmel.RELEASE32	match_part	11779	12221	100	-	.	Name=:712084;Parent=:264564_sim4_na_transcript.dmel.RELEASE32;target_type=mRNA;Target=CG2671-RF.32 3021 3463 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11779	12221	100	-	.	Name=:ncbi_10004246;Parent=Splign:10001008_na_cDNA_ncbi_2010;target_type=mRNA;Target=X05426 3197 3639 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11779	12221	100	-	.	Name=:ncbi_10040968;Parent=Splign:10009433_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100228 3242 3684 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11779	12221	100	-	.	Name=:ncbi_10041434;Parent=Splign:10009537_na_cDNA_ncbi_2010;target_type=cDNA;Target=BT100129 3094 3536 +
+2L	splign_na_cDNA_ncbi_2010	match_part	11779	12221	100	-	.	Name=:ncbi_10099222;Parent=Splign:10023814_na_cDNA_ncbi_2010;target_type=cDNA;Target=AY051654 3181 3623 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11779	12221	89.61	-	.	Name=:ncbi_10255766;Parent=Splign:10070098_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002087329 2805 3247 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11779	12221	90.78	-	.	Name=:ncbi_10524332;Parent=Splign:10161806_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_001968073 2805 3241 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11779	12221	95.03	-	.	Name=:ncbi_10332143;Parent=Splign:10100403_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002041481 2805 3247 +
+2L	splign_na_ncbi_RefSeq_2010	match_part	11779	12221	95.25	-	.	Name=:ncbi_10171897;Parent=Splign:10043754_na_ncbi_RefSeq_2010;target_type=mRNA;Target=XM_002077539 2805 3247 +
+2L	splign_na_dbEST_ncbi	match_part	11779	12148	100	-	.	Name=:ncbi_7575185;Parent=Splign:1821196_na_dbEST_ncbi;target_type=EST;Target=CO318783 1 370 +
+2L	splign_na_dbEST_ncbi	match_part	11779	12002	100	-	.	Name=:ncbi_7575155;Parent=Splign:1821173_na_dbEST_ncbi;target_type=EST;Target=EC064751 257 480 -
+2L	splign_na_dbEST_ncbi	match_part	11779	11968	96.84	-	.	Name=:ncbi_7575195;Parent=Splign:1821203_na_dbEST_ncbi;target_type=EST;Target=EC067236 1 190 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11968	99.47	-	.	Name=:ncbi_7575208;Parent=Splign:1821214_na_dbEST_ncbi;target_type=EST;Target=EC204734 1 190 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11888	100	-	.	Name=:ncbi_7575171;Parent=Splign:1821186_na_dbEST_ncbi;target_type=EST;Target=CO264825 1 110 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11888	100	-	.	Name=:ncbi_7575221;Parent=Splign:1821223_na_dbEST_ncbi;target_type=EST;Target=EC244332 1 110 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11833	100	-	.	Name=:ncbi_7575181;Parent=Splign:1821194_na_dbEST_ncbi;target_type=EST;Target=CO314272 2 56 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11831	100	-	.	Name=:ncbi_7575192;Parent=Splign:1821202_na_dbEST_ncbi;target_type=EST;Target=EC061310 1 53 +
+2L	splign_na_dbEST_ncbi	match_part	11779	11830	100	-	.	Name=:ncbi_7575211;Parent=Splign:1821216_na_dbEST_ncbi;target_type=EST;Target=EC220200 1 52 +
+2L	splign_na_dbEST_ncbi	match	11785	12148	.	-	.	ID=Splign:1821215_na_dbEST_ncbi;Name=424081-EC215650-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC215650 1 364 +
+2L	splign_na_dbEST_ncbi	match_part	11785	12148	100	-	.	Name=:ncbi_7575210;Parent=Splign:1821215_na_dbEST_ncbi;target_type=EST;Target=EC215650 1 364 +
+2L	promoter	match	11803	11804	.	+	.	ID=:1263494_promoter_dummy;Name=11803-11804-AE003590.4-dummy-promoter;program=promoter;programversion=1.0;sourcename=dummy
+2L	promoter	match_part	11803	11804	0.905737	+	.	Name=:4647101;Parent=:1263494_promoter_dummy
+2L	blastx_masked_aa_SPTR.othvert	match	11828	15720	.	-	.	ID=:1548783_blastx_masked_aa_SPTR.othvert;Name=Q8MKF0-AE003590.4-aa_SPTR.othvert-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.othvert;target_type=protein;Target=Q8MKF0 25 1035 +
+2L	blastx_masked_aa_SPTR.rodent	match	11828	15720	.	-	.	ID=:1579595_blastx_masked_aa_SPTR.rodent;Name=Q61856-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=Q61856 25 1033 +
+2L	blastx_masked_aa_SPTR.rodent	match	11828	15720	.	-	.	ID=:1579596_blastx_masked_aa_SPTR.rodent;Name=Q80Y17-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=Q80Y17 25 1035 +
+2L	blastx_masked_aa_SPTR.rodent	match	11828	15720	.	-	.	ID=:1579597_blastx_masked_aa_SPTR.rodent;Name=Q7TNV3-AE003590.4-aa_SPTR.rodent-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.rodent;target_type=protein;Target=Q7TNV3 25 1035 +
+2L	blastx_masked_aa_SPTR.othvert	match_part	11828	12223	82	-	.	Name=:5355592;Parent=:1548783_blastx_masked_aa_SPTR.othvert;target_type=protein;Target=Q8MKF0 909 1035 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	11828	12223	82	-	.	Name=:5414752;Parent=:1579595_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=Q61856 907 1033 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	11828	12223	82	-	.	Name=:5414757;Parent=:1579596_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=Q80Y17 909 1035 +
+2L	blastx_masked_aa_SPTR.rodent	match_part	11828	12223	82	-	.	Name=:5414762;Parent=:1579597_blastx_masked_aa_SPTR.rodent;target_type=protein;Target=Q7TNV3 909 1035 +
+2L	prosplign_aa_ncbi_other	match	11831	15807	.	-	.	ID=Prosplign:0020783_aa_ncbi_other;Name=NP_001026973-aa_ncbi_051222-Prosplign;program=prosplign;programversion=1.0;sourcename=aa_ncbi_other;target_type=protein;Target=NP_001026973 2 1006 +
+2L	prosplign_aa_ncbi_other	match_part	11831	11884	33.33	-	.	Name=:ncbi_aa_968549;Parent=Prosplign:0020783_aa_ncbi_other;target_type=protein;Target=NP_001026973 989 1006 +
+2L	blastp_Dmel_proteomic	match	11837	11941	.	-	.	ID=proteomic_PAp00011616_HIT_Dmel_proteomic;Name=proteomic_PAp00011616_HIT;program=blastp;programversion=1.0;sourcename=Dmel_proteomic;target_type=match;Target=proteomic_PAp00011616_hsp_0 2 105 -
+2L	blastp_Dmel_proteomic	match_part	11837	11941	0.96	-	.	Name=proteomic_PAp00011616_hsp_0;Parent=proteomic_PAp00011616_HIT_Dmel_proteomic;target_type=match;Target=proteomic_PAp00011616_hsp_0 2 105 -
+2L	blastx_masked_aa_SPTR.dmel	match	11848	11940	.	-	.	ID=:1549129_blastx_masked_aa_SPTR.dmel;Name=Q8MRJ2-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q8MRJ2 321 350 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	11848	11940	46	-	.	Name=:5356460;Parent=:1549129_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q8MRJ2 321 350 +
+2L	blastx_masked_aa_SPTR.insect	match	11855	15711	.	-	.	ID=:1549183_blastx_masked_aa_SPTR.insect;Name=Q7PQ74-AE003590.4-aa_SPTR.insect-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.insect;target_type=protein;Target=Q7PQ74 40 1051 +
+2L	blastx_masked_aa_SPTR.insect	match_part	11855	11995	49	-	.	Name=:5356606;Parent=:1549183_blastx_masked_aa_SPTR.insect;target_type=protein;Target=Q7PQ74 1003 1051 +
+2L	blastp_Dmel_proteomic	match	11942	11995	.	-	.	ID=proteomic_PAp00011465_HIT_Dmel_proteomic;Name=proteomic_PAp00011465_HIT;program=blastp;programversion=1.0;sourcename=Dmel_proteomic;target_type=match;Target=proteomic_PAp00011465_hsp_0 2 54 -
+2L	blastp_Dmel_proteomic	match_part	11942	11995	1	-	.	Name=proteomic_PAp00011465_hsp_0;Parent=proteomic_PAp00011465_HIT_Dmel_proteomic;target_type=match;Target=proteomic_PAp00011465_hsp_0 2 54 -
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match	11943	12163	.	-	.	ID=Dmel_r3_r4_r5:0089618_drsc_mapped.txt;Name=DRSC34840-31045_20090331-dmel_r3_r4_r5;Alias=FBsf0000031399;program=Dmel_r3_r4_r5;programversion=1;sourcename=drsc_mapped.txt;target_type=RNAi_reagent;Target=FBsf0000031399 1 221 +
+2L	Dmel_r3_r4_r5_drsc_mapped.txt	match_part	11943	12163	.	-	.	Name=:DRSC34840_92494;Parent=Dmel_r3_r4_r5:0089618_drsc_mapped.txt;Alias=FBsf0000031399;target_type=RNAi_reagent;Target=FBsf0000031399 1 221 +
+2L	FlyBase	rescue_fragment	11963	22471	.	-	.	ID=l(2)gl[+tMd]_rescue_fragment;Name=l(2)gl[+tMd];related_allele=FBal0046049;evidence=experimental;linked_to=EcoRI-StuI_rfrag;comment=Deletion of 2.6kb StuI-EcoRI fragment of 3' end of @l(2)gl<up>+t13.1</up>@. Construct rescues @l(2)gl@ mutant phenotype. Position of restriction fragment on reference sequence inferred by FlyBase curator.
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	12074	12226	.	-	.	ID=:1489515_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166676 166828 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	12074	12226	216	-	.	Name=:5288943;Parent=:1489515_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166676 166828 -
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match	12078	12224	.	+	.	ID=:1489421_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;Name=Contig2076_Contig2470-3-AE003590.4_0_76490-na_baylorf1_scfchunk.;program=tblastxwrap_masked;programversion=1.0;sourcename=na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166680 166826 +
+2L	tblastxwrap_masked_na_baylorf1_scfchunk.dpse	match_part	12078	12224	188	+	.	Name=:5288849;Parent=:1489421_tblastxwrap_masked_na_baylorf1_scfchunk.dpse;target_type=so;Target=Contig2076_Contig2470-3 166680 166826 +
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match	12095	12226	.	-	.	ID=:1467392_tblastxwrap_masked_na_scf_chunk_agambiae.fa;Name=AAAB01008898.1p31-AE003590.4_0_76490-na_scf_chunk_agambiae.fa-tb;program=tblastxwrap_masked;programversion=1.0;sourcename=na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008898.1p31 34140 34271 +
+2L	tblastxwrap_masked_na_scf_chunk_agambiae.fa	match_part	12095	12226	156	-	.	Name=:5266553;Parent=:1467392_tblastxwrap_masked_na_scf_chunk_agambiae.fa;target_type=DNA;Target=AAAB01008898.1p31 34140 34271 +
+2L	prosplign_aa_ncbi_other	match_part	12104	12221	38.46	-	.	Name=:ncbi_aa_968548;Parent=Prosplign:0020783_aa_ncbi_other;target_type=protein;Target=NP_001026973 896 935 +
+2L	blastx_masked_aa_SPTR.worm	match	12110	15705	.	-	.	ID=:1583989_blastx_masked_aa_SPTR.worm;Name=Q8T3B2-AE003590.4-aa_SPTR.worm-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.worm;target_type=protein;Target=Q8T3B2 7 1074 +
+2L	blastx_masked_aa_SPTR.worm	match	12110	15705	.	-	.	ID=:1583990_blastx_masked_aa_SPTR.worm;Name=P91389-AE003590.4-aa_SPTR.worm-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.worm;target_type=protein;Target=P91389 7 952 +
+2L	blastx_masked_aa_SPTR.worm	match_part	12110	12202	49	-	.	Name=:5425142;Parent=:1583989_blastx_masked_aa_SPTR.worm;target_type=protein;Target=Q8T3B2 1045 1074 +
+2L	blastx_masked_aa_SPTR.worm	match_part	12110	12202	49	-	.	Name=:5425150;Parent=:1583990_blastx_masked_aa_SPTR.worm;target_type=protein;Target=P91389 923 952 +
+2L	blastx_masked_aa_SPTR.primate	match	12116	15711	.	-	.	ID=:1579674_blastx_masked_aa_SPTR.primate;Name=AAH64994-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=AAH64994 26 931 +
+2L	blastx_masked_aa_SPTR.primate	match_part	12116	12223	84	-	.	Name=:5414965;Parent=:1579674_blastx_masked_aa_SPTR.primate;target_type=protein;Target=AAH64994 896 931 +
+2L	blastx_masked_aa_SPTR.primate	match	12119	15711	.	-	.	ID=:1579673_blastx_masked_aa_SPTR.primate;Name=Q15334-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=Q15334 28 940 +
+2L	blastx_masked_aa_SPTR.primate	match	12119	15711	.	-	.	ID=:1579675_blastx_masked_aa_SPTR.primate;Name=O00188-AE003590.4-aa_SPTR.primate-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.primate;target_type=protein;Target=O00188 28 943 +
+2L	blastx_masked_aa_SPTR.primate	match_part	12119	12223	73	-	.	Name=:5414960;Parent=:1579673_blastx_masked_aa_SPTR.primate;target_type=protein;Target=Q15334 906 940 +
+2L	blastx_masked_aa_SPTR.primate	match_part	12119	12223	73	-	.	Name=:5414970;Parent=:1579675_blastx_masked_aa_SPTR.primate;target_type=protein;Target=O00188 909 943 +
+2L	blastx_masked_aa_SPTR.dmel	match	12134	15711	.	-	.	ID=:1549121_blastx_masked_aa_SPTR.dmel;Name=Q9VYK4-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q9VYK4 42 1044 +
+2L	blastx_masked_aa_SPTR.dmel	match	12134	15711	.	-	.	ID=:1549123_blastx_masked_aa_SPTR.dmel;Name=Q9VYK6-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q9VYK6 42 1341 +
+2L	blastx_masked_aa_SPTR.dmel	match	12134	15711	.	-	.	ID=:1549128_blastx_masked_aa_SPTR.dmel;Name=Q9VYK5-AE003590.4-aa_SPTR.dmel-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.dmel;target_type=protein;Target=Q9VYK5 42 1341 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	12134	12205	60	-	.	Name=:5356422;Parent=:1549121_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VYK4 1021 1044 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	12134	12205	60	-	.	Name=:5356434;Parent=:1549123_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VYK6 1318 1341 +
+2L	blastx_masked_aa_SPTR.dmel	match_part	12134	12205	60	-	.	Name=:5356459;Parent=:1549128_blastx_masked_aa_SPTR.dmel;target_type=protein;Target=Q9VYK5 1318 1341 +
+2L	blastx_masked_aa_SPTR.worm	match	12149	14669	.	-	.	ID=:1583972_blastx_masked_aa_SPTR.worm;Name=Q20894-AE003590.4-aa_SPTR.worm-blastx_masked;program=blastx_masked;programversion=1.0;sourcename=aa_SPTR.worm;target_type=protein;Target=Q20894 380 942 +
+2L	blastx_masked_aa_SPTR.worm	match_part	12149	12217	54	-	.	Name=:5425091;Parent=:1583972_blastx_masked_aa_SPTR.worm;target_type=protein;Target=Q20894 920 942 +
+2L	FlyBase	intron	12222	12285	.	-	.	ID=intron_CG2671:6_CG2671:7;Name=l(2)gl-in;Parent=FBtr0078166,FBtr0078167,FBtr0078168,FBtr0078169,FBtr0078170,FBtr0078171;parent_type=mRNA
