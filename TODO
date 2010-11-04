@@ -1,0 +1,2 @@
+1) Add templates_include to the API.
+2) Make sure Template Toolkit complains when file not found occurs. 

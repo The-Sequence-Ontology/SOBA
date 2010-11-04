@@ -1,0 +1,17 @@
+bin/SOBAcl
+INSTALL
+MANIFEST
+t/data/dmel-all-r5.30_0001000.gff
+t/data/dmel-all-r5.30_0010000.gff
+t/data/refseq_chrAll.trim.gff3
+t/data/refseq_short.gff3
+t/sobacl_test.sh
+templates/soba_custom_template_text.tt
+templates/soba_custom_template_text.tt~
+templates/soba_length_fd.tt
+templates/soba_report_attributes_html.tt
+templates/soba_report_attributes_text.tt
+templates/soba_table_html.tt
+templates/soba_table_html_page.tt
+templates/soba_table_tab.tt
+templates/soba_table_text.tt

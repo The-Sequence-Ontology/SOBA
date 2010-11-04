@@ -1,0 +1,53 @@
+Quick install docs for those comfortable with things like svn, installing C
+libraries from source and CPAN.
+--------------------------------------------------------------------------------
+
+Check out the SOBAcl code from SVN
+
+svn co svn://malachite.genetics.utah.edu/SOBAcl/trunk SOBAcl
+
+Put the SOBAcl file in your path (either by moving it to something
+already in your path (like /usr/local/bin. ~/bin), softlinking it to
+somewhere in your path instead of moving it, or adding it's location
+to your path).
+
+--------------------------------------------------------------------------------
+
+Non-perl prerequisites:
+libgd # The GD library http://www.libgd.org/Main_Page
+    libgd optionally requires (but you really want most of them).
+    1. zlib, available from http://www.gzip.org/zlib/
+       Data compression library
+
+    2. libpng, available from http://www.libpng.org/pub/png/
+       Portable Network Graphics library; requires zlib
+
+    3. FreeType 2.x, available from http://www.freetype.org/
+       Free, high-quality, and portable font engine
+
+    4. JPEG library, available from http://www.ijg.org/
+       Portable JPEG compression/decompression library
+
+    5. XPM, available from http://koala.ilog.fr/lehors/xpm.html
+       X Pixmap library
+
+    Installing libgd can be easy or a nightmare depending on your
+    platform.  Things like yum, apt, fink are your freinds, but you
+    may have to resort to installing some or all of the above from
+    source.  I've had the go very well, and very badly depending on
+    the system.
+
+Graphviz # http://www.graphviz.org/
+
+--------------------------------------------------------------------------------
+
+CPAN Prequisites:
+
+Getopt::Long
+DBI
+Template
+Statistics::Descriptive
+Set::IntSpan::Fast
+Text::Table
+Number::Format
+SQL::Abstract
