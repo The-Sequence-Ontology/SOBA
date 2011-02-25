@@ -1,0 +1,142 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Long;
+use GO::Parser;
+use Graphviz;
+
+#-----------------------------------------------------------------------------
+#----------------------------------- MAIN ------------------------------------
+#-----------------------------------------------------------------------------
+my $usage = "
+
+Synopsis:
+
+so_tree --obo so.obo -
+so_tree --format png --obo so.obo so_id_file.txt
+so_tree --obo so.obo --recursive so_id_file.txt
+so_tree --obo so.obo --recursive sequence_alteration
+
+Description:
+
+Make a Graphviz graph of the given terms in SO.
+
+";
+
+
+my ($help, $so_file, $format, $recursive);
+my $opt_success = GetOptions('help'        => \$help,
+			     'obo|o=s'     => \$so_file,
+			     'format|f=s'  => \$format,
+			     'recursive|r' => \$recursive,
+			      );
+
+die $usage if $help || ! $opt_success;
+
+$format ||= 'png';
+
+my $id_file = shift;
+die $usage unless $id_file && -r $so_file;
+
+my $parser = new GO::Parser({handler => 'obj'});
+$parser->parse($so_file);
+my $so_graph = $parser->handler->graph;
+
+my @term_names;
+
+if (-r $id_file) {
+  open (my $IN, "<$id_file") or die "Can't open $id_file for reading\n$!\n";
+
+  my @term_names = (<$IN>);
+  chomp @term_names;
+}
+else {
+  @term_names = split ',', $id_file;
+}
+
+my @file_terms;
+for my $name (@term_names) {
+  my $term;
+  if ($name =~ /SO:\d+/) {
+    $term = $so_graph->get_term($name);
+  }
+  else {
+    $term = $so_graph->get_term_by_name($name);
+  }
+  my @terms;
+  push @terms, $term;
+
+  if ($recursive) {
+    my $acc = $term->acc;
+    my $children = $so_graph->get_recursive_child_terms($acc);
+    push @terms, @{$children};
+  }
+  push @file_terms, @terms if @terms;
+}
+
+my $subgraph = $so_graph->subgraph_by_terms(\@file_terms);
+my $terms = $subgraph->get_all_nodes;
+
+my $gv = GraphViz->new(layout   => 'dot',
+		       directed => '1',
+		       ratio    => 'auto',
+		       overlap  => 'scalexy',
+		       bgcolor  => 'white',
+		       name     => 'large',
+		      );
+
+for my $term (@{$terms}){
+  my $name = $term->name;
+  $name =~ s/_/ /g;
+  $name =~ s/(.{10,}?)\s/$1\n/g;
+  my $fillcolor = 'black';
+  $gv->add_node($name,
+		fontsize  => 10,
+		shape     => 'box',
+		style     => 'solid',
+		fontcolor => 'black',
+		#fillcolor => $fillcolor,
+	       );
+}
+
+my %seen;
+for my $term1(@{$terms}){
+  my $acc1 = $term1->acc;
+  my $name1 = $term1->name;
+  $name1 =~ s/_/ /g;
+  $name1 =~ s/(.{10,}?)\s/$1\n/g;
+  for my $term2(@{$terms}){
+    my $acc2 = $term2->acc;
+    next if $acc1 eq $acc2;
+    my $name2 = $term2->name;
+    $name2 =~ s/_/ /g;
+    $name2 =~ s/(.{10,}?)\s/$1\n/g;
+    my $relations = $subgraph->get_relationships_between_terms($acc1, $acc2);
+    for my $relation (@{$relations}) {
+      $gv->add_edge($name1 => $name2,
+		    label  => ' ' . $relation ->type(),
+		    dir    => 'back',
+		    style  => 'solid'
+		   );
+      $seen{$term1->acc}{$term2->acc}++;
+    }
+  }
+}
+
+my $out_file = $id_file eq '-' ? 'so_tree_output' : $id_file;
+$out_file .= ".$format";
+open (my $OUT, '>', $out_file) or die "FATAL : cant_open_file_for_writing : $out_file\n";
+binmode $OUT;
+if ($format eq 'gif') {
+  print $OUT $gv->as_gif;
+}
+elsif ($format eq 'jpeg') {
+  print $OUT $gv->as_jpeg;
+}
+elsif ($format eq 'png') {
+  print $OUT $gv->as_png;
+}
+elsif ($format eq 'text') {
+  print $OUT $gv->as_text;
+}
+close $OUT;
