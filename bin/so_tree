@@ -19,7 +19,23 @@ so_tree --obo so.obo --recursive sequence_alteration
 
 Description:
 
-Make a Graphviz graph of the given terms in SO.
+Make a Graphviz graph of the given terms in SO.  You must pass an OBO file
+
+
+Options:
+
+  --obo <so.obo>
+
+    The path to an OBO ontology file.  Required.
+
+  --format  png, jpeg
+
+    The output format of the graph. Default is png.
+
+  --recursive
+
+    Build the graph recursively to include all children of the given
+    term(s).  Default is to include only immediate children.
 
 ";
 
