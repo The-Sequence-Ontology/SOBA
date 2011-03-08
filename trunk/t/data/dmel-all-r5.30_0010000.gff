@@ -1,13 +1,4 @@
-2L	FlyBase	chromosome_band	-204333	1326937	.	+	.	ID=band-21_chromosome_band;Name=band-21
-2L	FlyBase	chromosome_band	-204333	22221	.	+	.	ID=band-21A_chromosome_band;Name=band-21A
-2L	FlyBase	chromosome_band	-204333	-153714	.	+	.	ID=band-21A1_chromosome_band;Name=band-21A1
-2L	FlyBase	breakpoint	-204333	-204333	.	.	.	ID=Df(2L)ED50001:bk1_breakpoint;Name=Df(2L)ED50001:bk1;reported_genomic_loc=2L_r5:-204333..-204333
-2L	FlyBase	chromosome_band	-153713	-101818	.	+	.	ID=band-21A2_chromosome_band;Name=band-21A2
-2L	FlyBase	chromosome_band	-101817	-66427	.	+	.	ID=band-21A3_chromosome_band;Name=band-21A3
-2L	FlyBase	chromosome_band	-66426	-22869	.	+	.	ID=band-21A4_chromosome_band;Name=band-21A4
-2L	FlyBase	chromosome_band	-22868	22221	.	+	.	ID=band-21A5_chromosome_band;Name=band-21A5
 2L	FlyBase	transposable_element_insertion_site	0	0	.	.	.	ID=FBti0103539;Name=P{GSV6}GS10428;Alias=10428;derived_cyto_location=25F3;derived_comput_cyto_location=21A5;flanking_sequence=AB312477
-2L	FlyBase	chromosome_arm	1	23011544	.	.	.	ID=2L;Name=2L;Dbxref=REFSEQ:NT_033779,GB:AE014134
 2L	sim4tandem_na_gb.dmel	match	1	457	.	+	.	ID=:3804126_sim4tandem_na_gb.dmel;Name=U35404-AE003590.4-na_gb.dmel-sim4tandem;program=sim4tandem;programversion=1.0;sourcename=na_gb.dmel;target_type=so;Target=U35404 2 461 +
 2L	sim4tandem_na_gb.dmel	match_part	1	457	98	+	.	Name=:9692572;Parent=:3804126_sim4tandem_na_gb.dmel;target_type=so;Target=U35404 2 461 +
 2L	splign_na_dbEST_ncbi	match	187	672	.	+	.	ID=Splign:1821144_na_dbEST_ncbi;Name=18075-EC228969-na_dbEST_ncbi_20090917-splign;program=splign;programversion=1.0;sourcename=na_dbEST_ncbi;target_type=EST;Target=EC228969 1 486 -

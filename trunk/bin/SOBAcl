@@ -78,7 +78,7 @@ Options:
 
   --layout    The layout parameter describes how the data will be
 	      presented.  ([table], lines, bars, hbars, points,
-	      linespoints, area, pie)
+	      linespoints, area, pie, graphviz)
 
   --format    The format parameter determines how the output will be
 	      formatted.  For all text based outputs the options are
@@ -87,7 +87,7 @@ Options:
 
   --report    A report summarizes the data in more complex ways than
 	      is possible with a table or a graph.  Available report types are:
-	      gene, attribute, gff, gvf, ontology, invalid_term.
+	      attributes.
 
   --template  The name of a Template Toolkit template to process the
 	      data with.
@@ -202,6 +202,9 @@ SOBAcl --report gene_models --limit '{seqid => \"chr1\", source => \"FlyBase\"}'
 
 See the file sobacl_test.sh included with the distribution for lots more examples.
 
+Report errors to:
+barry.moore\@genetics.utah.edu
+
 ";
 
 
@@ -231,7 +234,11 @@ my $opt_success = GetOptions('help'	    	=> \$help,
 			     'create=s'     	=> \$create,
 			    );
 
-die $usage if ($help || ! $opt_success);
+if ($help) {
+ print $usage;
+ exit;
+}
+die $usage unless $opt_success;
 die custom_help() if $custom;
 
 if ($layout && $layout eq 'graphviz') {
@@ -259,7 +266,7 @@ my $args = {'title'     => $title,
 	    'so_file'   => $so_file,
 	    'output'    => $output,
 	    'template'  => $template,
-	    'gd'     => \%gd,
+	    'gd'        => \%gd,
 	    'gv=s'      => \%gv,
 	    'gv_node'   => \%gv_node,
 	    'gv_edge'   => \%gv_edge,

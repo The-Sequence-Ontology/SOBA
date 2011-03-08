@@ -19,32 +19,46 @@ so_tree --obo so.obo --recursive sequence_alteration
 
 Description:
 
-Make a Graphviz graph of the given terms in SO.  You must pass an OBO file
-
+Make a Graphviz graph of the given terms in SO.  The --obo parameter
+is required and must specify the path to an OBO formatted Sequence
+Ontology file.  All other parameters are optional.  The final argument
+is required to be one of 1) a readable file containing a list
+(separated by commas, tabs, or hard returns) of SO IDs or names, 2)
+The '-' symbol which indicates that SO IDs or names will be piped to
+STDIN, 3) A comma separated list (no spaces) of SO ID's or names.
 
 Options:
 
   --obo <so.obo>
 
-    The path to an OBO ontology file.  Required.
+    The path to an OBO formatted ontology file.  Required.
 
   --format  png, jpeg
 
     The output format of the graph. Default is png.
 
+  --out <out_file.png>
+
+    The name of the output file to which the graph is written.
+    Default is to write to a file by the same name as the input ID
+    file or a file named 'so_tree_output' with the appropriate format
+    extension if no ID file is given.
+
   --recursive
 
     Build the graph recursively to include all children of the given
-    term(s).  Default is to include only immediate children.
+    term(s).  No argument is given.  Default is to include only
+    immediate children.
 
 ";
 
 
-my ($help, $so_file, $format, $recursive);
+my ($help, $so_file, $format, $recursive, $out_file);
 my $opt_success = GetOptions('help'        => \$help,
 			     'obo|o=s'     => \$so_file,
 			     'format|f=s'  => \$format,
 			     'recursive|r' => \$recursive,
+			     'out=s'       => \$out_file,
 			      );
 
 die $usage if $help || ! $opt_success;
@@ -139,7 +153,8 @@ for my $term1(@{$terms}){
   }
 }
 
-my $out_file = $id_file eq '-' ? 'so_tree_output' : $id_file;
+$out_file ||= -r $id_file ? $id_file : 'so_tree_output';
+$out_file =~ s/\.(txt|text|id)//;
 $out_file .= ".$format";
 open (my $OUT, '>', $out_file) or die "FATAL : cant_open_file_for_writing : $out_file\n";
 binmode $OUT;
