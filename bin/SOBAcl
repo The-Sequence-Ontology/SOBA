@@ -41,32 +41,32 @@ Options:
   --title     A title for the table, graph, or report.
 
   --columns [--series]
-              The columns parameter indicates how data will be
-              grouped into columns (or series for axis graphs and
-              seperate graphs for pie graphs).  For example, using
-              seqid as the value would create one column of data for
-              each seqid (chromosome).  For bar and line graphs there
-              would be a data series for each value.  For pie graphs,
-              a separate graph would be generated for each
-              value. (seqid, source, type, strand, phase, [file],
-              stats).
+	      The columns parameter indicates how data will be
+	      grouped into columns (or series for axis graphs and
+	      seperate graphs for pie graphs).  For example, using
+	      seqid as the value would create one column of data for
+	      each seqid (chromosome).  For bar and line graphs there
+	      would be a data series for each value.  For pie graphs,
+	      a separate graph would be generated for each
+	      value. (seqid, source, type, strand, phase, [file],
+	      stats).
 
   --rows [--x_data]
-              The rows parameter indicates data will be grouped into
-              rows (x-axis labels for graphs with axes; wedges for
-              pie graphs).  For example, using type as the value
-              would create one row of data for each unique feature
-              type in the GFF3 file.  For bar and line graphs there
-              would be one x-axis label for each type and for pie
-              graphs there would be one pie wedge for each
-              type. (seqid, source, [type], strand, phase, file)
+	      The rows parameter indicates data will be grouped into
+	      rows (x-axis labels for graphs with axes; wedges for
+	      pie graphs).  For example, using type as the value
+	      would create one row of data for each unique feature
+	      type in the GFF3 file.  For bar and line graphs there
+	      would be one x-axis label for each type and for pie
+	      graphs there would be one pie wedge for each
+	      type. (seqid, source, [type], strand, phase, file)
 
   --data [--y_data]
-              The data parameter indicates which data fields (columns
-              or attributes in the GFF3 file) will be reported.  For
-              example using score for the data parameter will create
-              a report on the scores of features. (seqid, source,
-              type, start, end, [length], score, strand, phase)
+	      The data parameter indicates which data fields (columns
+	      or attributes in the GFF3 file) will be reported.  For
+	      example using score for the data parameter will create
+	      a report on the scores of features. (seqid, source,
+	      type, start, end, [length], score, strand, phase)
 
   --data_type The data_type parameter indicates how the data described
 	      in the data parameter should be summarized.  For
@@ -104,7 +104,7 @@ Options:
 	      constraint could be in given as \"seqid => 'chr1',
 	      source => 'FlyBase'\".  See SQL::Abstract documentation
 	      for use of the hash/array reference notation for
-              constraints.
+	      constraints.
 
   --output    For graphics the give value will be used as a filename.  If
 	      multiple files are generated then this value will be
@@ -212,26 +212,26 @@ my ($help, $custom, $title, $columns, $rows, $data, $data_type,
     $layout, $format, $report, $template, $collapse, $so_file,
     $select, $output, %gd, %gv, %gv_node, %gv_edge, $create);
 
-my $opt_success = GetOptions('help'	    	=> \$help,
-			     'custom'       	=> \$custom,
-			     'title'        	=> \$title,
+my $opt_success = GetOptions('help'		=> \$help,
+			     'custom'	=> \$custom,
+			     'title=s'	=> \$title,
 			     'columns|series=s' => \$columns,
 			     'rows|x_data=s'	=> \$rows,
 			     'data|y_data=s'	=> \$data,
-			     'data_type=s'  	=> \$data_type,
-			     'select=s'	    	=> \$select,
-			     'layout=s'	    	=> \$layout,
-			     'report=s'     	=> \$report,
-			     'format=s'	    	=> \$format,
-			     'collapse'     	=> \$collapse,
-			     'so_file=s'    	=> \$so_file,
-			     'output=s'     	=> \$output,
-			     'template=s'   	=> \$template,
-			     'gd=s'         	=> \%gd,
-			     'gv=s'         	=> \%gv,
-			     'gv_node=s'    	=> \%gv_node,
-			     'gv_edge=s'    	=> \%gv_edge,
-			     'create=s'     	=> \$create,
+			     'data_type=s'	=> \$data_type,
+			     'select=s'		=> \$select,
+			     'layout=s'		=> \$layout,
+			     'report=s'	=> \$report,
+			     'format=s'		=> \$format,
+			     'collapse'	=> \$collapse,
+			     'so_file=s'	=> \$so_file,
+			     'output=s'	=> \$output,
+			     'template=s'	=> \$template,
+			     'gd=s'	=> \%gd,
+			     'gv=s'	=> \%gv,
+			     'gv_node=s'	=> \%gv_node,
+			     'gv_edge=s'	=> \%gv_edge,
+			     'create=s'	=> \$create,
 			    );
 
 if ($help) {
@@ -310,7 +310,7 @@ if ($args->{report}) {
     create_report($args);
   }
   elsif ($args->{report} eq 'gff') {
-        create_report($args);
+	create_report($args);
   }
   elsif ($args->{report} eq 'gvf') {
     make_gvf_report($args);
@@ -337,7 +337,7 @@ $args->{data_type} ||= 'count';
 $args->{layout}    ||= 'table';
 $args->{format}    ||= 'text';
 $args->{output}    ||= 'SOBAcl_graphic';
-$args->{title}     ||= join ' ', ($args->{rows},  $args->{data}, '(' . $args->{data_type} . ')');
+$args->{title}     ||= join ' ', ($args->{rows}, 'X', $args->{columns}, $args->{data}, '(' . $args->{data_type} . ')');
 
 if ($args->{layout} eq 'table') {
   my $data_set = build_data($args);
@@ -891,31 +891,25 @@ sub make_iterator {
 	my %f;
       LINE:
 	while (my $line = <$IN>) {
+	  last LINE if $line =~ /^##FASTA/;
 	  next LINE if $line =~ /^(\s*|\s*\#.*)$/;
 	  chomp $line;
 	  @f{qw(seqid source type start end score strand phase attributes)} =
 	    split /\t/, $line;
-	  my @pairs = split /;/, $f{attributes};
-	  $f{attributes} = undef;
-	  for my $pair (@pairs) {
-	    my ($key, $value_text) = split /=/, $pair;
-	    my @values = split /,/, $value_text;
-	    push @{$f{attributes}{$key}}, @values;
-	  }
+	  my %attributes = split /=|;/, $f{attributes};
+	  map {$_ = [split /,/, $_]} values %attributes;
+	  $f{attributes} = \%attributes;
 	  $f{feature_id} = $f{attributes}{ID} ? $f{attributes}{ID}[0] : &$UNIQ_ID();
 	  if ($select) {
 	  CONSTRAINT:
 	    for my $key (keys %where) {
-	      my $values = $where{$key};
-	      my @values = ref $values eq 'ARRAY' ? @{$values} : ($values);
-	      my $op = ($values[0] =~ /^(==|eq|!=|ne|<|lt|<=|le|>|gt|>=|ge|=~|!~)$/) ? shift @values : 'eq';
-	      for my $contraint (@values) {
-		my $compare = "'$f{$key}' $op '$contraint'";
-		$compare =~ s/'//g if $op !~ /[eanltg]/;
-		unless (eval $compare) {
-		  undef %f;
-		  next LINE;
-		}
+	      my $c_value = $where{$key};
+	      my @c_values = ref $c_value eq 'ARRAY' ? @{$c_value} : ($c_value);
+	      my $op = ($c_values[0] =~ /^(==|eq|!=|ne|<|lt|<=|le|>|gt|>=|ge|=~|!~)$/) ? shift @c_values : 'eq';
+	      my $f_values = $key =~ s/^\+// ? $f{attributes}{$key} : [$f{$key}];
+	      if (fails_constraint(\@c_values, $op, $f_values)) {
+		%f = ();
+		next LINE;
 	      }
 	    }
 	  }
@@ -924,7 +918,7 @@ sub make_iterator {
 	return %f ? \%f : undef;
       }
     }
-  else {
+    else {
     my $dbh = DBI->connect($db_name);
     my ($where_stmt, @bind);
     if ($select) {
@@ -953,6 +947,71 @@ sub make_iterator {
       }
     }
   return $feature_iterator;
+}
+
+#-----------------------------------------------------------------------------
+
+sub fails_constraint {
+
+  my ($c_values, $op, $f_values) = @_;
+
+  my $rv = 1;
+ C_VALUE:
+  for my $c_value (@{$c_values}) {
+    for my $f_value (@{$f_values}) {
+      my $succeed = 0;
+      if ($op eq '==') {
+	$succeed++ if $f_value == $c_value;
+      }
+      elsif ($op eq  'eq') {
+	$succeed++ if $f_value eq $c_value;
+      }
+      elsif ($op eq  '!=') {
+	$succeed++ if $f_value != $c_value;
+      }
+      elsif ($op eq  'ne') {
+	$succeed++ if $f_value ne $c_value;
+      }
+      elsif ($op eq  '<') {
+	$succeed++ if $f_value < $c_value;
+      }
+      elsif ($op eq  'lt') {
+	$succeed++ if $f_value lt $c_value;
+      }
+      elsif ($op eq  '<=') {
+	$succeed++ if $f_value <= $c_value;
+      }
+      elsif ($op eq  'le') {
+	$succeed++ if $f_value le $c_value;
+      }
+      elsif ($op eq  '>') {
+	$succeed++ if $f_value > $c_value;
+      }
+      elsif ($op eq  'gt') {
+	$succeed++ if $f_value gt $c_value;
+      }
+      elsif ($op eq  '>=') {
+	$succeed++ if $f_value >= $c_value;
+      }
+      elsif ($op eq  'ge') {
+	$succeed++ if $f_value ge $c_value;
+      }
+      elsif ($op eq  '=~') {
+	$succeed++ if $f_value =~ /$c_value/;
+      }
+      elsif ($op eq '!~') {
+	$succeed++ if $f_value !~ /$c_value/;
+      }
+      else {
+	$succeed++ if $f_value eq $c_value;
+      }
+      if ($succeed) {
+	$rv = 0;
+	last C_VALUE;
+      }
+    }
+  }
+  return $rv;
 }
 
 #-----------------------------------------------------------------------------
@@ -1186,5 +1245,3 @@ sub get_feature_bins {
 }
 
 #-----------------------------------------------------------------------------
-
-
