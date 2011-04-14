@@ -30,14 +30,36 @@ libgd # The GD library http://www.libgd.org/Main_Page
 
     5. XPM, available from http://koala.ilog.fr/lehors/xpm.html
        X Pixmap library
+       This library is optional and is only used to import XPM
+       graphics files.  Unless you know you need it, don't worry
+       about it.
 
     Installing libgd can be easy or a nightmare depending on your
-    platform.  Things like yum, apt, fink are your freinds, but you
+    platform.  Things like yum, apt and fink are your freinds, but you
     may have to resort to installing some or all of the above from
     source.  I've had the go very well, and very badly depending on
     the system.
 
-Graphviz # http://www.graphviz.org/
+Graphviz: Graphviz is open source graph visualization software.  Here
+we are talking about graphs as diagrams of abstract graphs and
+networks not line graphs and pie charts like we were above.  The well
+supporte graphviz library provides binaries, installers, and source
+code for installation.  See their website for details.
+
+http://www.graphviz.org/
+
+System specific instructions for intalling prerequisites
+    RHEL 5.0:
+      yum install zlib
+      yum install libpng
+      yum install freetype
+      yum install libjpeg
+      yum install gd
+
+    MacOS X:
+      zlib is already included
+      fink install libpng3
+
 
 --------------------------------------------------------------------------------
 
@@ -51,3 +73,5 @@ Set::IntSpan::Fast
 Text::Table
 Number::Format
 SQL::Abstract
+GD::Graph
+GraphViz
