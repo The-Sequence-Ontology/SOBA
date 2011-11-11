@@ -48,22 +48,42 @@ code for installation.  See their website for details.
 
 http://www.graphviz.org/
 
-System specific instructions for intalling prerequisites
+System specific instructions for intalling compiled prerequisites.
+While we have made an effort to provide the correct package names,
+these OS distributions are constantly being updated, so you may have
+to search for the correct package name.
+
     RHEL 5.0:
+      # Search with
+      # yum list | grep zlib | less
       yum install zlib
       yum install libpng
       yum install freetype
       yum install libjpeg
       yum install gd
 
+    Debian/Ubuntu
+      # Search with
+      # apt-cache search zlib | less
+      apt-get install zlib1g
+      apt-get install libpng3
+      apt-get install libfreetype6
+      apt-get install libjpeg62
+      apt-get install libgd2-xpm
+      apt-get install graphviz
+
     MacOS X:
       zlib is already included
       fink install libpng3
 
-
 --------------------------------------------------------------------------------
 
 CPAN Prequisites:
+
+The following Perl prerequisites can be install from the SOBA
+directory with:
+
+perl -I'lib/' -MCPAN -e 'install Bundle::SOBA' 
 
 Getopt::Long
 DBI
