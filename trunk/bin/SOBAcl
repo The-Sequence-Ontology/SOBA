@@ -277,7 +277,7 @@ my @db_names = @ARGV;
 die $usage unless @db_names;
 
 for my $db_name (@db_names) {
-  if ($db_name =~ /\.gff3?(\.gz|\.bz|\.zip)?$/) {
+  if ($db_name =~ /\.(gff3?|gvf)(\.gz|\.bz|\.zip)?$/) {
     $db_name = ($db_name =~ /.gz$/  ? "gunzip $db_name |" :
 		$db_name =~ /.bz$/  ? "bunzip $db_name |" :
 		$db_name =~ /.zip$/ ? "unzip $db_name |"  :
@@ -474,7 +474,7 @@ sub make_table {
 
   my $tt = Template->new($TT_CONFIG);
 
-  $tt->process($template, $args);
+  $tt->process($template, $args) || die $template->error();;
 }
 
 #-----------------------------------------------------------------------------
@@ -880,7 +880,7 @@ sub make_iterator {
   my ($db_name, $select) = @_;
 
   my $feature_iterator;
-  if ($db_name =~ /\.gff3?(\.gz|\.bz|\.zip)?(\s\|)?$/) {
+  if ($db_name =~ /\.(gff3?|gvf)(\.gz|\.bz|\.zip)?(\s\|)?$/) {
     my %where;
     if ($select) {
       %where = eval $select;
