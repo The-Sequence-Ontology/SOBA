@@ -62,69 +62,72 @@ Options:
 	      type. (seqid, source, [type], strand, phase, file)
 
   --data [--y_data]
-	      The data parameter indicates which data fields (columns
-	      or attributes in the GFF3 file) will be reported.  For
-	      example using score for the data parameter will create
-	      a report on the scores of features. (seqid, source,
-	      type, start, end, [length], score, strand, phase)
+	       The data parameter indicates which data fields (columns
+	       or attributes in the GFF3 file) will be reported.  For
+	       example using score for the data parameter will create
+	       a report on the scores of features. (seqid, source,
+	       type, start, end, [length], score, strand, phase)
 
-  --data_type The data_type parameter indicates how the data described
-	      in the data parameter should be summarized.  For
-	      example if data is length and data_type is 'mean', then
-	      the mean length would be reported for each grouping of
-	      the data. (count, [mean], harmonic_mean,
-	      geometric_mead, median, mode, sum, min, max, variance,
-	      standard deviation, range, footprint)
+  --data_type  The data_type parameter indicates how the data described
+	       in the data parameter should be summarized.  For
+	       example if data is length and data_type is 'mean', then
+	       the mean length would be reported for each grouping of
+	       the data. (count, [mean], harmonic_mean,
+	       geometric_mead, median, mode, sum, min, max, variance,
+	       standard deviation, range, footprint)
 
-  --layout    The layout parameter describes how the data will be
-	      presented.  ([table], lines, bars, hbars, points,
-	      linespoints, area, pie, graphviz)
+  --layout     The layout parameter describes how the data will be
+	       presented.  ([table], lines, bars, hbars, points,
+	       linespoints, area, pie, graphviz)
 
-  --format    The format parameter determines how the output will be
-	      formatted.  For all text based outputs the options are
-	      (text, [tab], html, html_page, pdf).  For all graphical
-	      layouts the options are (jpeg, [png], gif).
+  --format     The format parameter determines how the output will be
+	       formatted.  For all text based outputs the options are
+	       (text, [tab], html, html_page, pdf).  For all graphical
+	       layouts the options are (jpeg, [png], gif).
 
-  --report    A report summarizes the data in more complex ways than
-	      is possible with a table or a graph.  Available report types are:
-	      attributes.
+  --report     A report summarizes the data in more complex ways than
+	       is possible with a table or a graph.  Available report types are:
+	       attributes.
 
-  --template  The name of a Template Toolkit template to process the
-	      data with.
+  --template   The name of a Template Toolkit template to process the
+	       data with.
 
-  --collapse  Collapse series data onto one graph.
+  --tt_include Add an additional INCLUDE_PATH for Template Toolkit to find
 
-  --so_file   The path to a Sequence Ontology OBO file.
 
-  --select    A statement (in SQL or in perl hash or array reference
-	      notation) that will constrain the features that are
-	      used in the report.  For example \"seqid = 'chr1' AND
-	      source = 'FlyBase'\" would only report on features from
-	      chromosome 1 that had a source FlyBase.  This same
-	      constraint could be in given as \"seqid => 'chr1',
-	      source => 'FlyBase'\".  See SQL::Abstract documentation
-	      for use of the hash/array reference notation for
-	      constraints.
+  --collapse   Collapse series data onto one graph.
 
-  --output    For graphics the give value will be used as a filename.  If
-	      multiple files are generated then this value will be
-	      prepended to the row/series value to generate the final
-	      filename.  In either case the format type will be added
-	      as an extension, so don't add your own.
+  --so_file    The path to a Sequence Ontology OBO file.
 
-  --gd        Pass key=value pairs to the GD::Graph object to customize
-	      charts.
+  --select     A statement (in SQL or in perl hash or array reference
+	       notation) that will constrain the features that are
+	       used in the report.  For example \"seqid = 'chr1' AND
+	       source = 'FlyBase'\" would only report on features from
+	       chromosome 1 that had a source FlyBase.  This same
+	       constraint could be in given as \"seqid => 'chr1',
+	       source => 'FlyBase'\".  See SQL::Abstract documentation
+	       for use of the hash/array reference notation for
+	       constraints.
 
-  --gv        Pass key=value pairs to the Graphviz object to customize
-	      graphs.
+  --output     For graphics the give value will be used as a filename.  If
+	       multiple files are generated then this value will be
+	       prepended to the row/series value to generate the final
+	       filename.  In either case the format type will be added
+	       as an extension, so don't add your own.
 
-  --gv_node   Pass key=value pairs to the Graphviz->add_node methodto
-	      customize graphs.
+  --gd         Pass key=value pairs to the GD::Graph object to customize
+	       charts.
 
-  --gv_edge   Pass key=value pairs to the Graphviz->add_edge method to
-	      customize graphs.
+  --gv         Pass key=value pairs to the Graphviz object to customize
+	       graphs.
 
-  --create    Create a new database and load the given file.
+  --gv_node    Pass key=value pairs to the Graphviz->add_node methodto
+	       customize graphs.
+
+  --gv_edge    Pass key=value pairs to the Graphviz->add_edge method to
+	       customize graphs.
+
+  --create     Create a new database and load the given file.
 
 GD Graph Options:
 
