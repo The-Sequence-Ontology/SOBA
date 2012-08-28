@@ -1,15 +1,15 @@
-<table>
+<table class='soba'>
   [%- FOR row = data_set.keys.first -%]
-  <tr>
-    <th></th>
+  <tr class='soba'>
+    <th class='soba'></th>
     [%- FOR column = data_set.$row.keys %]
-    <th>[% column %]</th>
+    <th class='soba'>[% column %]</th>
     [%- END %]
   </tr>
   [%- END %]
   [%- FOR row = data_set.keys %]
-  <tr>
-    <th>[% row %]</th>
+  <tr class='soba'>
+    <th class='soba'>[% row %]</th>
     [%- FOR column = data_set.$row.keys %]
     <td>[% data_set.$row.$column.stats.$data_type %]</td>
     [%- END %]

@@ -457,84 +457,84 @@
 |transposable_element_insertion_site|     0   |
 -----------------------------------------------
 ../bin/SOBAcl --columns file  --rows type    --data_type count --layout table --format html      data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
-<table>  <tr>
-    <th></th>
-    <th>data/dmel-all-r5.30_0001000.gff</th>
+<table class='soba'>  <tr class='soba'>
+    <th class='soba'></th>
+    <th class='soba'>data/dmel-all-r5.30_0001000.gff</th>
   </tr>
-  <tr>
-    <th>mRNA</th>
+  <tr class='soba'>
+    <th class='soba'>mRNA</th>
     <td>8</td>
   </tr>
-  <tr>
-    <th>gene</th>
+  <tr class='soba'>
+    <th class='soba'>gene</th>
     <td>2</td>
   </tr>
-  <tr>
-    <th>orthologous_region</th>
+  <tr class='soba'>
+    <th class='soba'>orthologous_region</th>
     <td>1</td>
   </tr>
-  <tr>
-    <th>CDS</th>
+  <tr class='soba'>
+    <th class='soba'>CDS</th>
     <td>16</td>
   </tr>
-  <tr>
-    <th>BAC_cloned_genomic_insert</th>
+  <tr class='soba'>
+    <th class='soba'>BAC_cloned_genomic_insert</th>
     <td>1</td>
   </tr>
-  <tr>
-    <th>intron</th>
+  <tr class='soba'>
+    <th class='soba'>intron</th>
     <td>6</td>
   </tr>
-  <tr>
-    <th>orthologous_to</th>
+  <tr class='soba'>
+    <th class='soba'>orthologous_to</th>
     <td>160</td>
   </tr>
-  <tr>
-    <th>three_prime_UTR</th>
+  <tr class='soba'>
+    <th class='soba'>three_prime_UTR</th>
     <td>6</td>
   </tr>
-  <tr>
-    <th>exon</th>
+  <tr class='soba'>
+    <th class='soba'>exon</th>
     <td>7</td>
   </tr>
-  <tr>
-    <th>transposable_element</th>
+  <tr class='soba'>
+    <th class='soba'>transposable_element</th>
     <td>2</td>
   </tr>
-  <tr>
-    <th>oligonucleotide</th>
+  <tr class='soba'>
+    <th class='soba'>oligonucleotide</th>
     <td>29</td>
   </tr>
-  <tr>
-    <th>pcr_product</th>
+  <tr class='soba'>
+    <th class='soba'>pcr_product</th>
     <td>2</td>
   </tr>
-  <tr>
-    <th>match_part</th>
+  <tr class='soba'>
+    <th class='soba'>match_part</th>
     <td>445</td>
   </tr>
-  <tr>
-    <th>transposable_element_insertion_site</th>
+  <tr class='soba'>
+    <th class='soba'>transposable_element_insertion_site</th>
     <td>2</td>
   </tr>
-  <tr>
-    <th>match</th>
+  <tr class='soba'>
+    <th class='soba'>match</th>
     <td>290</td>
   </tr>
-  <tr>
-    <th>protein</th>
+  <tr class='soba'>
+    <th class='soba'>protein</th>
     <td>8</td>
   </tr>
-  <tr>
-    <th>syntenic_region</th>
+  <tr class='soba'>
+    <th class='soba'>syntenic_region</th>
     <td>1</td>
   </tr>
-  <tr>
-    <th>rescue_fragment</th>
+  <tr class='soba'>
+    <th class='soba'>rescue_fragment</th>
     <td>4</td>
   </tr>
-  <tr>
-    <th>five_prime_UTR</th>
+  <tr class='soba'>
+    <th class='soba'>five_prime_UTR</th>
     <td>1</td>
   </tr>
 </table>
@@ -546,43 +546,50 @@
   <head>
     <title>SOBAcl Table</title>
      <style type="text/css">
-       table {
+       table.soba {
               border: 1px solid;
               border-collapse: collapse;
              }
-       td {
+       th.soba {
+           border: 1px solid;
+       	   border-collapse: collapse;
+       	   background: lightGrey;
+       	   }
+       th.soba {
+       		   text-align: left;
+       		   }
+       tr.soba {
        	   border: 1px solid;
        	   border-collapse: collapse;
            text-align: right;
            padding-left: 5px;
            padding-right: 5px;
           }
-       th {
-           border: 1px solid;
+       td.soba {
+       	   border: 1px solid;
        	   border-collapse: collapse;
-       	   background: lightGrey;
-       	   }
-       th.row_head {
-       		   text-align: left;
-       		   }
+           text-align: right;
+           padding-left: 5px;
+           padding-right: 5px;
+          }
      </style>
   </head>
   <body>
-    <table>      <tr>
-        <th></th>
-        <th>data/dmel-all-r5.30_0001000.gff</th>
+    <table class='soba'>      <tr class='soba'>
+        <th class='soba'></th>
+        <th class='soba'>data/dmel-all-r5.30_0001000.gff</th>
       </tr>
-      <tr>
-        <th class="row_head">-</th>
-        <td>588</td>
+      <tr class='soba'>
+        <th class="soba">-</th>
+        <td class='soba'>588</td>
       </tr>
-      <tr>
-        <th class="row_head">NULL</th>
-        <td>2</td>
+      <tr class='soba'>
+        <th class="soba">NULL</th>
+        <td class='soba'>2</td>
       </tr>
-      <tr>
-        <th class="row_head">+</th>
-        <td>401</td>
+      <tr class='soba'>
+        <th class="soba">+</th>
+        <td class='soba'>401</td>
       </tr>
     </table>
   </body>
@@ -1119,7 +1126,7 @@ transposable_element_insertion_site	  2	0	  111	19.9459459459459
 ===========================================
 |BAC_cloned_genomic_insert          |    0|
 +-----------------------------------+-----+
-|CDS                                |  442|
+|CDS                                |  129|
 +-----------------------------------+-----+
 |exon                               |    0|
 +-----------------------------------+-----+

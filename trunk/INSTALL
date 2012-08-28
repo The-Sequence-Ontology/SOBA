@@ -6,21 +6,27 @@ Check out the SOBAcl code from SVN
 
 svn co svn://malachite.genetics.utah.edu/SOBAcl/trunk SOBAcl
 
-Put the SOBAcl file in your path (either by moving it to something
-already in your path (like /usr/local/bin. ~/bin), softlinking it to
-somewhere in your path instead of moving it, or adding it's location
-to your path).
+Put the SOBAcl file in your path by softlinking it to somewhere in
+your path or adding it's location to your path.  SOBAcl uses it's
+location to find it's templates, so don't move the script to another
+location or you'll lose those templates.
 
 --------------------------------------------------------------------------------
 
 Non-perl prerequisites:
+
+SOBAcl requires several libraries to be installed for graphical
+support.  Try to use a package manager like apt-get (Debian, Ubuntu)
+or yum (RedHat, Fedora, CentOS) whenever possible to install the
+following.
+
 libgd # The GD library http://www.libgd.org/Main_Page
-    libgd optionally requires (but you really want most of them).
+    libgd optionally requires (but you really need at least png or jpeg support).
     1. zlib, available from http://www.gzip.org/zlib/
-       Data compression library
+       Data compression library.  You probably already have it.
 
     2. libpng, available from http://www.libpng.org/pub/png/
-       Portable Network Graphics library; requires zlib
+       Portable Network Graphics library; requires zlib.
 
     3. FreeType 2.x, available from http://www.freetype.org/
        Free, high-quality, and portable font engine
@@ -34,26 +40,23 @@ libgd # The GD library http://www.libgd.org/Main_Page
        graphics files.  Unless you know you need it, don't worry
        about it.
 
-    Installing libgd can be easy or a nightmare depending on your
-    platform.  Things like yum, apt and fink are your freinds, but you
-    may have to resort to installing some or all of the above from
-    source.  I've had the go very well, and very badly depending on
-    the system.
-
 Graphviz: Graphviz is open source graph visualization software.  Here
 we are talking about graphs as diagrams of abstract graphs and
 networks not line graphs and pie charts like we were above.  The well
-supporte graphviz library provides binaries, installers, and source
-code for installation.  See their website for details.
+supported graphviz library provides binaries, installers, and source
+code for installation.  See their website for details.  Again, see
 
 http://www.graphviz.org/
 
-System specific instructions for intalling compiled prerequisites.
-While we have made an effort to provide the correct package names,
-these OS distributions are constantly being updated, so you may have
-to search for the correct package name.
+System specific instructions for intalling compiled prerequisites with
+package managers.  While we have made an effort to provide the correct
+package names, these OS distributions are constantly being updated, so
+you may have to search for the correct package name.  For libraries
+not installed below, you'll have to find the package name yourself or
+install from source.  If you find any corrections or updates to this
+list please let me know so I can update these docs.
 
-    RHEL 5.0:
+    RHEL 5.0 (Should be similar for Fedora and CentOS):
       # Search with
       # yum list | grep zlib | less
       yum install zlib
@@ -69,7 +72,7 @@ to search for the correct package name.
       apt-get install libpng3
       apt-get install libfreetype6
       apt-get install libjpeg62
-      apt-get install libgd2-xpm
+      #apt-get install libgd2-xpm-dev
       apt-get install graphviz
 
     MacOS X:
@@ -80,18 +83,20 @@ to search for the correct package name.
 
 CPAN Prequisites:
 
-The following Perl prerequisites can be install from the SOBA
-directory with:
+Once the underlying libraries are installed as described above the
+following Perl prerequisites can be install from the SOBA directory
+with:
 
-perl -I'lib/' -MCPAN -e 'install Bundle::SOBA' 
+sudo perl -I'lib/' -MCPAN -e 'install Bundle::SOBA' 
 
 Getopt::Long
 DBI
+Number::Format
 Template
+Template::Plugin::Number::Format
 Statistics::Descriptive
 Set::IntSpan::Fast
 Text::Table
-Number::Format
 SQL::Abstract
 GD::Graph
 GraphViz
