@@ -18,11 +18,12 @@ perl -I'lib/' -MCPAN -e 'install Bundle::SOBA'
 
 Getopt::Long
 DBI
+Number::Format
 Template
+Template::Plugin::Number::Format
 Statistics::Descriptive
 Set::IntSpan::Fast
 Text::Table
-Number::Format
 SQL::Abstract
 GD::Graph
 GraphViz

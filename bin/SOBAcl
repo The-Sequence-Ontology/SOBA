@@ -9,13 +9,14 @@ use Set::IntSpan::Fast;
 use Text::Table;
 use Number::Format;
 use SQL::Abstract;
+use Carp qw(croak);
+use FindBin qw($RealBin);
 
 #-----------------------------------------------------------------------------
 #----------------------------------- MAIN ------------------------------------
 #-----------------------------------------------------------------------------
 
 my $usage = "
-
 Synopsis:
 
 SOBAcl [options] db_name
@@ -212,37 +213,42 @@ barry.moore\@genetics.utah.edu
 
 
 my ($help, $custom, $title, $columns, $rows, $data, $data_type,
-    $layout, $format, $report, $template, $collapse, $so_file,
-    $select, $output, %gd, %gv, %gv_node, %gv_edge, $create);
+    $layout, $format, $report, $template, @tt_includes, $collapse,
+    $so_file, $select, $output, %gd, %gv, %gv_node, %gv_edge,
+    $create);
 
 my $opt_success = GetOptions('help'		=> \$help,
-			     'custom'	=> \$custom,
-			     'title=s'	=> \$title,
+			     'custom'		=> \$custom,
+			     'title=s'		=> \$title,
 			     'columns|series=s' => \$columns,
 			     'rows|x_data=s'	=> \$rows,
 			     'data|y_data=s'	=> \$data,
 			     'data_type=s'	=> \$data_type,
 			     'select=s'		=> \$select,
 			     'layout=s'		=> \$layout,
-			     'report=s'	=> \$report,
+			     'report=s'	        => \$report,
 			     'format=s'		=> \$format,
-			     'collapse'	=> \$collapse,
+			     'collapse'	        => \$collapse,
 			     'so_file=s'	=> \$so_file,
-			     'output=s'	=> \$output,
+			     'output=s'	        => \$output,
 			     'template=s'	=> \$template,
-			     'gd=s'	=> \%gd,
-			     'gv=s'	=> \%gv,
+                             'tt_include=s'     => \@tt_includes,
+			     'gd=s'		=> \%gd,
+			     'gv=s'		=> \%gv,
 			     'gv_node=s'	=> \%gv_node,
 			     'gv_edge=s'	=> \%gv_edge,
-			     'create=s'	=> \$create,
+			     'create=s'	        => \$create,
 			    );
 
-if ($help) {
+if ($help || !$opt_success) {
  print $usage;
- exit;
+ exit(0);
 }
-die $usage unless $opt_success;
-die custom_help() if $custom;
+
+if ($custom) {
+ print custom_help();
+ exit(0);
+}
 
 if ($layout && $layout eq 'graphviz') {
   $data = 'type';
@@ -277,7 +283,11 @@ my $args = {'title'     => $title,
 	   };
 
 my @db_names = @ARGV;
-die $usage unless @db_names;
+
+if (! @db_names) {
+  print $usage;
+  exit(1);
+}
 
 for my $db_name (@db_names) {
   if ($db_name =~ /\.(gff3?|gvf)(\.gz|\.bz|\.zip)?$/) {
@@ -300,9 +310,8 @@ if ($args->{create}) {
   exit;
 }
 
-my $include_path = $0;
-$include_path =~ s/SOBAcl$//;
-$include_path .= '../templates';
+unshift @tt_includes, "$RealBin/../templates";
+my $include_path = join ':', @tt_includes;
 
 my $TT_CONFIG = {INCLUDE_PATH => $include_path};
 
@@ -477,7 +486,10 @@ sub make_table {
 
   my $tt = Template->new($TT_CONFIG);
 
-  $tt->process($template, $args) || die $template->error();;
+  my $tt_success = $tt->process($template, $args);
+  if (! $tt_success) {
+    handle_message('FATAL', 'tt_template_error', $tt->error());
+  }
 }
 
 #-----------------------------------------------------------------------------
@@ -1248,3 +1260,23 @@ sub get_feature_bins {
 }
 
 #-----------------------------------------------------------------------------
+
+sub handle_message {
+
+  my ($level, $code, $error) = @_;
+
+  $level ||= 'FATAL';
+  $code  ||= 'unknown_error';
+  $error ||= ('No additional information. Please send e-mail to '  .
+	      'barry.moore@genetics.utah.edu with these error, a ' .
+	      'description and some test data to recreate the issue');
+
+  if ($level eq 'FATAL') {
+    print join ' : ', ($level, $code, $error);
+    print "\n";
+    croak;
+  }
+  else {
+    print STDERR join ' : ', ($level, $code, $error);
+  }
+}
