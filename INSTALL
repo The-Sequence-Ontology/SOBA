@@ -72,7 +72,7 @@ list please let me know so I can update these docs.
       apt-get install libpng3
       apt-get install libfreetype6
       apt-get install libjpeg62
-      #apt-get install libgd2-xpm-dev
+      apt-get install libgd2-xpm-dev
       apt-get install graphviz
 
     MacOS X:
@@ -91,6 +91,7 @@ sudo perl -I'lib/' -MCPAN -e 'install Bundle::SOBA'
 
 Getopt::Long
 DBI
+DBD::SQLite
 Number::Format
 Template
 Template::Plugin::Number::Format
