@@ -156,22 +156,22 @@ echo "../bin/SOBAcl --series seqid  --x_data type --data type   --data_type coun
 ################################################################################
 #####                 GD Graphs with Various Formats                       #####
 ################################################################################
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_01 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_01 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
-../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_01 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_02  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_02  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
-../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_02  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_03  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
-echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_03 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
-../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_03 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_08 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_08 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
+../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format jpeg --out sobacl_test_images/sobacl_test_image_08 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_09  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_09  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
+../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format png --out sobacl_test_images/sobacl_test_image_09  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_10  data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
+echo "../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_10 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
+../bin/SOBAcl --series seqid --x_data type --data length --data_type mean --layout bars --gd x_labels_vertical=1 --format gif --out sobacl_test_images/sobacl_test_image_10 data/dmel-all-r5.30_0001000.gff >> sobacl_test.txt 2>> sobacl_test.error
 
 ################################################################################
 #####                     Graphviz Ontology Graphs                         #####
 ################################################################################
-echo "../bin/SOBAcl --layout graphviz --output test_gv_ --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_01 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
-echo "../bin/SOBAcl --layout graphviz --output test_gv_ --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_01 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
-../bin/SOBAcl --layout graphviz --output test_gv_ --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_01 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error
+echo "../bin/SOBAcl --layout graphviz --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_11 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.txt
+echo "../bin/SOBAcl --layout graphviz --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_11 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error" >> sobacl_test.error
+../bin/SOBAcl --layout graphviz --output test_gv_ --so_file data/so.obo --format png --out sobacl_test_images/sobacl_test_image_11 data/refseq_short.gff3 >> sobacl_test.txt 2>> sobacl_test.error
 
 ################################################################################
 #####                         Various Reports                              #####

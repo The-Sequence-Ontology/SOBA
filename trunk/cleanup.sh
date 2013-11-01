@@ -7,3 +7,7 @@ rm -f t/sobacl_test_images/sobacl_test_image_03_2L.gif
 rm -f t/sobacl_test_images/sobacl_test_image_05_2L.png
 rm -f t/sobacl_test_images/sobacl_test_image_06_2L.png
 rm -f t/sobacl_test_images/sobacl_test_image_07_2L.png
+rm -f t/sobacl_test_images/sobacl_test_image_08_2L.jpeg
+rm -f t/sobacl_test_images/sobacl_test_image_09_2L.png
+rm -f t/sobacl_test_images/sobacl_test_image_10_2L.gif
+rm -f t/sobacl_test_images/sobacl_test_image_11.png
