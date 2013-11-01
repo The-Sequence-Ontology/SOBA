@@ -77,7 +77,7 @@ my @term_names;
 if (-r $id_file) {
   open (my $IN, "<$id_file") or die "Can't open $id_file for reading\n$!\n";
 
-  my @term_names = (<$IN>);
+  @term_names = (<$IN>);
   chomp @term_names;
 }
 else {
