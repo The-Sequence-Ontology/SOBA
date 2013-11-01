@@ -11,3 +11,5 @@ rm -f t/sobacl_test_images/sobacl_test_image_08_2L.jpeg
 rm -f t/sobacl_test_images/sobacl_test_image_09_2L.png
 rm -f t/sobacl_test_images/sobacl_test_image_10_2L.gif
 rm -f t/sobacl_test_images/sobacl_test_image_11.png
+rm -f t/test_gv.pngt/data/test_so_tree_ids.png
+rm -f t/test_gv.pngt/data/test_so_tree_acc.png
