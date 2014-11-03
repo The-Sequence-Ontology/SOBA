@@ -86,9 +86,10 @@ Options:
 	       (text, [tab], html, html_page, pdf).  For all graphical
 	       layouts the options are (jpeg, [png], gif).
 
-  --report     A report summarizes the data in more complex ways than
-	       is possible with a table or a graph.  Available report types are:
-	       attributes.
+  --report     A report summarizes the data in more complex ways than is
+	       possible with a table or a graph.  Available report
+	       types are: attributes.  Must also supply a format.
+	       Currently available format types are: text, html_page
 
   --template   The name of a Template Toolkit template to process the
 	       data with.
@@ -885,7 +886,7 @@ sub create_report {
 
   my $tt = Template->new($TT_CONFIG);
 
-  $tt->process($template, $args);
+  $tt->process($template, $args) or die "$Template::ERROR\n";
 }
 
 #-----------------------------------------------------------------------------
