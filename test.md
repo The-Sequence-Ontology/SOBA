@@ -1,4 +1,5 @@
-[logo]: 
+[logo]: https://github.com/The-Sequence-Ontology/SOBA/blob/master/images/soba_header_bg.jpg "soba-image"
+ 
 ##Description:
 
 The Sequence Ontology Bioinformatics Analysis command line tool
