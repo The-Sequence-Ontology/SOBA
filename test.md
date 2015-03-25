@@ -1,3 +1,4 @@
+[logo]: 
 ##Description:
 
 The Sequence Ontology Bioinformatics Analysis command line tool
