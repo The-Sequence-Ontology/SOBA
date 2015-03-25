@@ -68,13 +68,13 @@ can be passed to the perl module GD::Graph as key=value pairs to the
 `--gd parameter`.
 
 Examples of graphs include:
-*Create a graph of the mean length of every feature by
+* Create a graph of the mean length of every feature by
 chromosome.  Each feature would apprear on the x-axis, the mean
 length would be the y-axis and a different bar would apprear for
 each chromosome for every feature on the x-axis.
-*Create a pie chart based on the footprint of each type of feature
+* Create a pie chart based on the footprint of each type of feature
 in the file.
-*Create a line graph of the total length of CDSs on each
+* Create a line graph of the total length of CDSs on each
 chromosome.
 
 To create a graph you would specify the x-axis, y-axis, series and
@@ -154,11 +154,11 @@ My Template
 Command line parameters passed to SOBAcl are passed along to the
 templates.  Within the templates the values of those parameters are
 available as template variables via the name of the parameter.
-Template toolkit uses '[%' and '%]' to delimit templating commands.
+Template toolkit uses `'[%' and '%]'` to delimit templating commands.
 In the tempalte example above the text "My Template" would be printed
-in the output unchanged while '[% title %]' would print the title
-passed to SOBAcl via the --title parameter.  The template commands '[%
-FOR %]' and '[% END %]' define loops which will iterate over the data
+in the output unchanged while `'[% title %]'` would print the title
+passed to SOBAcl via the `--title parameter`.  The template commands `'[%
+FOR %]'` and `'[% END %]'` define loops which will iterate over the data
 summarized by SOBAcl.  You will need to have a pretty good
 understanding of Template Toolkit to take full advantage of custom
 templates.
