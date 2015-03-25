@@ -1,4 +1,4 @@
-[logo]: https://github.com/The-Sequence-Ontology/SOBA/blob/master/images/soba_header_bg.jpg "soba-image"
+![logo](https://github.com/The-Sequence-Ontology/SOBA/blob/master/images/soba_header_bg.jpg)
  
 ##Description:
 
