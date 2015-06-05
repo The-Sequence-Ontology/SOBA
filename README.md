@@ -13,6 +13,9 @@ has a lot of working examples of most of the major functionality.  The
 command line examples given in this file can also be executed in the t
 directory.
 
+##Web Based Version 
+This tools is also available for web based analysis [here](http://www.sequenceontology.org/cgi-bin/soba.cgi).
+
 ##Tables:
 
 SOBAcl allows you to flexibly generate data tables by specifying the
