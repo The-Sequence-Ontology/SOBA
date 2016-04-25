@@ -63,11 +63,19 @@ Options:
 	      type. (seqid, source, [type], strand, phase, file)
 
   --data [--y_data]
+
 	       The data parameter indicates which data fields (columns
 	       or attributes in the GFF3 file) will be reported.  For
 	       example using score for the data parameter will create
 	       a report on the scores of features. (seqid, source,
-	       type, start, end, [length], score, strand, phase)
+	       type, start, end, [length], score, strand, phase).  If
+	       the value provided to data begins with '+' then the
+	       plus is removed and the value is used as a lookup for
+	       from the key/value pairs in the attributes column and
+	       each feature that has that attributes is counted (if
+	       --data_type count is set) or the value of the
+	       corresponding attribute is used in caluclation of the
+	       summary statistic defined by --data_type.
 
   --data_type  The data_type parameter indicates how the data described
 	       in the data parameter should be summarized.  For
@@ -291,10 +299,10 @@ if (! @db_names) {
 }
 
 for my $db_name (@db_names) {
-  if ($db_name =~ /\.(gff3?|gvf)(\.gz|\.bz|\.zip)?$/) {
+  if ($db_name =~ /\.(gff3?|gvf|gtf)(\.gz|\.bz|\.zip)?$/) {
     $db_name = ($db_name =~ /.gz$/  ? "gunzip $db_name |" :
 		$db_name =~ /.bz$/  ? "bunzip $db_name |" :
-		$db_name =~ /.zip$/ ? "unzip $db_name |"  :
+		$db_name =~ /.zip$/ ? "unzip  $db_name |" :
 		$db_name
 	       );
   }
@@ -390,7 +398,7 @@ sub build_data {
 
   my $att_data;
   if ($data =~ /^\+/) {
-    $data =~ s/&^\+//;
+    $data =~ s/^\+//;
     $att_data++;
   }
   for my $db_name (@{$db_names}) {
@@ -896,7 +904,7 @@ sub make_iterator {
   my ($db_name, $select) = @_;
 
   my $feature_iterator;
-  if ($db_name =~ /\.(gff3?|gvf)(\.gz|\.bz|\.zip)?(\s\|)?$/) {
+  if ($db_name =~ /\.(gff3?|gvf|gtf)(\.gz|\.bz|\.zip)?(\s\|)?$/) {
     my %where;
     if ($select) {
       %where = eval $select;
@@ -912,7 +920,13 @@ sub make_iterator {
 	  chomp $line;
 	  @f{qw(seqid source type start end score strand phase attributes)} =
 	    split /\t/, $line;
-	  my %attributes = split /=|;/, $f{attributes};
+	  my %attributes;
+	  my @atts = split /;/, $f{attributes};
+	  for my $att (@atts) {
+	    my ($key, $value) = split(/=/, $att, 2);
+	    $value = defined $value ? $value : '';
+	    $attributes{$key} = $value;
+	  }
 	  map {$_ = [split /,/, $_]} values %attributes;
 	  $f{attributes} = \%attributes;
 	  $f{feature_id} = $f{attributes}{ID} ? $f{attributes}{ID}[0] : &$UNIQ_ID();
@@ -934,7 +948,7 @@ sub make_iterator {
 	return %f ? \%f : undef;
       }
     }
-    else {
+  else {
     my $dbh = DBI->connect($db_name);
     my ($where_stmt, @bind);
     if ($select) {
